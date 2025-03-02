@@ -1,0 +1,92 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\bindexp.obj \
+    $(_OBJ_DIR)\i386\cidbprop.obj \
+    $(_OBJ_DIR)\i386\cifailte.obj \
+    $(_OBJ_DIR)\i386\ciole.obj \
+    $(_OBJ_DIR)\i386\codepage.obj \
+    $(_OBJ_DIR)\i386\dbprputl.obj \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\fullpath.obj \
+    $(_OBJ_DIR)\i386\guidutil.obj \
+    $(_OBJ_DIR)\i386\key.obj \
+    $(_OBJ_DIR)\i386\keyarray.obj \
+    $(_OBJ_DIR)\i386\mmstrm.obj \
+    $(_OBJ_DIR)\i386\regacc.obj \
+    $(_OBJ_DIR)\i386\isreg.obj \
+    $(_OBJ_DIR)\i386\shtole.obj \
+    $(_OBJ_DIR)\i386\vkrep.obj \
+    $(_OBJ_DIR)\i386\xact.obj \
+    $(_OBJ_DIR)\i386\exports.obj \
+    $(_OBJ_DIR)\i386\driveinf.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\bindexp.obj \
+    $(_OBJ_DIR)\ia64\cidbprop.obj \
+    $(_OBJ_DIR)\ia64\cifailte.obj \
+    $(_OBJ_DIR)\ia64\ciole.obj \
+    $(_OBJ_DIR)\ia64\codepage.obj \
+    $(_OBJ_DIR)\ia64\dbprputl.obj \
+    $(_OBJ_DIR)\ia64\dllmain.obj \
+    $(_OBJ_DIR)\ia64\fullpath.obj \
+    $(_OBJ_DIR)\ia64\guidutil.obj \
+    $(_OBJ_DIR)\ia64\key.obj \
+    $(_OBJ_DIR)\ia64\keyarray.obj \
+    $(_OBJ_DIR)\ia64\mmstrm.obj \
+    $(_OBJ_DIR)\ia64\regacc.obj \
+    $(_OBJ_DIR)\ia64\isreg.obj \
+    $(_OBJ_DIR)\ia64\shtole.obj \
+    $(_OBJ_DIR)\ia64\vkrep.obj \
+    $(_OBJ_DIR)\ia64\xact.obj \
+    $(_OBJ_DIR)\ia64\exports.obj \
+    $(_OBJ_DIR)\ia64\driveinf.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\bindexp.obj \
+    $(_OBJ_DIR)\amd64\cidbprop.obj \
+    $(_OBJ_DIR)\amd64\cifailte.obj \
+    $(_OBJ_DIR)\amd64\ciole.obj \
+    $(_OBJ_DIR)\amd64\codepage.obj \
+    $(_OBJ_DIR)\amd64\dbprputl.obj \
+    $(_OBJ_DIR)\amd64\dllmain.obj \
+    $(_OBJ_DIR)\amd64\fullpath.obj \
+    $(_OBJ_DIR)\amd64\guidutil.obj \
+    $(_OBJ_DIR)\amd64\key.obj \
+    $(_OBJ_DIR)\amd64\keyarray.obj \
+    $(_OBJ_DIR)\amd64\mmstrm.obj \
+    $(_OBJ_DIR)\amd64\regacc.obj \
+    $(_OBJ_DIR)\amd64\isreg.obj \
+    $(_OBJ_DIR)\amd64\shtole.obj \
+    $(_OBJ_DIR)\amd64\vkrep.obj \
+    $(_OBJ_DIR)\amd64\xact.obj \
+    $(_OBJ_DIR)\amd64\exports.obj \
+    $(_OBJ_DIR)\amd64\driveinf.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\bindexp.obj \
+    $(_OBJ_DIR)\arm\cidbprop.obj \
+    $(_OBJ_DIR)\arm\cifailte.obj \
+    $(_OBJ_DIR)\arm\ciole.obj \
+    $(_OBJ_DIR)\arm\codepage.obj \
+    $(_OBJ_DIR)\arm\dbprputl.obj \
+    $(_OBJ_DIR)\arm\dllmain.obj \
+    $(_OBJ_DIR)\arm\fullpath.obj \
+    $(_OBJ_DIR)\arm\guidutil.obj \
+    $(_OBJ_DIR)\arm\key.obj \
+    $(_OBJ_DIR)\arm\keyarray.obj \
+    $(_OBJ_DIR)\arm\mmstrm.obj \
+    $(_OBJ_DIR)\arm\regacc.obj \
+    $(_OBJ_DIR)\arm\isreg.obj \
+    $(_OBJ_DIR)\arm\shtole.obj \
+    $(_OBJ_DIR)\arm\vkrep.obj \
+    $(_OBJ_DIR)\arm\xact.obj \
+    $(_OBJ_DIR)\arm\exports.obj \
+    $(_OBJ_DIR)\arm\driveinf.obj
+
+PASS0_ARM_OBJECTS=
+

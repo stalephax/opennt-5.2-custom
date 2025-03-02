@@ -1,0 +1,44 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\webhits.res \
+    $(_OBJ_DIR)\i386\cdoc.obj \
+    $(_OBJ_DIR)\i386\linkhits.obj \
+    $(_OBJ_DIR)\i386\webhits.obj \
+    $(_OBJ_DIR)\i386\whtmplat.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\whmsg.h \
+    $(MC_SOURCEDIR)\whmsg.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\webhits.res \
+    $(_OBJ_DIR)\ia64\cdoc.obj \
+    $(_OBJ_DIR)\ia64\linkhits.obj \
+    $(_OBJ_DIR)\ia64\webhits.obj \
+    $(_OBJ_DIR)\ia64\whtmplat.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\whmsg.h \
+    $(MC_SOURCEDIR)\whmsg.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\webhits.res \
+    $(_OBJ_DIR)\amd64\cdoc.obj \
+    $(_OBJ_DIR)\amd64\linkhits.obj \
+    $(_OBJ_DIR)\amd64\webhits.obj \
+    $(_OBJ_DIR)\amd64\whtmplat.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\whmsg.h \
+    $(MC_SOURCEDIR)\whmsg.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\webhits.res \
+    $(_OBJ_DIR)\arm\cdoc.obj \
+    $(_OBJ_DIR)\arm\linkhits.obj \
+    $(_OBJ_DIR)\arm\webhits.obj \
+    $(_OBJ_DIR)\arm\whtmplat.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\whmsg.h \
+    $(MC_SOURCEDIR)\whmsg.rc
+

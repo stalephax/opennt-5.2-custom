@@ -1,0 +1,216 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\bf.obj \
+    $(_OBJ_DIR)\i386\bt.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\cat.obj \
+    $(_OBJ_DIR)\i386\comp.obj \
+    $(_OBJ_DIR)\i386\cpage.obj \
+    $(_OBJ_DIR)\i386\cres.obj \
+    $(_OBJ_DIR)\i386\db.obj \
+    $(_OBJ_DIR)\i386\dbtask.obj \
+    $(_OBJ_DIR)\i386\dbutil.obj \
+    $(_OBJ_DIR)\i386\dir.obj \
+    $(_OBJ_DIR)\i386\dump.obj \
+    $(_OBJ_DIR)\i386\esedump.obj \
+    $(_OBJ_DIR)\i386\fcb.obj \
+    $(_OBJ_DIR)\i386\fcreate.obj \
+    $(_OBJ_DIR)\i386\fileopen.obj \
+    $(_OBJ_DIR)\i386\fldenum.obj \
+    $(_OBJ_DIR)\i386\fldext.obj \
+    $(_OBJ_DIR)\i386\fldmod.obj \
+    $(_OBJ_DIR)\i386\fldnorm.obj \
+    $(_OBJ_DIR)\i386\fucb.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\io.obj \
+    $(_OBJ_DIR)\i386\jetapi.obj \
+    $(_OBJ_DIR)\i386\logapi.obj \
+    $(_OBJ_DIR)\i386\logdiff.obj \
+    $(_OBJ_DIR)\i386\lv.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\node.obj \
+    $(_OBJ_DIR)\i386\old.obj \
+    $(_OBJ_DIR)\i386\pib.obj \
+    $(_OBJ_DIR)\i386\rec.obj \
+    $(_OBJ_DIR)\i386\recupd.obj \
+    $(_OBJ_DIR)\i386\repair.obj \
+    $(_OBJ_DIR)\i386\scrub.obj \
+    $(_OBJ_DIR)\i386\slv.obj \
+    $(_OBJ_DIR)\i386\slvsp.obj \
+    $(_OBJ_DIR)\i386\sort.obj \
+    $(_OBJ_DIR)\i386\sortapi.obj \
+    $(_OBJ_DIR)\i386\space.obj \
+    $(_OBJ_DIR)\i386\stats.obj \
+    $(_OBJ_DIR)\i386\sysinit.obj \
+    $(_OBJ_DIR)\i386\tagfld.obj \
+    $(_OBJ_DIR)\i386\taskmgr.obj \
+    $(_OBJ_DIR)\i386\tm.obj \
+    $(_OBJ_DIR)\i386\ttmap.obj \
+    $(_OBJ_DIR)\i386\upgrade.obj \
+    $(_OBJ_DIR)\i386\util.obj \
+    $(_OBJ_DIR)\i386\ver.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\res.res \
+    $(_OBJ_DIR)\ia64\bf.obj \
+    $(_OBJ_DIR)\ia64\bt.obj \
+    $(_OBJ_DIR)\ia64\callback.obj \
+    $(_OBJ_DIR)\ia64\cat.obj \
+    $(_OBJ_DIR)\ia64\comp.obj \
+    $(_OBJ_DIR)\ia64\cpage.obj \
+    $(_OBJ_DIR)\ia64\cres.obj \
+    $(_OBJ_DIR)\ia64\db.obj \
+    $(_OBJ_DIR)\ia64\dbtask.obj \
+    $(_OBJ_DIR)\ia64\dbutil.obj \
+    $(_OBJ_DIR)\ia64\dir.obj \
+    $(_OBJ_DIR)\ia64\dump.obj \
+    $(_OBJ_DIR)\ia64\esedump.obj \
+    $(_OBJ_DIR)\ia64\fcb.obj \
+    $(_OBJ_DIR)\ia64\fcreate.obj \
+    $(_OBJ_DIR)\ia64\fileopen.obj \
+    $(_OBJ_DIR)\ia64\fldenum.obj \
+    $(_OBJ_DIR)\ia64\fldext.obj \
+    $(_OBJ_DIR)\ia64\fldmod.obj \
+    $(_OBJ_DIR)\ia64\fldnorm.obj \
+    $(_OBJ_DIR)\ia64\fucb.obj \
+    $(_OBJ_DIR)\ia64\info.obj \
+    $(_OBJ_DIR)\ia64\io.obj \
+    $(_OBJ_DIR)\ia64\jetapi.obj \
+    $(_OBJ_DIR)\ia64\logapi.obj \
+    $(_OBJ_DIR)\ia64\logdiff.obj \
+    $(_OBJ_DIR)\ia64\lv.obj \
+    $(_OBJ_DIR)\ia64\mem.obj \
+    $(_OBJ_DIR)\ia64\node.obj \
+    $(_OBJ_DIR)\ia64\old.obj \
+    $(_OBJ_DIR)\ia64\pib.obj \
+    $(_OBJ_DIR)\ia64\rec.obj \
+    $(_OBJ_DIR)\ia64\recupd.obj \
+    $(_OBJ_DIR)\ia64\repair.obj \
+    $(_OBJ_DIR)\ia64\scrub.obj \
+    $(_OBJ_DIR)\ia64\slv.obj \
+    $(_OBJ_DIR)\ia64\slvsp.obj \
+    $(_OBJ_DIR)\ia64\sort.obj \
+    $(_OBJ_DIR)\ia64\sortapi.obj \
+    $(_OBJ_DIR)\ia64\space.obj \
+    $(_OBJ_DIR)\ia64\stats.obj \
+    $(_OBJ_DIR)\ia64\sysinit.obj \
+    $(_OBJ_DIR)\ia64\tagfld.obj \
+    $(_OBJ_DIR)\ia64\taskmgr.obj \
+    $(_OBJ_DIR)\ia64\tm.obj \
+    $(_OBJ_DIR)\ia64\ttmap.obj \
+    $(_OBJ_DIR)\ia64\upgrade.obj \
+    $(_OBJ_DIR)\ia64\util.obj \
+    $(_OBJ_DIR)\ia64\ver.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\res.res \
+    $(_OBJ_DIR)\amd64\bf.obj \
+    $(_OBJ_DIR)\amd64\bt.obj \
+    $(_OBJ_DIR)\amd64\callback.obj \
+    $(_OBJ_DIR)\amd64\cat.obj \
+    $(_OBJ_DIR)\amd64\comp.obj \
+    $(_OBJ_DIR)\amd64\cpage.obj \
+    $(_OBJ_DIR)\amd64\cres.obj \
+    $(_OBJ_DIR)\amd64\db.obj \
+    $(_OBJ_DIR)\amd64\dbtask.obj \
+    $(_OBJ_DIR)\amd64\dbutil.obj \
+    $(_OBJ_DIR)\amd64\dir.obj \
+    $(_OBJ_DIR)\amd64\dump.obj \
+    $(_OBJ_DIR)\amd64\esedump.obj \
+    $(_OBJ_DIR)\amd64\fcb.obj \
+    $(_OBJ_DIR)\amd64\fcreate.obj \
+    $(_OBJ_DIR)\amd64\fileopen.obj \
+    $(_OBJ_DIR)\amd64\fldenum.obj \
+    $(_OBJ_DIR)\amd64\fldext.obj \
+    $(_OBJ_DIR)\amd64\fldmod.obj \
+    $(_OBJ_DIR)\amd64\fldnorm.obj \
+    $(_OBJ_DIR)\amd64\fucb.obj \
+    $(_OBJ_DIR)\amd64\info.obj \
+    $(_OBJ_DIR)\amd64\io.obj \
+    $(_OBJ_DIR)\amd64\jetapi.obj \
+    $(_OBJ_DIR)\amd64\logapi.obj \
+    $(_OBJ_DIR)\amd64\logdiff.obj \
+    $(_OBJ_DIR)\amd64\lv.obj \
+    $(_OBJ_DIR)\amd64\mem.obj \
+    $(_OBJ_DIR)\amd64\node.obj \
+    $(_OBJ_DIR)\amd64\old.obj \
+    $(_OBJ_DIR)\amd64\pib.obj \
+    $(_OBJ_DIR)\amd64\rec.obj \
+    $(_OBJ_DIR)\amd64\recupd.obj \
+    $(_OBJ_DIR)\amd64\repair.obj \
+    $(_OBJ_DIR)\amd64\scrub.obj \
+    $(_OBJ_DIR)\amd64\slv.obj \
+    $(_OBJ_DIR)\amd64\slvsp.obj \
+    $(_OBJ_DIR)\amd64\sort.obj \
+    $(_OBJ_DIR)\amd64\sortapi.obj \
+    $(_OBJ_DIR)\amd64\space.obj \
+    $(_OBJ_DIR)\amd64\stats.obj \
+    $(_OBJ_DIR)\amd64\sysinit.obj \
+    $(_OBJ_DIR)\amd64\tagfld.obj \
+    $(_OBJ_DIR)\amd64\taskmgr.obj \
+    $(_OBJ_DIR)\amd64\tm.obj \
+    $(_OBJ_DIR)\amd64\ttmap.obj \
+    $(_OBJ_DIR)\amd64\upgrade.obj \
+    $(_OBJ_DIR)\amd64\util.obj \
+    $(_OBJ_DIR)\amd64\ver.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\res.res \
+    $(_OBJ_DIR)\arm\bf.obj \
+    $(_OBJ_DIR)\arm\bt.obj \
+    $(_OBJ_DIR)\arm\callback.obj \
+    $(_OBJ_DIR)\arm\cat.obj \
+    $(_OBJ_DIR)\arm\comp.obj \
+    $(_OBJ_DIR)\arm\cpage.obj \
+    $(_OBJ_DIR)\arm\cres.obj \
+    $(_OBJ_DIR)\arm\db.obj \
+    $(_OBJ_DIR)\arm\dbtask.obj \
+    $(_OBJ_DIR)\arm\dbutil.obj \
+    $(_OBJ_DIR)\arm\dir.obj \
+    $(_OBJ_DIR)\arm\dump.obj \
+    $(_OBJ_DIR)\arm\esedump.obj \
+    $(_OBJ_DIR)\arm\fcb.obj \
+    $(_OBJ_DIR)\arm\fcreate.obj \
+    $(_OBJ_DIR)\arm\fileopen.obj \
+    $(_OBJ_DIR)\arm\fldenum.obj \
+    $(_OBJ_DIR)\arm\fldext.obj \
+    $(_OBJ_DIR)\arm\fldmod.obj \
+    $(_OBJ_DIR)\arm\fldnorm.obj \
+    $(_OBJ_DIR)\arm\fucb.obj \
+    $(_OBJ_DIR)\arm\info.obj \
+    $(_OBJ_DIR)\arm\io.obj \
+    $(_OBJ_DIR)\arm\jetapi.obj \
+    $(_OBJ_DIR)\arm\logapi.obj \
+    $(_OBJ_DIR)\arm\logdiff.obj \
+    $(_OBJ_DIR)\arm\lv.obj \
+    $(_OBJ_DIR)\arm\mem.obj \
+    $(_OBJ_DIR)\arm\node.obj \
+    $(_OBJ_DIR)\arm\old.obj \
+    $(_OBJ_DIR)\arm\pib.obj \
+    $(_OBJ_DIR)\arm\rec.obj \
+    $(_OBJ_DIR)\arm\recupd.obj \
+    $(_OBJ_DIR)\arm\repair.obj \
+    $(_OBJ_DIR)\arm\scrub.obj \
+    $(_OBJ_DIR)\arm\slv.obj \
+    $(_OBJ_DIR)\arm\slvsp.obj \
+    $(_OBJ_DIR)\arm\sort.obj \
+    $(_OBJ_DIR)\arm\sortapi.obj \
+    $(_OBJ_DIR)\arm\space.obj \
+    $(_OBJ_DIR)\arm\stats.obj \
+    $(_OBJ_DIR)\arm\sysinit.obj \
+    $(_OBJ_DIR)\arm\tagfld.obj \
+    $(_OBJ_DIR)\arm\taskmgr.obj \
+    $(_OBJ_DIR)\arm\tm.obj \
+    $(_OBJ_DIR)\arm\ttmap.obj \
+    $(_OBJ_DIR)\arm\upgrade.obj \
+    $(_OBJ_DIR)\arm\util.obj \
+    $(_OBJ_DIR)\arm\ver.obj
+
+PASS0_ARM_OBJECTS=
+

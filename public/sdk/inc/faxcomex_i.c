@@ -1,11 +1,12 @@
 
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 /* this ALWAYS GENERATED file contains the IIDs and CLSIDs */
 
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0361 */
+ /* File created by MIDL compiler version 6.00.0357 */
 /* Compiler settings for faxcomex.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
     protocol : dce , ms_ext, c_ext, robust
@@ -17,10 +18,6 @@
 //@@MIDL_FILE_HEADING(  )
 
 #if !defined(_M_IA64) && !defined(_M_AMD64)
-
-
-#pragma warning( disable: 4049 )  /* more than 64k source lines */
-
 
 #ifdef __cplusplus
 extern "C"{
@@ -324,13 +321,14 @@ MIDL_DEFINE_GUID(CLSID, CLSID_FaxRecipient,0x60BF3301,0x7DF8,0x4bd8,0x91,0x48,0x
 #endif /* !defined(_M_IA64) && !defined(_M_AMD64)*/
 
 
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 /* this ALWAYS GENERATED file contains the IIDs and CLSIDs */
 
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0361 */
+ /* File created by MIDL compiler version 6.00.0357 */
 /* Compiler settings for faxcomex.idl:
     Oicf, W1, Zp8, env=Win64 (32b run,appending)
     protocol : dce , ms_ext, c_ext, robust
@@ -342,10 +340,6 @@ MIDL_DEFINE_GUID(CLSID, CLSID_FaxRecipient,0x60BF3301,0x7DF8,0x4bd8,0x91,0x48,0x
 //@@MIDL_FILE_HEADING(  )
 
 #if defined(_M_IA64) || defined(_M_AMD64)
-
-
-#pragma warning( disable: 4049 )  /* more than 64k source lines */
-
 
 #ifdef __cplusplus
 extern "C"{

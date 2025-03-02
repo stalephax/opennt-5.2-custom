@@ -1,0 +1,48 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\tdc.res \
+    $(_OBJ_DIR)\i386\tdcctl.obj \
+    $(_OBJ_DIR)\i386\tdcarr.obj \
+    $(_OBJ_DIR)\i386\tdcparse.obj \
+    $(_OBJ_DIR)\i386\notify.obj \
+    $(_OBJ_DIR)\i386\wch.obj \
+    $(_OBJ_DIR)\i386\tdc.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\tdc.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\tdc.res \
+    $(_OBJ_DIR)\ia64\tdcctl.obj \
+    $(_OBJ_DIR)\ia64\tdcarr.obj \
+    $(_OBJ_DIR)\ia64\tdcparse.obj \
+    $(_OBJ_DIR)\ia64\notify.obj \
+    $(_OBJ_DIR)\ia64\wch.obj \
+    $(_OBJ_DIR)\ia64\tdc.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\tdc.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\tdc.res \
+    $(_OBJ_DIR)\amd64\tdcctl.obj \
+    $(_OBJ_DIR)\amd64\tdcarr.obj \
+    $(_OBJ_DIR)\amd64\tdcparse.obj \
+    $(_OBJ_DIR)\amd64\notify.obj \
+    $(_OBJ_DIR)\amd64\wch.obj \
+    $(_OBJ_DIR)\amd64\tdc.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\tdc.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\tdc.res \
+    $(_OBJ_DIR)\arm\tdcctl.obj \
+    $(_OBJ_DIR)\arm\tdcarr.obj \
+    $(_OBJ_DIR)\arm\tdcparse.obj \
+    $(_OBJ_DIR)\arm\notify.obj \
+    $(_OBJ_DIR)\arm\wch.obj \
+    $(_OBJ_DIR)\arm\tdc.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\tdc.h
+

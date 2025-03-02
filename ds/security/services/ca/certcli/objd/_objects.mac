@@ -1,0 +1,60 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certcli.res \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\certcli.obj \
+    $(_OBJ_DIR)\i386\column.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\configp.obj \
+    $(_OBJ_DIR)\i386\crypt.obj \
+    $(_OBJ_DIR)\i386\getconf.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\uwbase64.obj \
+    $(_OBJ_DIR)\i386\vroot.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certcli.res \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\certcli.obj \
+    $(_OBJ_DIR)\ia64\column.obj \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\configp.obj \
+    $(_OBJ_DIR)\ia64\crypt.obj \
+    $(_OBJ_DIR)\ia64\getconf.obj \
+    $(_OBJ_DIR)\ia64\request.obj \
+    $(_OBJ_DIR)\ia64\uwbase64.obj \
+    $(_OBJ_DIR)\ia64\vroot.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certcli.res \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\certcli.obj \
+    $(_OBJ_DIR)\amd64\column.obj \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\configp.obj \
+    $(_OBJ_DIR)\amd64\crypt.obj \
+    $(_OBJ_DIR)\amd64\getconf.obj \
+    $(_OBJ_DIR)\amd64\request.obj \
+    $(_OBJ_DIR)\amd64\uwbase64.obj \
+    $(_OBJ_DIR)\amd64\vroot.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certcli.res \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\certcli.obj \
+    $(_OBJ_DIR)\arm\column.obj \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\configp.obj \
+    $(_OBJ_DIR)\arm\crypt.obj \
+    $(_OBJ_DIR)\arm\getconf.obj \
+    $(_OBJ_DIR)\arm\request.obj \
+    $(_OBJ_DIR)\arm\uwbase64.obj \
+    $(_OBJ_DIR)\arm\vroot.obj
+
+PASS0_ARM_OBJECTS=
+

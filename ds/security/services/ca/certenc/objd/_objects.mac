@@ -1,0 +1,60 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\celib.obj \
+    $(_OBJ_DIR)\i386\ceerror.obj \
+    $(_OBJ_DIR)\i386\certenc.res \
+    $(_OBJ_DIR)\i386\adate.obj \
+    $(_OBJ_DIR)\i386\along.obj \
+    $(_OBJ_DIR)\i386\altname.obj \
+    $(_OBJ_DIR)\i386\astring.obj \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\bitstr.obj \
+    $(_OBJ_DIR)\i386\certenc.obj \
+    $(_OBJ_DIR)\i386\crldist.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\celib.obj \
+    $(_OBJ_DIR)\ia64\ceerror.obj \
+    $(_OBJ_DIR)\ia64\certenc.res \
+    $(_OBJ_DIR)\ia64\adate.obj \
+    $(_OBJ_DIR)\ia64\along.obj \
+    $(_OBJ_DIR)\ia64\altname.obj \
+    $(_OBJ_DIR)\ia64\astring.obj \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\bitstr.obj \
+    $(_OBJ_DIR)\ia64\certenc.obj \
+    $(_OBJ_DIR)\ia64\crldist.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\celib.obj \
+    $(_OBJ_DIR)\amd64\ceerror.obj \
+    $(_OBJ_DIR)\amd64\certenc.res \
+    $(_OBJ_DIR)\amd64\adate.obj \
+    $(_OBJ_DIR)\amd64\along.obj \
+    $(_OBJ_DIR)\amd64\altname.obj \
+    $(_OBJ_DIR)\amd64\astring.obj \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\bitstr.obj \
+    $(_OBJ_DIR)\amd64\certenc.obj \
+    $(_OBJ_DIR)\amd64\crldist.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\celib.obj \
+    $(_OBJ_DIR)\arm\ceerror.obj \
+    $(_OBJ_DIR)\arm\certenc.res \
+    $(_OBJ_DIR)\arm\adate.obj \
+    $(_OBJ_DIR)\arm\along.obj \
+    $(_OBJ_DIR)\arm\altname.obj \
+    $(_OBJ_DIR)\arm\astring.obj \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\bitstr.obj \
+    $(_OBJ_DIR)\arm\certenc.obj \
+    $(_OBJ_DIR)\arm\crldist.obj
+
+PASS0_ARM_OBJECTS=
+

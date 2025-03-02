@@ -1,0 +1,56 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\accplv.obj \
+    $(_OBJ_DIR)\i386\dbg.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\iconview.obj \
+    $(_OBJ_DIR)\i386\ivmisc.obj \
+    $(_OBJ_DIR)\i386\plv.obj \
+    $(_OBJ_DIR)\i386\plvproc.obj \
+    $(_OBJ_DIR)\i386\repview.obj \
+    $(_OBJ_DIR)\i386\rvmisc.obj \
+    $(_OBJ_DIR)\i386\strutil.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\accplv.obj \
+    $(_OBJ_DIR)\ia64\dbg.obj \
+    $(_OBJ_DIR)\ia64\dispatch.obj \
+    $(_OBJ_DIR)\ia64\iconview.obj \
+    $(_OBJ_DIR)\ia64\ivmisc.obj \
+    $(_OBJ_DIR)\ia64\plv.obj \
+    $(_OBJ_DIR)\ia64\plvproc.obj \
+    $(_OBJ_DIR)\ia64\repview.obj \
+    $(_OBJ_DIR)\ia64\rvmisc.obj \
+    $(_OBJ_DIR)\ia64\strutil.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\accplv.obj \
+    $(_OBJ_DIR)\amd64\dbg.obj \
+    $(_OBJ_DIR)\amd64\dispatch.obj \
+    $(_OBJ_DIR)\amd64\iconview.obj \
+    $(_OBJ_DIR)\amd64\ivmisc.obj \
+    $(_OBJ_DIR)\amd64\plv.obj \
+    $(_OBJ_DIR)\amd64\plvproc.obj \
+    $(_OBJ_DIR)\amd64\repview.obj \
+    $(_OBJ_DIR)\amd64\rvmisc.obj \
+    $(_OBJ_DIR)\amd64\strutil.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\accplv.obj \
+    $(_OBJ_DIR)\arm\dbg.obj \
+    $(_OBJ_DIR)\arm\dispatch.obj \
+    $(_OBJ_DIR)\arm\iconview.obj \
+    $(_OBJ_DIR)\arm\ivmisc.obj \
+    $(_OBJ_DIR)\arm\plv.obj \
+    $(_OBJ_DIR)\arm\plvproc.obj \
+    $(_OBJ_DIR)\arm\repview.obj \
+    $(_OBJ_DIR)\arm\rvmisc.obj \
+    $(_OBJ_DIR)\arm\strutil.obj
+
+PASS0_ARM_OBJECTS=
+

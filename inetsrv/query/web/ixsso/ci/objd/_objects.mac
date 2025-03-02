@@ -1,0 +1,44 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixssocf.obj \
+    $(_OBJ_DIR)\i386\ixsso.obj \
+    $(_OBJ_DIR)\i386\ixsquery.obj \
+    $(_OBJ_DIR)\i386\ixsutil.obj \
+    $(_OBJ_DIR)\i386\ixsinfo.obj \
+    $(_OBJ_DIR)\i386\ixsso.res
+
+PASS0_386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ixsso.tlb
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\ixssocf.obj \
+    $(_OBJ_DIR)\ia64\ixsso.obj \
+    $(_OBJ_DIR)\ia64\ixsquery.obj \
+    $(_OBJ_DIR)\ia64\ixsutil.obj \
+    $(_OBJ_DIR)\ia64\ixsinfo.obj \
+    $(_OBJ_DIR)\ia64\ixsso.res
+
+PASS0_IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\ixsso.tlb
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\ixssocf.obj \
+    $(_OBJ_DIR)\amd64\ixsso.obj \
+    $(_OBJ_DIR)\amd64\ixsquery.obj \
+    $(_OBJ_DIR)\amd64\ixsutil.obj \
+    $(_OBJ_DIR)\amd64\ixsinfo.obj \
+    $(_OBJ_DIR)\amd64\ixsso.res
+
+PASS0_AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\ixsso.tlb
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\ixssocf.obj \
+    $(_OBJ_DIR)\arm\ixsso.obj \
+    $(_OBJ_DIR)\arm\ixsquery.obj \
+    $(_OBJ_DIR)\arm\ixsutil.obj \
+    $(_OBJ_DIR)\arm\ixsinfo.obj \
+    $(_OBJ_DIR)\arm\ixsso.res
+
+PASS0_ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\ixsso.tlb
+

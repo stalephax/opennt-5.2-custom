@@ -9678,6 +9678,7 @@ ltwain.ds        retail      ; TWAIN
 ltype.ttf        system
 lucon.ttf        retail
 lug.chm          retail
+aero.mst         retail    ; aero visual style
 luna.mst         retail    ; luna visual style
 luna.the         retail    ; luna theme
 lusrmgr.msc      retail

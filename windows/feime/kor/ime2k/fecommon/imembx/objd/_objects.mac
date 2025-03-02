@@ -1,0 +1,104 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\applet.res \
+    $(_OBJ_DIR)\i386\api.obj \
+    $(_OBJ_DIR)\i386\ccom.obj \
+    $(_OBJ_DIR)\i386\cexres.obj \
+    $(_OBJ_DIR)\i386\cfactory.obj \
+    $(_OBJ_DIR)\i386\cfont.obj \
+    $(_OBJ_DIR)\i386\cutil.obj \
+    $(_OBJ_DIR)\i386\exgdiw.obj \
+    $(_OBJ_DIR)\i386\hwxapp.obj \
+    $(_OBJ_DIR)\i386\hwxcac.obj \
+    $(_OBJ_DIR)\i386\hwxfe.obj \
+    $(_OBJ_DIR)\i386\hwxink.obj \
+    $(_OBJ_DIR)\i386\hwxmb.obj \
+    $(_OBJ_DIR)\i386\hwxobj.obj \
+    $(_OBJ_DIR)\i386\hwxstr.obj \
+    $(_OBJ_DIR)\i386\hwxthd.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\registry.obj \
+    $(_OBJ_DIR)\i386\wndproc.obj \
+    $(_OBJ_DIR)\i386\hanja.obj \
+    $(_OBJ_DIR)\i386\immsec.obj \
+    $(_OBJ_DIR)\i386\dbg.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\applet.res \
+    $(_OBJ_DIR)\ia64\api.obj \
+    $(_OBJ_DIR)\ia64\ccom.obj \
+    $(_OBJ_DIR)\ia64\cexres.obj \
+    $(_OBJ_DIR)\ia64\cfactory.obj \
+    $(_OBJ_DIR)\ia64\cfont.obj \
+    $(_OBJ_DIR)\ia64\cutil.obj \
+    $(_OBJ_DIR)\ia64\exgdiw.obj \
+    $(_OBJ_DIR)\ia64\hwxapp.obj \
+    $(_OBJ_DIR)\ia64\hwxcac.obj \
+    $(_OBJ_DIR)\ia64\hwxfe.obj \
+    $(_OBJ_DIR)\ia64\hwxink.obj \
+    $(_OBJ_DIR)\ia64\hwxmb.obj \
+    $(_OBJ_DIR)\ia64\hwxobj.obj \
+    $(_OBJ_DIR)\ia64\hwxstr.obj \
+    $(_OBJ_DIR)\ia64\hwxthd.obj \
+    $(_OBJ_DIR)\ia64\main.obj \
+    $(_OBJ_DIR)\ia64\registry.obj \
+    $(_OBJ_DIR)\ia64\wndproc.obj \
+    $(_OBJ_DIR)\ia64\hanja.obj \
+    $(_OBJ_DIR)\ia64\immsec.obj \
+    $(_OBJ_DIR)\ia64\dbg.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\applet.res \
+    $(_OBJ_DIR)\amd64\api.obj \
+    $(_OBJ_DIR)\amd64\ccom.obj \
+    $(_OBJ_DIR)\amd64\cexres.obj \
+    $(_OBJ_DIR)\amd64\cfactory.obj \
+    $(_OBJ_DIR)\amd64\cfont.obj \
+    $(_OBJ_DIR)\amd64\cutil.obj \
+    $(_OBJ_DIR)\amd64\exgdiw.obj \
+    $(_OBJ_DIR)\amd64\hwxapp.obj \
+    $(_OBJ_DIR)\amd64\hwxcac.obj \
+    $(_OBJ_DIR)\amd64\hwxfe.obj \
+    $(_OBJ_DIR)\amd64\hwxink.obj \
+    $(_OBJ_DIR)\amd64\hwxmb.obj \
+    $(_OBJ_DIR)\amd64\hwxobj.obj \
+    $(_OBJ_DIR)\amd64\hwxstr.obj \
+    $(_OBJ_DIR)\amd64\hwxthd.obj \
+    $(_OBJ_DIR)\amd64\main.obj \
+    $(_OBJ_DIR)\amd64\registry.obj \
+    $(_OBJ_DIR)\amd64\wndproc.obj \
+    $(_OBJ_DIR)\amd64\hanja.obj \
+    $(_OBJ_DIR)\amd64\immsec.obj \
+    $(_OBJ_DIR)\amd64\dbg.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\applet.res \
+    $(_OBJ_DIR)\arm\api.obj \
+    $(_OBJ_DIR)\arm\ccom.obj \
+    $(_OBJ_DIR)\arm\cexres.obj \
+    $(_OBJ_DIR)\arm\cfactory.obj \
+    $(_OBJ_DIR)\arm\cfont.obj \
+    $(_OBJ_DIR)\arm\cutil.obj \
+    $(_OBJ_DIR)\arm\exgdiw.obj \
+    $(_OBJ_DIR)\arm\hwxapp.obj \
+    $(_OBJ_DIR)\arm\hwxcac.obj \
+    $(_OBJ_DIR)\arm\hwxfe.obj \
+    $(_OBJ_DIR)\arm\hwxink.obj \
+    $(_OBJ_DIR)\arm\hwxmb.obj \
+    $(_OBJ_DIR)\arm\hwxobj.obj \
+    $(_OBJ_DIR)\arm\hwxstr.obj \
+    $(_OBJ_DIR)\arm\hwxthd.obj \
+    $(_OBJ_DIR)\arm\main.obj \
+    $(_OBJ_DIR)\arm\registry.obj \
+    $(_OBJ_DIR)\arm\wndproc.obj \
+    $(_OBJ_DIR)\arm\hanja.obj \
+    $(_OBJ_DIR)\arm\immsec.obj \
+    $(_OBJ_DIR)\arm\dbg.obj
+
+PASS0_ARM_OBJECTS=
+

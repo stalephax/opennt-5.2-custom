@@ -24,7 +24,7 @@
 
 #define VER_PRODUCTBUILD            /* NT */   3790
 
-#define VER_PRODUCTBUILD_QFE        0
+#define VER_PRODUCTBUILD_QFE        5512
 
 #if defined(NASHVILLE)
 // IE components now use NT's VER_PRODUCTBUILD, but define other different major/minor version #'s

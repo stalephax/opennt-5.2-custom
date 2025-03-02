@@ -1,0 +1,144 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\imekor.res \
+    $(_OBJ_DIR)\i386\dllmain.obj \
+    $(_OBJ_DIR)\i386\apientry.obj \
+    $(_OBJ_DIR)\i386\imcsub.obj \
+    $(_OBJ_DIR)\i386\imc.obj \
+    $(_OBJ_DIR)\i386\gdata.obj \
+    $(_OBJ_DIR)\i386\immsys.obj \
+    $(_OBJ_DIR)\i386\candui.obj \
+    $(_OBJ_DIR)\i386\compui.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\escape.obj \
+    $(_OBJ_DIR)\i386\hanja.obj \
+    $(_OBJ_DIR)\i386\hauto.obj \
+    $(_OBJ_DIR)\i386\imemisc.obj \
+    $(_OBJ_DIR)\i386\immsec.obj \
+    $(_OBJ_DIR)\i386\statusui.obj \
+    $(_OBJ_DIR)\i386\ui.obj \
+    $(_OBJ_DIR)\i386\uisubs.obj \
+    $(_OBJ_DIR)\i386\winex.obj \
+    $(_OBJ_DIR)\i386\ipoint.obj \
+    $(_OBJ_DIR)\i386\guids.obj \
+    $(_OBJ_DIR)\i386\pad.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\cimecb.obj \
+    $(_OBJ_DIR)\i386\cicero.obj \
+    $(_OBJ_DIR)\i386\toolbar.obj \
+    $(_OBJ_DIR)\i386\cicbtn.obj \
+    $(_OBJ_DIR)\i386\cmode.obj \
+    $(_OBJ_DIR)\i386\fmode.obj \
+    $(_OBJ_DIR)\i386\hjmode.obj \
+    $(_OBJ_DIR)\i386\pmode.obj \
+    $(_OBJ_DIR)\i386\syshelp.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\imekor.res \
+    $(_OBJ_DIR)\ia64\dllmain.obj \
+    $(_OBJ_DIR)\ia64\apientry.obj \
+    $(_OBJ_DIR)\ia64\imcsub.obj \
+    $(_OBJ_DIR)\ia64\imc.obj \
+    $(_OBJ_DIR)\ia64\gdata.obj \
+    $(_OBJ_DIR)\ia64\immsys.obj \
+    $(_OBJ_DIR)\ia64\candui.obj \
+    $(_OBJ_DIR)\ia64\compui.obj \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\escape.obj \
+    $(_OBJ_DIR)\ia64\hanja.obj \
+    $(_OBJ_DIR)\ia64\hauto.obj \
+    $(_OBJ_DIR)\ia64\imemisc.obj \
+    $(_OBJ_DIR)\ia64\immsec.obj \
+    $(_OBJ_DIR)\ia64\statusui.obj \
+    $(_OBJ_DIR)\ia64\ui.obj \
+    $(_OBJ_DIR)\ia64\uisubs.obj \
+    $(_OBJ_DIR)\ia64\winex.obj \
+    $(_OBJ_DIR)\ia64\ipoint.obj \
+    $(_OBJ_DIR)\ia64\guids.obj \
+    $(_OBJ_DIR)\ia64\pad.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\cimecb.obj \
+    $(_OBJ_DIR)\ia64\cicero.obj \
+    $(_OBJ_DIR)\ia64\toolbar.obj \
+    $(_OBJ_DIR)\ia64\cicbtn.obj \
+    $(_OBJ_DIR)\ia64\cmode.obj \
+    $(_OBJ_DIR)\ia64\fmode.obj \
+    $(_OBJ_DIR)\ia64\hjmode.obj \
+    $(_OBJ_DIR)\ia64\pmode.obj \
+    $(_OBJ_DIR)\ia64\syshelp.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\imekor.res \
+    $(_OBJ_DIR)\amd64\dllmain.obj \
+    $(_OBJ_DIR)\amd64\apientry.obj \
+    $(_OBJ_DIR)\amd64\imcsub.obj \
+    $(_OBJ_DIR)\amd64\imc.obj \
+    $(_OBJ_DIR)\amd64\gdata.obj \
+    $(_OBJ_DIR)\amd64\immsys.obj \
+    $(_OBJ_DIR)\amd64\candui.obj \
+    $(_OBJ_DIR)\amd64\compui.obj \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\escape.obj \
+    $(_OBJ_DIR)\amd64\hanja.obj \
+    $(_OBJ_DIR)\amd64\hauto.obj \
+    $(_OBJ_DIR)\amd64\imemisc.obj \
+    $(_OBJ_DIR)\amd64\immsec.obj \
+    $(_OBJ_DIR)\amd64\statusui.obj \
+    $(_OBJ_DIR)\amd64\ui.obj \
+    $(_OBJ_DIR)\amd64\uisubs.obj \
+    $(_OBJ_DIR)\amd64\winex.obj \
+    $(_OBJ_DIR)\amd64\ipoint.obj \
+    $(_OBJ_DIR)\amd64\guids.obj \
+    $(_OBJ_DIR)\amd64\pad.obj \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\cimecb.obj \
+    $(_OBJ_DIR)\amd64\cicero.obj \
+    $(_OBJ_DIR)\amd64\toolbar.obj \
+    $(_OBJ_DIR)\amd64\cicbtn.obj \
+    $(_OBJ_DIR)\amd64\cmode.obj \
+    $(_OBJ_DIR)\amd64\fmode.obj \
+    $(_OBJ_DIR)\amd64\hjmode.obj \
+    $(_OBJ_DIR)\amd64\pmode.obj \
+    $(_OBJ_DIR)\amd64\syshelp.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\imekor.res \
+    $(_OBJ_DIR)\arm\dllmain.obj \
+    $(_OBJ_DIR)\arm\apientry.obj \
+    $(_OBJ_DIR)\arm\imcsub.obj \
+    $(_OBJ_DIR)\arm\imc.obj \
+    $(_OBJ_DIR)\arm\gdata.obj \
+    $(_OBJ_DIR)\arm\immsys.obj \
+    $(_OBJ_DIR)\arm\candui.obj \
+    $(_OBJ_DIR)\arm\compui.obj \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\escape.obj \
+    $(_OBJ_DIR)\arm\hanja.obj \
+    $(_OBJ_DIR)\arm\hauto.obj \
+    $(_OBJ_DIR)\arm\imemisc.obj \
+    $(_OBJ_DIR)\arm\immsec.obj \
+    $(_OBJ_DIR)\arm\statusui.obj \
+    $(_OBJ_DIR)\arm\ui.obj \
+    $(_OBJ_DIR)\arm\uisubs.obj \
+    $(_OBJ_DIR)\arm\winex.obj \
+    $(_OBJ_DIR)\arm\ipoint.obj \
+    $(_OBJ_DIR)\arm\guids.obj \
+    $(_OBJ_DIR)\arm\pad.obj \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\cimecb.obj \
+    $(_OBJ_DIR)\arm\cicero.obj \
+    $(_OBJ_DIR)\arm\toolbar.obj \
+    $(_OBJ_DIR)\arm\cicbtn.obj \
+    $(_OBJ_DIR)\arm\cmode.obj \
+    $(_OBJ_DIR)\arm\fmode.obj \
+    $(_OBJ_DIR)\arm\hjmode.obj \
+    $(_OBJ_DIR)\arm\pmode.obj \
+    $(_OBJ_DIR)\arm\syshelp.obj
+
+PASS0_ARM_OBJECTS=
+

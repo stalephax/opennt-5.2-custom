@@ -1,0 +1,32 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\imkrinst.res \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\imkrinst.obj \
+    $(_OBJ_DIR)\i386\regtip.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\imkrinst.res \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\imkrinst.obj \
+    $(_OBJ_DIR)\ia64\regtip.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\imkrinst.res \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\imkrinst.obj \
+    $(_OBJ_DIR)\amd64\regtip.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\imkrinst.res \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\imkrinst.obj \
+    $(_OBJ_DIR)\arm\regtip.obj
+
+PASS0_ARM_OBJECTS=
+

@@ -1,14 +1,15 @@
 
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 /* this ALWAYS GENERATED file contains the IIDs and CLSIDs */
 
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0361 */
+ /* File created by MIDL compiler version 6.00.0357 */
 /* Compiler settings for iisext.odl:
-    Oicf, W1, Zp8, env=Win32 (32b run)
-    protocol : dce , ms_ext, c_ext, robust
+    Os, W1, Zp8, env=Win32 (32b run)
+    protocol : dce , ms_ext, c_ext
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
          __declspec(uuid()), __declspec(selectany), __declspec(novtable)
@@ -17,10 +18,6 @@
 //@@MIDL_FILE_HEADING(  )
 
 #if !defined(_M_IA64) && !defined(_M_AMD64)
-
-
-#pragma warning( disable: 4049 )  /* more than 64k source lines */
-
 
 #ifdef __cplusplus
 extern "C"{
@@ -129,13 +126,14 @@ MIDL_DEFINE_GUID(CLSID, CLSID_IISExtWebService,0x40B8F873,0xB30E,0x475d,0xBE,0xC
 #endif /* !defined(_M_IA64) && !defined(_M_AMD64)*/
 
 
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 /* this ALWAYS GENERATED file contains the IIDs and CLSIDs */
 
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0361 */
+ /* File created by MIDL compiler version 6.00.0357 */
 /* Compiler settings for iisext.odl:
     Oicf, W1, Zp8, env=Win64 (32b run,appending)
     protocol : dce , ms_ext, c_ext, robust
@@ -147,10 +145,6 @@ MIDL_DEFINE_GUID(CLSID, CLSID_IISExtWebService,0x40B8F873,0xB30E,0x475d,0xBE,0xC
 //@@MIDL_FILE_HEADING(  )
 
 #if defined(_M_IA64) || defined(_M_AMD64)
-
-
-#pragma warning( disable: 4049 )  /* more than 64k source lines */
-
 
 #ifdef __cplusplus
 extern "C"{

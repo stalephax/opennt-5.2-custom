@@ -1,0 +1,5 @@
+DIRS=bootsect           \
+     fdebug           \
+     freeldr            \
+     install              \
+     tools             \

@@ -1,0 +1,76 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\csocm.res \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\csocm.obj \
+    $(_OBJ_DIR)\i386\setuput.obj \
+    $(_OBJ_DIR)\i386\cspenum.obj \
+    $(_OBJ_DIR)\i386\wizpage.obj \
+    $(_OBJ_DIR)\i386\regd.obj \
+    $(_OBJ_DIR)\i386\browsedi.obj \
+    $(_OBJ_DIR)\i386\usecert.obj \
+    $(_OBJ_DIR)\i386\dssetup.obj \
+    $(_OBJ_DIR)\i386\unattend.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\pfximpt.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\msg.h \
+    $(MC_SOURCEDIR)\msg.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\csocm.res \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\csocm.obj \
+    $(_OBJ_DIR)\ia64\setuput.obj \
+    $(_OBJ_DIR)\ia64\cspenum.obj \
+    $(_OBJ_DIR)\ia64\wizpage.obj \
+    $(_OBJ_DIR)\ia64\regd.obj \
+    $(_OBJ_DIR)\ia64\browsedi.obj \
+    $(_OBJ_DIR)\ia64\usecert.obj \
+    $(_OBJ_DIR)\ia64\dssetup.obj \
+    $(_OBJ_DIR)\ia64\unattend.obj \
+    $(_OBJ_DIR)\ia64\reg.obj \
+    $(_OBJ_DIR)\ia64\pfximpt.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\msg.h \
+    $(MC_SOURCEDIR)\msg.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\csocm.res \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\csocm.obj \
+    $(_OBJ_DIR)\amd64\setuput.obj \
+    $(_OBJ_DIR)\amd64\cspenum.obj \
+    $(_OBJ_DIR)\amd64\wizpage.obj \
+    $(_OBJ_DIR)\amd64\regd.obj \
+    $(_OBJ_DIR)\amd64\browsedi.obj \
+    $(_OBJ_DIR)\amd64\usecert.obj \
+    $(_OBJ_DIR)\amd64\dssetup.obj \
+    $(_OBJ_DIR)\amd64\unattend.obj \
+    $(_OBJ_DIR)\amd64\reg.obj \
+    $(_OBJ_DIR)\amd64\pfximpt.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\msg.h \
+    $(MC_SOURCEDIR)\msg.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\csocm.res \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\csocm.obj \
+    $(_OBJ_DIR)\arm\setuput.obj \
+    $(_OBJ_DIR)\arm\cspenum.obj \
+    $(_OBJ_DIR)\arm\wizpage.obj \
+    $(_OBJ_DIR)\arm\regd.obj \
+    $(_OBJ_DIR)\arm\browsedi.obj \
+    $(_OBJ_DIR)\arm\usecert.obj \
+    $(_OBJ_DIR)\arm\dssetup.obj \
+    $(_OBJ_DIR)\arm\unattend.obj \
+    $(_OBJ_DIR)\arm\reg.obj \
+    $(_OBJ_DIR)\arm\pfximpt.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\msg.h \
+    $(MC_SOURCEDIR)\msg.rc
+

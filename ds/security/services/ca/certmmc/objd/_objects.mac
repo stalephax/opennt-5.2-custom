@@ -1,0 +1,96 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\resource.res \
+    $(_OBJ_DIR)\i386\browsedi.obj \
+    $(_OBJ_DIR)\i386\certif.obj \
+    $(_OBJ_DIR)\i386\chooser.obj \
+    $(_OBJ_DIR)\i386\csnapin.obj \
+    $(_OBJ_DIR)\i386\compdata.obj \
+    $(_OBJ_DIR)\i386\dataobj.obj \
+    $(_OBJ_DIR)\i386\about.obj \
+    $(_OBJ_DIR)\i386\events.obj \
+    $(_OBJ_DIR)\i386\genpage.obj \
+    $(_OBJ_DIR)\i386\krapage.obj \
+    $(_OBJ_DIR)\i386\uuids.obj \
+    $(_OBJ_DIR)\i386\folders.obj \
+    $(_OBJ_DIR)\i386\snapin.obj \
+    $(_OBJ_DIR)\i386\certwrap.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\urls.obj \
+    $(_OBJ_DIR)\i386\officer.obj \
+    $(_OBJ_DIR)\i386\casec.obj \
+    $(_OBJ_DIR)\i386\roles.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\resource.res \
+    $(_OBJ_DIR)\ia64\browsedi.obj \
+    $(_OBJ_DIR)\ia64\certif.obj \
+    $(_OBJ_DIR)\ia64\chooser.obj \
+    $(_OBJ_DIR)\ia64\csnapin.obj \
+    $(_OBJ_DIR)\ia64\compdata.obj \
+    $(_OBJ_DIR)\ia64\dataobj.obj \
+    $(_OBJ_DIR)\ia64\about.obj \
+    $(_OBJ_DIR)\ia64\events.obj \
+    $(_OBJ_DIR)\ia64\genpage.obj \
+    $(_OBJ_DIR)\ia64\krapage.obj \
+    $(_OBJ_DIR)\ia64\uuids.obj \
+    $(_OBJ_DIR)\ia64\folders.obj \
+    $(_OBJ_DIR)\ia64\snapin.obj \
+    $(_OBJ_DIR)\ia64\certwrap.obj \
+    $(_OBJ_DIR)\ia64\misc.obj \
+    $(_OBJ_DIR)\ia64\urls.obj \
+    $(_OBJ_DIR)\ia64\officer.obj \
+    $(_OBJ_DIR)\ia64\casec.obj \
+    $(_OBJ_DIR)\ia64\roles.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\resource.res \
+    $(_OBJ_DIR)\amd64\browsedi.obj \
+    $(_OBJ_DIR)\amd64\certif.obj \
+    $(_OBJ_DIR)\amd64\chooser.obj \
+    $(_OBJ_DIR)\amd64\csnapin.obj \
+    $(_OBJ_DIR)\amd64\compdata.obj \
+    $(_OBJ_DIR)\amd64\dataobj.obj \
+    $(_OBJ_DIR)\amd64\about.obj \
+    $(_OBJ_DIR)\amd64\events.obj \
+    $(_OBJ_DIR)\amd64\genpage.obj \
+    $(_OBJ_DIR)\amd64\krapage.obj \
+    $(_OBJ_DIR)\amd64\uuids.obj \
+    $(_OBJ_DIR)\amd64\folders.obj \
+    $(_OBJ_DIR)\amd64\snapin.obj \
+    $(_OBJ_DIR)\amd64\certwrap.obj \
+    $(_OBJ_DIR)\amd64\misc.obj \
+    $(_OBJ_DIR)\amd64\urls.obj \
+    $(_OBJ_DIR)\amd64\officer.obj \
+    $(_OBJ_DIR)\amd64\casec.obj \
+    $(_OBJ_DIR)\amd64\roles.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\resource.res \
+    $(_OBJ_DIR)\arm\browsedi.obj \
+    $(_OBJ_DIR)\arm\certif.obj \
+    $(_OBJ_DIR)\arm\chooser.obj \
+    $(_OBJ_DIR)\arm\csnapin.obj \
+    $(_OBJ_DIR)\arm\compdata.obj \
+    $(_OBJ_DIR)\arm\dataobj.obj \
+    $(_OBJ_DIR)\arm\about.obj \
+    $(_OBJ_DIR)\arm\events.obj \
+    $(_OBJ_DIR)\arm\genpage.obj \
+    $(_OBJ_DIR)\arm\krapage.obj \
+    $(_OBJ_DIR)\arm\uuids.obj \
+    $(_OBJ_DIR)\arm\folders.obj \
+    $(_OBJ_DIR)\arm\snapin.obj \
+    $(_OBJ_DIR)\arm\certwrap.obj \
+    $(_OBJ_DIR)\arm\misc.obj \
+    $(_OBJ_DIR)\arm\urls.obj \
+    $(_OBJ_DIR)\arm\officer.obj \
+    $(_OBJ_DIR)\arm\casec.obj \
+    $(_OBJ_DIR)\arm\roles.obj
+
+PASS0_ARM_OBJECTS=
+

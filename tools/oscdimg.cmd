@@ -21,4 +21,4 @@ if exist "%_NTPOSTBLD%\build_logs\buildname.txt" (
 
 if NOT defined _NTISO set _NTISO=%_NTDRIVE%\%_BUILDNAME%.iso
 
-%SDXROOT%\base\ntsetup\opktools\wpebins\x86\oscdimg.exe -n -b"%SDXROOT%\base\ntsetup\opktools\wpebins\x86\etfsboot.com" %_NTPOSTBLD%\%_NTVARIANT% "%_NTISO%"
+%SDXROOT%\base\ntsetup\opktools\wpebins\x86\cdimage.exe -n -m -b"%SDXROOT%\base\ntsetup\opktools\wpebins\x86\etfsboot.com" %_NTPOSTBLD%\%_NTVARIANT% "%_NTISO%"

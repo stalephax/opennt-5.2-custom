@@ -1,0 +1,36 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spcommon.res \
+    $(_OBJ_DIR)\i386\spcommon.obj \
+    $(_OBJ_DIR)\i386\ltscart.obj \
+    $(_OBJ_DIR)\i386\ltslx.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\spcommon.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\spcommon.res \
+    $(_OBJ_DIR)\ia64\spcommon.obj \
+    $(_OBJ_DIR)\ia64\ltscart.obj \
+    $(_OBJ_DIR)\ia64\ltslx.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\spcommon.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\spcommon.res \
+    $(_OBJ_DIR)\amd64\spcommon.obj \
+    $(_OBJ_DIR)\amd64\ltscart.obj \
+    $(_OBJ_DIR)\amd64\ltslx.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\spcommon.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\spcommon.res \
+    $(_OBJ_DIR)\arm\spcommon.obj \
+    $(_OBJ_DIR)\arm\ltscart.obj \
+    $(_OBJ_DIR)\arm\ltslx.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\spcommon.h
+

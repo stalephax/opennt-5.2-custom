@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\eseperf.obj \
+    $(_OBJ_DIR)\i386\perfutil.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\res.res \
+    $(_OBJ_DIR)\ia64\eseperf.obj \
+    $(_OBJ_DIR)\ia64\perfutil.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\res.res \
+    $(_OBJ_DIR)\amd64\eseperf.obj \
+    $(_OBJ_DIR)\amd64\perfutil.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\res.res \
+    $(_OBJ_DIR)\arm\eseperf.obj \
+    $(_OBJ_DIR)\arm\perfutil.obj
+
+PASS0_ARM_OBJECTS=
+

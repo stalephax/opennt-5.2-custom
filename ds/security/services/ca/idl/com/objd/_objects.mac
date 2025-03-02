@@ -1,0 +1,112 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certdb_i.obj \
+    $(_OBJ_DIR)\i386\certexit_i.obj \
+    $(_OBJ_DIR)\i386\certif_i.obj \
+    $(_OBJ_DIR)\i386\certmod_i.obj \
+    $(_OBJ_DIR)\i386\certpol_i.obj \
+    $(_OBJ_DIR)\i386\certsrvd_i.obj \
+    $(_OBJ_DIR)\i386\certview_i.obj \
+    $(_OBJ_DIR)\i386\certadm_i.obj \
+    $(_OBJ_DIR)\i386\certcli_i.obj \
+    $(_OBJ_DIR)\i386\certenc_i.obj \
+    $(_OBJ_DIR)\i386\certrpc_c.obj \
+    $(_OBJ_DIR)\i386\certadmd_i.obj \
+    $(_OBJ_DIR)\i386\certreqd_i.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certdb.h \
+    $(PASS0_HEADERDIR)\certexit.h \
+    $(PASS0_HEADERDIR)\certif.h \
+    $(PASS0_HEADERDIR)\certmod.h \
+    $(PASS0_HEADERDIR)\certpol.h \
+    $(PASS0_HEADERDIR)\certsrvd.h \
+    $(PASS0_HEADERDIR)\certview.h \
+    $(PASS0_HEADERDIR)\certadm.h \
+    $(PASS0_HEADERDIR)\certcli.h \
+    $(PASS0_HEADERDIR)\certenc.h \
+    $(PASS0_HEADERDIR)\certbase.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certdb_i.obj \
+    $(_OBJ_DIR)\ia64\certexit_i.obj \
+    $(_OBJ_DIR)\ia64\certif_i.obj \
+    $(_OBJ_DIR)\ia64\certmod_i.obj \
+    $(_OBJ_DIR)\ia64\certpol_i.obj \
+    $(_OBJ_DIR)\ia64\certsrvd_i.obj \
+    $(_OBJ_DIR)\ia64\certview_i.obj \
+    $(_OBJ_DIR)\ia64\certadm_i.obj \
+    $(_OBJ_DIR)\ia64\certcli_i.obj \
+    $(_OBJ_DIR)\ia64\certenc_i.obj \
+    $(_OBJ_DIR)\ia64\certrpc_c.obj \
+    $(_OBJ_DIR)\ia64\certadmd_i.obj \
+    $(_OBJ_DIR)\ia64\certreqd_i.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certdb.h \
+    $(PASS0_HEADERDIR)\certexit.h \
+    $(PASS0_HEADERDIR)\certif.h \
+    $(PASS0_HEADERDIR)\certmod.h \
+    $(PASS0_HEADERDIR)\certpol.h \
+    $(PASS0_HEADERDIR)\certsrvd.h \
+    $(PASS0_HEADERDIR)\certview.h \
+    $(PASS0_HEADERDIR)\certadm.h \
+    $(PASS0_HEADERDIR)\certcli.h \
+    $(PASS0_HEADERDIR)\certenc.h \
+    $(PASS0_HEADERDIR)\certbase.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certdb_i.obj \
+    $(_OBJ_DIR)\amd64\certexit_i.obj \
+    $(_OBJ_DIR)\amd64\certif_i.obj \
+    $(_OBJ_DIR)\amd64\certmod_i.obj \
+    $(_OBJ_DIR)\amd64\certpol_i.obj \
+    $(_OBJ_DIR)\amd64\certsrvd_i.obj \
+    $(_OBJ_DIR)\amd64\certview_i.obj \
+    $(_OBJ_DIR)\amd64\certadm_i.obj \
+    $(_OBJ_DIR)\amd64\certcli_i.obj \
+    $(_OBJ_DIR)\amd64\certenc_i.obj \
+    $(_OBJ_DIR)\amd64\certrpc_c.obj \
+    $(_OBJ_DIR)\amd64\certadmd_i.obj \
+    $(_OBJ_DIR)\amd64\certreqd_i.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certdb.h \
+    $(PASS0_HEADERDIR)\certexit.h \
+    $(PASS0_HEADERDIR)\certif.h \
+    $(PASS0_HEADERDIR)\certmod.h \
+    $(PASS0_HEADERDIR)\certpol.h \
+    $(PASS0_HEADERDIR)\certsrvd.h \
+    $(PASS0_HEADERDIR)\certview.h \
+    $(PASS0_HEADERDIR)\certadm.h \
+    $(PASS0_HEADERDIR)\certcli.h \
+    $(PASS0_HEADERDIR)\certenc.h \
+    $(PASS0_HEADERDIR)\certbase.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certdb_i.obj \
+    $(_OBJ_DIR)\arm\certexit_i.obj \
+    $(_OBJ_DIR)\arm\certif_i.obj \
+    $(_OBJ_DIR)\arm\certmod_i.obj \
+    $(_OBJ_DIR)\arm\certpol_i.obj \
+    $(_OBJ_DIR)\arm\certsrvd_i.obj \
+    $(_OBJ_DIR)\arm\certview_i.obj \
+    $(_OBJ_DIR)\arm\certadm_i.obj \
+    $(_OBJ_DIR)\arm\certcli_i.obj \
+    $(_OBJ_DIR)\arm\certenc_i.obj \
+    $(_OBJ_DIR)\arm\certrpc_c.obj \
+    $(_OBJ_DIR)\arm\certadmd_i.obj \
+    $(_OBJ_DIR)\arm\certreqd_i.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certdb.h \
+    $(PASS0_HEADERDIR)\certexit.h \
+    $(PASS0_HEADERDIR)\certif.h \
+    $(PASS0_HEADERDIR)\certmod.h \
+    $(PASS0_HEADERDIR)\certpol.h \
+    $(PASS0_HEADERDIR)\certsrvd.h \
+    $(PASS0_HEADERDIR)\certview.h \
+    $(PASS0_HEADERDIR)\certadm.h \
+    $(PASS0_HEADERDIR)\certcli.h \
+    $(PASS0_HEADERDIR)\certenc.h \
+    $(PASS0_HEADERDIR)\certbase.h
+

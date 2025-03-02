@@ -1,0 +1,36 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certhier.obj \
+    $(_OBJ_DIR)\i386\certmsg.obj \
+    $(_OBJ_DIR)\i386\certui.obj \
+    $(_OBJ_DIR)\i386\initlib.obj \
+    $(_OBJ_DIR)\i386\keyenum.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certhier.obj \
+    $(_OBJ_DIR)\ia64\certmsg.obj \
+    $(_OBJ_DIR)\ia64\certui.obj \
+    $(_OBJ_DIR)\ia64\initlib.obj \
+    $(_OBJ_DIR)\ia64\keyenum.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certhier.obj \
+    $(_OBJ_DIR)\amd64\certmsg.obj \
+    $(_OBJ_DIR)\amd64\certui.obj \
+    $(_OBJ_DIR)\amd64\initlib.obj \
+    $(_OBJ_DIR)\amd64\keyenum.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certhier.obj \
+    $(_OBJ_DIR)\arm\certmsg.obj \
+    $(_OBJ_DIR)\arm\certui.obj \
+    $(_OBJ_DIR)\arm\initlib.obj \
+    $(_OBJ_DIR)\arm\keyenum.obj
+
+PASS0_ARM_OBJECTS=
+

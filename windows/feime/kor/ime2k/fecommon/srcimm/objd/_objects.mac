@@ -1,0 +1,32 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cpadcb.obj \
+    $(_OBJ_DIR)\i386\cpaddbg.obj \
+    $(_OBJ_DIR)\i386\cpadsvr.obj \
+    $(_OBJ_DIR)\i386\cpadsvrs.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\cpadcb.obj \
+    $(_OBJ_DIR)\ia64\cpaddbg.obj \
+    $(_OBJ_DIR)\ia64\cpadsvr.obj \
+    $(_OBJ_DIR)\ia64\cpadsvrs.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\cpadcb.obj \
+    $(_OBJ_DIR)\amd64\cpaddbg.obj \
+    $(_OBJ_DIR)\amd64\cpadsvr.obj \
+    $(_OBJ_DIR)\amd64\cpadsvrs.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\cpadcb.obj \
+    $(_OBJ_DIR)\arm\cpaddbg.obj \
+    $(_OBJ_DIR)\arm\cpadsvr.obj \
+    $(_OBJ_DIR)\arm\cpadsvrs.obj
+
+PASS0_ARM_OBJECTS=
+

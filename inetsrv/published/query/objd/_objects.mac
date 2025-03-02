@@ -1,0 +1,64 @@
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\ciodm.h \
+    $(PASS0_HEADERDIR)\filtntfy.h \
+    $(PASS0_HEADERDIR)\query.h \
+    $(PASS0_HEADERDIR)\indexsrv.h \
+    $(PASS0_HEADERDIR)\ciintf.h \
+    $(PASS0_HEADERDIR)\fsciclnt.h \
+    $(PASS0_HEADERDIR)\mparser.h \
+    $(PASS0_HEADERDIR)\filter.h \
+    $(PASS0_HEADERDIR)\cierror.h \
+    $(MC_SOURCEDIR)\cierror.rc \
+    $(PASS0_HEADERDIR)\filterr.h \
+    $(MC_SOURCEDIR)\filterr.rc
+
+IA64_OBJECTS=
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\ciodm.h \
+    $(PASS0_HEADERDIR)\filtntfy.h \
+    $(PASS0_HEADERDIR)\query.h \
+    $(PASS0_HEADERDIR)\indexsrv.h \
+    $(PASS0_HEADERDIR)\ciintf.h \
+    $(PASS0_HEADERDIR)\fsciclnt.h \
+    $(PASS0_HEADERDIR)\mparser.h \
+    $(PASS0_HEADERDIR)\filter.h \
+    $(PASS0_HEADERDIR)\cierror.h \
+    $(MC_SOURCEDIR)\cierror.rc \
+    $(PASS0_HEADERDIR)\filterr.h \
+    $(MC_SOURCEDIR)\filterr.rc
+
+AMD64_OBJECTS=
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\ciodm.h \
+    $(PASS0_HEADERDIR)\filtntfy.h \
+    $(PASS0_HEADERDIR)\query.h \
+    $(PASS0_HEADERDIR)\indexsrv.h \
+    $(PASS0_HEADERDIR)\ciintf.h \
+    $(PASS0_HEADERDIR)\fsciclnt.h \
+    $(PASS0_HEADERDIR)\mparser.h \
+    $(PASS0_HEADERDIR)\filter.h \
+    $(PASS0_HEADERDIR)\cierror.h \
+    $(MC_SOURCEDIR)\cierror.rc \
+    $(PASS0_HEADERDIR)\filterr.h \
+    $(MC_SOURCEDIR)\filterr.rc
+
+ARM_OBJECTS=
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\ciodm.h \
+    $(PASS0_HEADERDIR)\filtntfy.h \
+    $(PASS0_HEADERDIR)\query.h \
+    $(PASS0_HEADERDIR)\indexsrv.h \
+    $(PASS0_HEADERDIR)\ciintf.h \
+    $(PASS0_HEADERDIR)\fsciclnt.h \
+    $(PASS0_HEADERDIR)\mparser.h \
+    $(PASS0_HEADERDIR)\filter.h \
+    $(PASS0_HEADERDIR)\cierror.h \
+    $(MC_SOURCEDIR)\cierror.rc \
+    $(PASS0_HEADERDIR)\filterr.h \
+    $(MC_SOURCEDIR)\filterr.rc
+

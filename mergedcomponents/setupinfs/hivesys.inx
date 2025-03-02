@@ -22,7 +22,7 @@ HKLM,"SYSTEM\CurrentControlSet\Control\PnP",,0x00000012
 ;
 ; Service Pack Data
 ;
-;HKLM,"SYSTEM\CurrentControlSet\Control\Windows","CSDVersion",0x00010001,0x100
+;HKLM,"SYSTEM\CurrentControlSet\Control\Windows","CSDVersion",0x00010001,0x300
 
 ;
 ; safeboot options

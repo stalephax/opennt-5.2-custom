@@ -1,0 +1,48 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certxds_i.obj \
+    $(_OBJ_DIR)\i386\certxds.res \
+    $(_OBJ_DIR)\i386\certxds.obj \
+    $(_OBJ_DIR)\i386\exit.obj \
+    $(_OBJ_DIR)\i386\module.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxds.h \
+    $(PASS0_HEADERDIR)\exitlog.h \
+    $(MC_SOURCEDIR)\exitlog.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certxds_i.obj \
+    $(_OBJ_DIR)\ia64\certxds.res \
+    $(_OBJ_DIR)\ia64\certxds.obj \
+    $(_OBJ_DIR)\ia64\exit.obj \
+    $(_OBJ_DIR)\ia64\module.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxds.h \
+    $(PASS0_HEADERDIR)\exitlog.h \
+    $(MC_SOURCEDIR)\exitlog.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certxds_i.obj \
+    $(_OBJ_DIR)\amd64\certxds.res \
+    $(_OBJ_DIR)\amd64\certxds.obj \
+    $(_OBJ_DIR)\amd64\exit.obj \
+    $(_OBJ_DIR)\amd64\module.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxds.h \
+    $(PASS0_HEADERDIR)\exitlog.h \
+    $(MC_SOURCEDIR)\exitlog.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certxds_i.obj \
+    $(_OBJ_DIR)\arm\certxds.res \
+    $(_OBJ_DIR)\arm\certxds.obj \
+    $(_OBJ_DIR)\arm\exit.obj \
+    $(_OBJ_DIR)\arm\module.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxds.h \
+    $(PASS0_HEADERDIR)\exitlog.h \
+    $(MC_SOURCEDIR)\exitlog.rc
+

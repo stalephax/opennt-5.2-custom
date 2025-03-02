@@ -1,0 +1,80 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\alloc.obj \
+    $(_OBJ_DIR)\i386\assert.obj \
+    $(_OBJ_DIR)\i386\autoenrl.obj \
+    $(_OBJ_DIR)\i386\cainfo.obj \
+    $(_OBJ_DIR)\i386\cainfoc.obj \
+    $(_OBJ_DIR)\i386\cainfop.obj \
+    $(_OBJ_DIR)\i386\certdec.obj \
+    $(_OBJ_DIR)\i386\certtype.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\deftypes.obj \
+    $(_OBJ_DIR)\i386\dstest.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\logon.obj \
+    $(_OBJ_DIR)\i386\oidmgr.obj \
+    $(_OBJ_DIR)\i386\ctnotify.obj \
+    $(_OBJ_DIR)\i386\serial.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\alloc.obj \
+    $(_OBJ_DIR)\ia64\assert.obj \
+    $(_OBJ_DIR)\ia64\autoenrl.obj \
+    $(_OBJ_DIR)\ia64\cainfo.obj \
+    $(_OBJ_DIR)\ia64\cainfoc.obj \
+    $(_OBJ_DIR)\ia64\cainfop.obj \
+    $(_OBJ_DIR)\ia64\certdec.obj \
+    $(_OBJ_DIR)\ia64\certtype.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\deftypes.obj \
+    $(_OBJ_DIR)\ia64\dstest.obj \
+    $(_OBJ_DIR)\ia64\error.obj \
+    $(_OBJ_DIR)\ia64\logon.obj \
+    $(_OBJ_DIR)\ia64\oidmgr.obj \
+    $(_OBJ_DIR)\ia64\ctnotify.obj \
+    $(_OBJ_DIR)\ia64\serial.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\alloc.obj \
+    $(_OBJ_DIR)\amd64\assert.obj \
+    $(_OBJ_DIR)\amd64\autoenrl.obj \
+    $(_OBJ_DIR)\amd64\cainfo.obj \
+    $(_OBJ_DIR)\amd64\cainfoc.obj \
+    $(_OBJ_DIR)\amd64\cainfop.obj \
+    $(_OBJ_DIR)\amd64\certdec.obj \
+    $(_OBJ_DIR)\amd64\certtype.obj \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\deftypes.obj \
+    $(_OBJ_DIR)\amd64\dstest.obj \
+    $(_OBJ_DIR)\amd64\error.obj \
+    $(_OBJ_DIR)\amd64\logon.obj \
+    $(_OBJ_DIR)\amd64\oidmgr.obj \
+    $(_OBJ_DIR)\amd64\ctnotify.obj \
+    $(_OBJ_DIR)\amd64\serial.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\alloc.obj \
+    $(_OBJ_DIR)\arm\assert.obj \
+    $(_OBJ_DIR)\arm\autoenrl.obj \
+    $(_OBJ_DIR)\arm\cainfo.obj \
+    $(_OBJ_DIR)\arm\cainfoc.obj \
+    $(_OBJ_DIR)\arm\cainfop.obj \
+    $(_OBJ_DIR)\arm\certdec.obj \
+    $(_OBJ_DIR)\arm\certtype.obj \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\deftypes.obj \
+    $(_OBJ_DIR)\arm\dstest.obj \
+    $(_OBJ_DIR)\arm\error.obj \
+    $(_OBJ_DIR)\arm\logon.obj \
+    $(_OBJ_DIR)\arm\oidmgr.obj \
+    $(_OBJ_DIR)\arm\ctnotify.obj \
+    $(_OBJ_DIR)\arm\serial.obj
+
+PASS0_ARM_OBJECTS=
+

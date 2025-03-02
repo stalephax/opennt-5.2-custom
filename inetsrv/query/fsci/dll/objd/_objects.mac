@@ -1,0 +1,72 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\fnreg.obj \
+    $(_OBJ_DIR)\i386\ciprop.obj \
+    $(_OBJ_DIR)\i386\defprop.obj \
+    $(_OBJ_DIR)\i386\dirstk.obj \
+    $(_OBJ_DIR)\i386\dllreg.obj \
+    $(_OBJ_DIR)\i386\exports.obj \
+    $(_OBJ_DIR)\i386\fatnot.obj \
+    $(_OBJ_DIR)\i386\metapenm.obj \
+    $(_OBJ_DIR)\i386\propret.obj \
+    $(_OBJ_DIR)\i386\qsession.obj \
+    $(_OBJ_DIR)\i386\scopeenm.obj \
+    $(_OBJ_DIR)\i386\seccache.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\vrtenum.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\fnreg.obj \
+    $(_OBJ_DIR)\ia64\ciprop.obj \
+    $(_OBJ_DIR)\ia64\defprop.obj \
+    $(_OBJ_DIR)\ia64\dirstk.obj \
+    $(_OBJ_DIR)\ia64\dllreg.obj \
+    $(_OBJ_DIR)\ia64\exports.obj \
+    $(_OBJ_DIR)\ia64\fatnot.obj \
+    $(_OBJ_DIR)\ia64\metapenm.obj \
+    $(_OBJ_DIR)\ia64\propret.obj \
+    $(_OBJ_DIR)\ia64\qsession.obj \
+    $(_OBJ_DIR)\ia64\scopeenm.obj \
+    $(_OBJ_DIR)\ia64\seccache.obj \
+    $(_OBJ_DIR)\ia64\service.obj \
+    $(_OBJ_DIR)\ia64\vrtenum.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\fnreg.obj \
+    $(_OBJ_DIR)\amd64\ciprop.obj \
+    $(_OBJ_DIR)\amd64\defprop.obj \
+    $(_OBJ_DIR)\amd64\dirstk.obj \
+    $(_OBJ_DIR)\amd64\dllreg.obj \
+    $(_OBJ_DIR)\amd64\exports.obj \
+    $(_OBJ_DIR)\amd64\fatnot.obj \
+    $(_OBJ_DIR)\amd64\metapenm.obj \
+    $(_OBJ_DIR)\amd64\propret.obj \
+    $(_OBJ_DIR)\amd64\qsession.obj \
+    $(_OBJ_DIR)\amd64\scopeenm.obj \
+    $(_OBJ_DIR)\amd64\seccache.obj \
+    $(_OBJ_DIR)\amd64\service.obj \
+    $(_OBJ_DIR)\amd64\vrtenum.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\fnreg.obj \
+    $(_OBJ_DIR)\arm\ciprop.obj \
+    $(_OBJ_DIR)\arm\defprop.obj \
+    $(_OBJ_DIR)\arm\dirstk.obj \
+    $(_OBJ_DIR)\arm\dllreg.obj \
+    $(_OBJ_DIR)\arm\exports.obj \
+    $(_OBJ_DIR)\arm\fatnot.obj \
+    $(_OBJ_DIR)\arm\metapenm.obj \
+    $(_OBJ_DIR)\arm\propret.obj \
+    $(_OBJ_DIR)\arm\qsession.obj \
+    $(_OBJ_DIR)\arm\scopeenm.obj \
+    $(_OBJ_DIR)\arm\seccache.obj \
+    $(_OBJ_DIR)\arm\service.obj \
+    $(_OBJ_DIR)\arm\vrtenum.obj
+
+PASS0_ARM_OBJECTS=
+

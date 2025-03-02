@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certif.obj \
+    $(_OBJ_DIR)\i386\cipolicy.obj \
+    $(_OBJ_DIR)\i386\ciexit.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certif.obj \
+    $(_OBJ_DIR)\ia64\cipolicy.obj \
+    $(_OBJ_DIR)\ia64\ciexit.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certif.obj \
+    $(_OBJ_DIR)\amd64\cipolicy.obj \
+    $(_OBJ_DIR)\amd64\ciexit.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certif.obj \
+    $(_OBJ_DIR)\arm\cipolicy.obj \
+    $(_OBJ_DIR)\arm\ciexit.obj
+
+PASS0_ARM_OBJECTS=
+

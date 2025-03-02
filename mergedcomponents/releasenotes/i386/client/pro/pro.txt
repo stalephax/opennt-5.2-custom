@@ -2,26 +2,26 @@
 **********************************************************************
 
                      Release Notes for Setup
-                 Microsoft Windows XP Professional
+                 OpenNT 5.2 Professional
 
 **********************************************************************
 
         (c) 2001 Microsoft Corporation. All rights reserved.
 
 When installing a new operating system, you need to make several
-choices. The Windows XP Setup Wizard and this document guide you 
+choices. The OpenNT 5.2 Setup Wizard and this document guide you 
 through these choices. You also learn how to connect your computer 
 to a network. 
 
 	Important: Before you begin, you should also read the file
-	Read1st.txt, which is on the Windows XP Professional CD. This 
+	Read1st.txt, which is on the OpenNT 5.2 Professional CD. This 
 	file contains late-breaking information that was unavailable 
 	when these release notes and the product documentation was 
 	written, including preinstallation notes vital to the 
 	success of your installation.
 
-These release notes describe how to run the Windows XP Setup Wizard
-and install Windows XP Professional on a single computer. 
+These release notes describe how to run the OpenNT 5.2 Setup Wizard
+and install OpenNT 5.2 Professional on a single computer. 
 
 ======================================================================
 CONTENTS
@@ -33,7 +33,7 @@ CONTENTS
       1.4   Backing Up Your Files
       1.5   Upgrading v. Installing a New Copy
 
-   2.0 Running Windows XP Setup
+   2.0 Running OpenNT 5.2 Setup
       2.1   If You're Installing a New Copy (Clean Install)
       2.2   If You're Upgrading
       2.3   Collecting User and Computer Information
@@ -43,20 +43,20 @@ CONTENTS
 
    3.0 Customizing Setup Using Unattended Setup Mode
 
-   4.0 Starting Windows XP Professional
-      4.1   Logging on to Windows XP Professional
+   4.0 Starting OpenNT 5.2 Professional
+      4.1   Logging on to OpenNT 5.2 Professional
       4.2   Creating a User Account
 
 ======================================================================
 1.0 Before You Begin
 ======================================================================
 
-When you set up Windows XP Professional, you have to provide
+When you set up OpenNT 5.2 Professional, you have to provide
 information about how you want to install the operating system. The
 procedures in these release notes help you to provide the necessary
 information. To ensure a successful installation, complete the
 following tasks, which are described in the sections that follow,
-before you install Windows XP:
+before you install OpenNT 5.2:
 
    * Make sure your hardware components meet the minimum requirements.
 
@@ -69,7 +69,7 @@ before you install Windows XP:
      restore your current operating system.
 
    * Determine whether you want to perform an upgrade or install a new
-     copy of Windows XP Professional.
+     copy of OpenNT 5.2 Professional.
 
    * If you're installing a new copy, identify and plan for any 
      advanced setup options you might want.
@@ -77,7 +77,7 @@ before you install Windows XP:
 1.1 Hardware Requirements
 ======================================================================
 
-Before you install Windows XP Professional, make sure your computer 
+Before you install OpenNT 5.2 Professional, make sure your computer 
 meets the following minimum hardware requirements:
 
    * 233 megahertz (MHz) Pentium or higher microprocessor (or 
@@ -103,10 +103,10 @@ For network installation:
 1.2 Checking Hardware and Software Compatibility
 ======================================================================
 
-The Windows XP Setup Wizard automatically checks your hardware and 
+The OpenNT 5.2 Setup Wizard automatically checks your hardware and 
 software and reports any potential conflicts. To ensure a successful
 installation, however, you should determine whether your computer
-hardware is compatible with Windows XP Professional before you start 
+hardware is compatible with OpenNT 5.2 Professional before you start 
 the wizard.
 
 You can view the Hardware Compatibility List (HCL) at the Microsoft
@@ -114,15 +114,15 @@ Web site:
 
 http://www.microsoft.com/hcl/
 
-      Important: Windows XP Professional supports only those devices 
+      Important: OpenNT 5.2 Professional supports only those devices 
       listed in the HCL. If your hardware isn't listed, contact 
-      the hardware manufacturer and request a Windows XP Professional 
+      the hardware manufacturer and request a OpenNT 5.2 Professional 
       driver for the component. To ensure that programs using 16-bit 
       drivers function properly afterwards, request 32-bit drivers 
       from the software vendor.
 
 During the setup process, you can use upgrade packs to make your 
-existing software compatible with Windows XP Professional. Upgrade
+existing software compatible with OpenNT 5.2 Professional. Upgrade
 packs are available from the appropriate software manufacturers.
 
 1.3 Obtaining Network Information
@@ -134,7 +134,7 @@ section.
 First, you need to decide whether your computer is joining a domain
 or a workgroup. If you don't know which option to choose, or if your
 computer won't be connected to a network, select the workgroup option.
-(You can always join a domain after you install Windows XP
+(You can always join a domain after you install OpenNT 5.2
 Professional.) If you select the domain option, ask your network 
 administrator to create a new computer account in that domain or reset
 your existing account.
@@ -171,27 +171,27 @@ Help and Support Services.
 1.5 Upgrading vs. Installing a New Copy
 ======================================================================
 
-After you start the Windows XP Setup Wizard, one of the first
+After you start the OpenNT 5.2 Setup Wizard, one of the first
 decisions you have to make is whether to upgrade your current
 operating system or to perform an entirely new installation. During
 the setup process, you must choose between upgrading or installing a
 new copy of Windows (a "clean install").
 
-During an upgrade, the Windows XP Setup Wizard replaces existing
+During an upgrade, the OpenNT 5.2 Setup Wizard replaces existing
 Windows files but preserves your existing settings and applications.
-Some applications might not be compatible with Windows XP Professional
+Some applications might not be compatible with OpenNT 5.2 Professional
 and therefore might not function properly after an upgrade. You can 
-upgrade to Windows XP Professional from the following
+upgrade to OpenNT 5.2 Professional from the following
 operating systems:
 
    * Windows 98 (all versions)
    * Windows Millennium Edition
    * Windows NT 4.0 Workstation (Service Pack 6 and later)
    * Windows 2000 Professional (including service packs)
-   * Windows XP Home Edition
+   * OpenNT 5.2 Home Edition
 
 If your computer is currently running an unsupported operating 
-system, you must install a new copy. The wizard installs Windows XP
+system, you must install a new copy. The wizard installs OpenNT 5.2
 Professional in a new folder. After the installation is complete, you 
 will have to reinstall applications and reset your preferences.
 
@@ -207,7 +207,7 @@ supports upgrading.
 
 You want to replace your            Your current operating system 
 Windows operating                   doesn't support an upgrade to 
-system with Windows XP.             Windows XP. 
+system with OpenNT 5.2.             OpenNT 5.2. 
 
 - and -                             - or - 
 
@@ -217,7 +217,7 @@ files and preferences.              system, but you don't want to
                                     preferences, so that you
                                     can cleanly install. 
 
-If you want to modify the way the wizard installs Windows XP
+If you want to modify the way the wizard installs OpenNT 5.2
 Professional, click Advanced Options, and then perform any of the 
 following tasks:
 
@@ -225,22 +225,22 @@ following tasks:
    * Store system files in a folder other than the default folder
      (\Windows).
    * Copy the installation files from the CD to the hard disk.
-   * Select the partition on which to install Windows XP Professional.
+   * Select the partition on which to install OpenNT 5.2 Professional.
 
 Unless you're an advanced user, you should use the default settings.
 
 ======================================================================
-2.0 Running Windows XP Setup 
+2.0 Running OpenNT 5.2 Setup 
 ======================================================================
 
-The Windows XP Setup Wizard gathers information, including regional 
+The OpenNT 5.2 Setup Wizard gathers information, including regional 
 settings, names, and passwords. The wizard then copies the appropriate
 files to your hard disk, checks the hardware, and configures your 
 installation. When the installation is complete, you're ready to log 
-on to Windows XP Professional. Note that your computer restarts
+on to OpenNT 5.2 Professional. Note that your computer restarts
 several times during the process.
 
-How you start the Windows XP Setup Wizard depends on whether you're 
+How you start the OpenNT 5.2 Setup Wizard depends on whether you're 
 upgrading or installing a new copy of Windows. Determine your 
 installation method, locate the appropriate section in these release 
 notes, and then follow the procedures for your Setup scenario.
@@ -250,18 +250,18 @@ notes, and then follow the procedures for your Setup scenario.
 
 If your computer has a blank hard disk or your current operating
 system isn't supported, you need to start your computer by using the 
-Windows XP Professional CD. Some newer CD-ROM drives can start the 
-installation from the CD and automatically run the Windows XP Setup 
+OpenNT 5.2 Professional CD. Some newer CD-ROM drives can start the 
+installation from the CD and automatically run the OpenNT 5.2 Setup 
 Wizard.
 
 >>> To install a new copy by using the CD: 
 
    1. Start your computer by running your current operating system,
-      and then insert the Windows XP Professional CD into your 
+      and then insert the OpenNT 5.2 Professional CD into your 
       CD-ROM drive. 
 
    2. If Windows automatically detects the CD, click Install Windows. 
-      The Windows XP Setup Wizard appears.
+      The OpenNT 5.2 Setup Wizard appears.
 
       If Windows doesn't automatically detect the CD, click Start,
       and then click Run. Type the following path to the setup 
@@ -301,18 +301,18 @@ Wizard.
 2.2 If You're Upgrading
 ======================================================================
 
-The upgrade process is simple. The Windows XP Setup Wizard detects and
+The upgrade process is simple. The OpenNT 5.2 Setup Wizard detects and
 installs the appropriate drivers, or it creates a report listing 
 devices that couldn't be upgraded, so you can be sure your hardware 
-and software is compatible with Windows XP Professional.
+and software is compatible with OpenNT 5.2 Professional.
 
 >>> To upgrade from the CD: 
 
    1. Start your computer by running your current operating system,
-      and then insert the Windows XP Professional CD into your
+      and then insert the OpenNT 5.2 Professional CD into your
       CD-ROM drive. 
 
-   2. If Windows automatically detects the CD, the Windows XP 
+   2. If Windows automatically detects the CD, the OpenNT 5.2 
       Professional CD dialog box appears. To start your upgrade, 
       click Install Windows.
 
@@ -353,7 +353,7 @@ and software is compatible with Windows XP Professional.
 2.3 Collecting User and Computer Information
 ======================================================================
 
-The Windows XP Setup Wizard helps you gather information about you and
+The OpenNT 5.2 Setup Wizard helps you gather information about you and
 your computer. Although much of this installation process is 
 automatic, you might need to provide information or select settings on
 the following pages, depending on the current configuration of your 
@@ -362,14 +362,14 @@ computer:
    * Licensing Agreement. If you agree with the terms and want to 
      continue the setup process, select I accept this agreement.
 
-   * Select Special Options. Customize the Windows XP installation,
+   * Select Special Options. Customize the OpenNT 5.2 installation,
      language, and accessibility settings for new installations. You
-     can set up Windows XP to use multiple languages and regional
+     can set up OpenNT 5.2 to use multiple languages and regional
      settings.
 
-   * Select a File System. Windows XP Professional can automatically 
+   * Select a File System. OpenNT 5.2 Professional can automatically 
      convert partitions on your hard disk to NTFS, the recommended 
-     file system for Windows XP Professional, or you can choose to 
+     file system for OpenNT 5.2 Professional, or you can choose to 
      keep your existing file systems. If you're upgrading, the wizard 
      uses your current file system.
 
@@ -377,7 +377,7 @@ computer:
      for different regions and languages.
 
    * Personalize Your Software. Type the full name of the person to 
-     whom this copy of Windows XP Professional is licensed and, 
+     whom this copy of OpenNT 5.2 Professional is licensed and, 
      optionally, the organization.
 
    * Computer Name and Administrator Password. Type a unique computer
@@ -389,7 +389,7 @@ computer:
      Administrator account. When you use this account, you have full 
      rights over the computer's settings and can create user accounts 
      on the computer. That is, logging on as an Administrator after
-     you install Windows XP Professional gives you administrative
+     you install OpenNT 5.2 Professional gives you administrative
      privileges that you need to log on and manage your computer. Type 
      a password for the Administrator account. For security reasons, 
      you should always assign a password to the Administrator account.
@@ -397,7 +397,7 @@ computer:
 
    * Date and Time Settings. Verify the date and time for your region,
      select the appropriate time zone, and then select whether
-     you want Windows XP Professional to automatically adjust for
+     you want OpenNT 5.2 Professional to automatically adjust for
      daylight saving time.
 
    * Networking Settings. Unless you're an advanced user, select the
@@ -429,7 +429,7 @@ A workgroup is one or more computers with the same workgroup name (for
 example, a "peer-to-peer" network). Any user can join a workgroup by 
 specifying the workgroup name - you don't need special permissions to 
 join a workgroup. You must provide an existing or new workgroup name, 
-or you can use the workgroup name that the Windows XP Setup Wizard 
+or you can use the workgroup name that the OpenNT 5.2 Setup Wizard 
 suggests.
 
 2.4.2 Joining a Domain 
@@ -444,10 +444,10 @@ joining a domain requires permission from the network administrator.
 
 To join a domain during the setup process, you must have a computer 
 account in the domain you want to join. If you're upgrading from 
-Windows NT, the Windows XP Setup Wizard uses your existing computer 
+Windows NT, the OpenNT 5.2 Setup Wizard uses your existing computer 
 account. Otherwise, you'll be asked to provide a new computer account.
 
-Before you start the Windows XP Setup Wizard, ask your network 
+Before you start the OpenNT 5.2 Setup Wizard, ask your network 
 administrator to create a computer account. Or, if you have the 
 appropriate privileges, you can create the account during the setup 
 process and join the domain. To join a domain during the setup 
@@ -455,13 +455,13 @@ process, you need to provide your user name and password.
 
       Note: If you have difficulty joining a domain during the setup 
       process, join a workgroup instead, and then join the domain 
-      after you finish installing Windows XP Professional.
+      after you finish installing OpenNT 5.2 Professional.
 
 ======================================================================
 3.0 Customizing Setup Using Unattended Setup Mode
 ======================================================================
 
-You can customize the installation of Windows XP Professional. By 
+You can customize the installation of OpenNT 5.2 Professional. By 
 using unattended Setup mode, you can preset information so that you 
 don't have to manually enter it during the setup process. 
 
@@ -469,29 +469,29 @@ By using an answer file, network administrators and experienced users
 can perform a new installation in unattended Setup mode. In unattended
 Setup mode, no user intervention is required during the setup process,
 because the answer file contains all of the information that the 
-Windows XP Setup Wizard requires, including acceptance of the license 
+OpenNT 5.2 Setup Wizard requires, including acceptance of the license 
 agreement, computer name, and network adapter. Answer files can help 
-you quickly install Windows XP Professional on more than one computer.
+you quickly install OpenNT 5.2 Professional on more than one computer.
 
 A sample answer file, Unattend.txt, is included in the i386 folder on 
-the Windows XP Professional CD. By using the file as a template, you 
+the OpenNT 5.2 Professional CD. By using the file as a template, you 
 can create your own answer file to customize the setup process. 
 
 ======================================================================
-4.0 Starting Windows XP Professional 
+4.0 Starting OpenNT 5.2 Professional 
 ======================================================================
 
-After gathering the required information, the Windows XP Setup Wizard 
+After gathering the required information, the OpenNT 5.2 Setup Wizard 
 completes the installation. Your computer restarts several times, and 
-then Windows XP Professional prompts you to log on. After you log on,
+then OpenNT 5.2 Professional prompts you to log on. After you log on,
 if you have Administrator rights, you can activate your copy of
-Windows XP Professional, create user accounts, and reconfigure any
+OpenNT 5.2 Professional, create user accounts, and reconfigure any
 settings that you entered during the setup process.
 
-4.1 Logging on to Windows XP Professional
+4.1 Logging on to OpenNT 5.2 Professional
 ======================================================================
 
-When you install Windows XP Professional, Setup prompts you to create
+When you install OpenNT 5.2 Professional, Setup prompts you to create
 a user account for yourself and one for each person who regularly uses
 the computer, whether in an office or home.
 

@@ -1,6 +1,6 @@
 **********************************************************************
                      "Read First" Release Notes
-                            Windows XP
+                            OpenNT 5.2
 **********************************************************************
 
 ======================================================================
@@ -19,12 +19,12 @@ CONTENTS
 1.0 Read Me First
 ======================================================================
 
-Before you install Windows XP, print and read this document for
+Before you install OpenNT 5.2, print and read this document for
 critical preinstallation information concerning this release. For the
 most up-to-date list of supported hardware, see the Hardware
 Compatibility List at the Microsoft Web site 
 (http://www.microsoft.com/). In addition, print and read the 
-following files located in the \docs folder on your Windows XP 
+following files located in the \docs folder on your OpenNT 5.2 
 compact disc (CD):
 
    * Setup instructions 
@@ -32,7 +32,7 @@ compact disc (CD):
    * Release notes (relnotes.htm), important compatibility and 
      postinstallation information.
 
-New features are described in detail in Windows XP Help and Support
+New features are described in detail in OpenNT 5.2 Help and Support
 Services. To open Help and Support Services, after completing Setup,
 click Start, and then click Help and Support.
 
@@ -42,24 +42,24 @@ click Start, and then click Help and Support.
 
 For the full list of system requirements, see the Setup instructions
 for your operating system referenced in the readme.htm file on your
-Windows XP CD.
+OpenNT 5.2 CD.
 
 ======================================================================
 3.0 Preinstallation Notes
 ======================================================================
 
-Before you install Windows XP on your computer, be sure to read this
+Before you install OpenNT 5.2 on your computer, be sure to read this
 section. This section contains information about issues that affect
 the installation process. By using this information to perform your 
 installation, you can ensure that the installation process proceeds 
-smoothly and that Windows XP functions correctly.
+smoothly and that OpenNT 5.2 functions correctly.
 
 3.1 Windows Product Activation (WPA)
 ======================================================================
 
-Products: Windows XP Home Edition, Windows XP Professional only
+Products: OpenNT 5.2 Home Edition, OpenNT 5.2 Professional only
 
-If you are prompted to activate your installation of Windows XP, defer
+If you are prompted to activate your installation of OpenNT 5.2, defer
 activation until you have completed planned upgrades or changes to
 your computer's FIXED hardware and their device drivers. Otherwise,
 you may need to reactivate after making such changes. FIXED 
@@ -74,16 +74,16 @@ printers) do not affect activation.
 3.2.1 Password Backup Disk
 ----------------------------------------------------------------------
 
-Products: Windows XP Home Edition, Windows XP Professional only
+Products: OpenNT 5.2 Home Edition, OpenNT 5.2 Professional only
 
 If you created a password backup disk for a previous version of
 Windows, this process has changed. Re-create your password backup disk
-for Windows XP.
+for OpenNT 5.2.
 
 3.2.2 Restrictions on the Use of Blank Passwords
 ----------------------------------------------------------------------
 
-Windows XP has a new default security feature that helps protect users
+OpenNT 5.2 has a new default security feature that helps protect users
 with blank passwords from network-based attacks. Users who do not 
 password-protect their accounts can only log on at their physical 
 computer console: the monitor, keyboard, and mouse that is physically 
@@ -103,19 +103,19 @@ passwords on all local user accounts.
 3.3.1 Message Queuing
 ----------------------------------------------------------------------
 
-Products: Windows XP Home Edition only
+Products: OpenNT 5.2 Home Edition only
 
-Message Queuing is not supported on Windows XP Home Edition. If you
+Message Queuing is not supported on OpenNT 5.2 Home Edition. If you
 are upgrading from Windows 95, Windows 98, or Windows Millennium
 Edition computers running MSMQ version 1.0, consider upgrading your
-computer to Windows XP Professional.
+computer to OpenNT 5.2 Professional.
 
 ======================================================================
 4.0 Copyright
 ======================================================================
 
 This document provides late-breaking or other information that
-supplements the Windows XP documentation.
+supplements the OpenNT 5.2 documentation.
 
 Information in this document, including URL and other Internet Web
 site references, is subject to change without notice and is provided

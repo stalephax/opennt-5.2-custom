@@ -1,0 +1,52 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\legacy_i.obj \
+    $(_OBJ_DIR)\i386\certadm.res \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\admin.obj \
+    $(_OBJ_DIR)\i386\backup.obj \
+    $(_OBJ_DIR)\i386\certadm.obj \
+    $(_OBJ_DIR)\i386\restore.obj \
+    $(_OBJ_DIR)\i386\manage.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\legacy.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\legacy_i.obj \
+    $(_OBJ_DIR)\ia64\certadm.res \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\admin.obj \
+    $(_OBJ_DIR)\ia64\backup.obj \
+    $(_OBJ_DIR)\ia64\certadm.obj \
+    $(_OBJ_DIR)\ia64\restore.obj \
+    $(_OBJ_DIR)\ia64\manage.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\legacy.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\legacy_i.obj \
+    $(_OBJ_DIR)\amd64\certadm.res \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\admin.obj \
+    $(_OBJ_DIR)\amd64\backup.obj \
+    $(_OBJ_DIR)\amd64\certadm.obj \
+    $(_OBJ_DIR)\amd64\restore.obj \
+    $(_OBJ_DIR)\amd64\manage.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\legacy.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\legacy_i.obj \
+    $(_OBJ_DIR)\arm\certadm.res \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\admin.obj \
+    $(_OBJ_DIR)\arm\backup.obj \
+    $(_OBJ_DIR)\arm\certadm.obj \
+    $(_OBJ_DIR)\arm\restore.obj \
+    $(_OBJ_DIR)\arm\manage.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\legacy.h
+

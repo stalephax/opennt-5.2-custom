@@ -1,0 +1,60 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certpdef_i.obj \
+    $(_OBJ_DIR)\i386\certpdef.res \
+    $(_OBJ_DIR)\i386\certpdef.obj \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\policy.obj \
+    $(_OBJ_DIR)\i386\module.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\template.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpdef.h \
+    $(PASS0_HEADERDIR)\pollog.h \
+    $(MC_SOURCEDIR)\pollog.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certpdef_i.obj \
+    $(_OBJ_DIR)\ia64\certpdef.res \
+    $(_OBJ_DIR)\ia64\certpdef.obj \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\policy.obj \
+    $(_OBJ_DIR)\ia64\module.obj \
+    $(_OBJ_DIR)\ia64\request.obj \
+    $(_OBJ_DIR)\ia64\template.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpdef.h \
+    $(PASS0_HEADERDIR)\pollog.h \
+    $(MC_SOURCEDIR)\pollog.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certpdef_i.obj \
+    $(_OBJ_DIR)\amd64\certpdef.res \
+    $(_OBJ_DIR)\amd64\certpdef.obj \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\policy.obj \
+    $(_OBJ_DIR)\amd64\module.obj \
+    $(_OBJ_DIR)\amd64\request.obj \
+    $(_OBJ_DIR)\amd64\template.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpdef.h \
+    $(PASS0_HEADERDIR)\pollog.h \
+    $(MC_SOURCEDIR)\pollog.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certpdef_i.obj \
+    $(_OBJ_DIR)\arm\certpdef.res \
+    $(_OBJ_DIR)\arm\certpdef.obj \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\policy.obj \
+    $(_OBJ_DIR)\arm\module.obj \
+    $(_OBJ_DIR)\arm\request.obj \
+    $(_OBJ_DIR)\arm\template.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpdef.h \
+    $(PASS0_HEADERDIR)\pollog.h \
+    $(MC_SOURCEDIR)\pollog.rc
+

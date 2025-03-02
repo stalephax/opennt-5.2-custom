@@ -1,0 +1,196 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\acl.obj \
+    $(_OBJ_DIR)\i386\admin.obj \
+    $(_OBJ_DIR)\i386\advapi32.obj \
+    $(_OBJ_DIR)\i386\backup.obj \
+    $(_OBJ_DIR)\i386\casd.obj \
+    $(_OBJ_DIR)\i386\certlib.obj \
+    $(_OBJ_DIR)\i386\certpick.obj \
+    $(_OBJ_DIR)\i386\certsd.obj \
+    $(_OBJ_DIR)\i386\check7f.obj \
+    $(_OBJ_DIR)\i386\ciexit.obj \
+    $(_OBJ_DIR)\i386\cipolicy.obj \
+    $(_OBJ_DIR)\i386\cnfgstg.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\crfile.obj \
+    $(_OBJ_DIR)\i386\crypt.obj \
+    $(_OBJ_DIR)\i386\cscsp.obj \
+    $(_OBJ_DIR)\i386\cslistvw.obj \
+    $(_OBJ_DIR)\i386\cspelog.obj \
+    $(_OBJ_DIR)\i386\cstring.obj \
+    $(_OBJ_DIR)\i386\csw97ppg.obj \
+    $(_OBJ_DIR)\i386\csw97sht.obj \
+    $(_OBJ_DIR)\i386\dcom.obj \
+    $(_OBJ_DIR)\i386\dispatch.obj \
+    $(_OBJ_DIR)\i386\exitdisp.obj \
+    $(_OBJ_DIR)\i386\inf.obj \
+    $(_OBJ_DIR)\i386\ldap.obj \
+    $(_OBJ_DIR)\i386\log.obj \
+    $(_OBJ_DIR)\i386\manage.obj \
+    $(_OBJ_DIR)\i386\mapi.obj \
+    $(_OBJ_DIR)\i386\multisz.obj \
+    $(_OBJ_DIR)\i386\officer.obj \
+    $(_OBJ_DIR)\i386\poldisp.obj \
+    $(_OBJ_DIR)\i386\progress.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\rwlock.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\tmpllist.obj \
+    $(_OBJ_DIR)\i386\tfc.obj \
+    $(_OBJ_DIR)\i386\tfcprop.obj \
+    $(_OBJ_DIR)\i386\view.obj \
+    $(_OBJ_DIR)\i386\viewattr.obj \
+    $(_OBJ_DIR)\i386\viewcol.obj \
+    $(_OBJ_DIR)\i386\viewext.obj \
+    $(_OBJ_DIR)\i386\viewrow.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\acl.obj \
+    $(_OBJ_DIR)\ia64\admin.obj \
+    $(_OBJ_DIR)\ia64\advapi32.obj \
+    $(_OBJ_DIR)\ia64\backup.obj \
+    $(_OBJ_DIR)\ia64\casd.obj \
+    $(_OBJ_DIR)\ia64\certlib.obj \
+    $(_OBJ_DIR)\ia64\certpick.obj \
+    $(_OBJ_DIR)\ia64\certsd.obj \
+    $(_OBJ_DIR)\ia64\check7f.obj \
+    $(_OBJ_DIR)\ia64\ciexit.obj \
+    $(_OBJ_DIR)\ia64\cipolicy.obj \
+    $(_OBJ_DIR)\ia64\cnfgstg.obj \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\crfile.obj \
+    $(_OBJ_DIR)\ia64\crypt.obj \
+    $(_OBJ_DIR)\ia64\cscsp.obj \
+    $(_OBJ_DIR)\ia64\cslistvw.obj \
+    $(_OBJ_DIR)\ia64\cspelog.obj \
+    $(_OBJ_DIR)\ia64\cstring.obj \
+    $(_OBJ_DIR)\ia64\csw97ppg.obj \
+    $(_OBJ_DIR)\ia64\csw97sht.obj \
+    $(_OBJ_DIR)\ia64\dcom.obj \
+    $(_OBJ_DIR)\ia64\dispatch.obj \
+    $(_OBJ_DIR)\ia64\exitdisp.obj \
+    $(_OBJ_DIR)\ia64\inf.obj \
+    $(_OBJ_DIR)\ia64\ldap.obj \
+    $(_OBJ_DIR)\ia64\log.obj \
+    $(_OBJ_DIR)\ia64\manage.obj \
+    $(_OBJ_DIR)\ia64\mapi.obj \
+    $(_OBJ_DIR)\ia64\multisz.obj \
+    $(_OBJ_DIR)\ia64\officer.obj \
+    $(_OBJ_DIR)\ia64\poldisp.obj \
+    $(_OBJ_DIR)\ia64\progress.obj \
+    $(_OBJ_DIR)\ia64\reg.obj \
+    $(_OBJ_DIR)\ia64\request.obj \
+    $(_OBJ_DIR)\ia64\rwlock.obj \
+    $(_OBJ_DIR)\ia64\string.obj \
+    $(_OBJ_DIR)\ia64\tmpllist.obj \
+    $(_OBJ_DIR)\ia64\tfc.obj \
+    $(_OBJ_DIR)\ia64\tfcprop.obj \
+    $(_OBJ_DIR)\ia64\view.obj \
+    $(_OBJ_DIR)\ia64\viewattr.obj \
+    $(_OBJ_DIR)\ia64\viewcol.obj \
+    $(_OBJ_DIR)\ia64\viewext.obj \
+    $(_OBJ_DIR)\ia64\viewrow.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\acl.obj \
+    $(_OBJ_DIR)\amd64\admin.obj \
+    $(_OBJ_DIR)\amd64\advapi32.obj \
+    $(_OBJ_DIR)\amd64\backup.obj \
+    $(_OBJ_DIR)\amd64\casd.obj \
+    $(_OBJ_DIR)\amd64\certlib.obj \
+    $(_OBJ_DIR)\amd64\certpick.obj \
+    $(_OBJ_DIR)\amd64\certsd.obj \
+    $(_OBJ_DIR)\amd64\check7f.obj \
+    $(_OBJ_DIR)\amd64\ciexit.obj \
+    $(_OBJ_DIR)\amd64\cipolicy.obj \
+    $(_OBJ_DIR)\amd64\cnfgstg.obj \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\crfile.obj \
+    $(_OBJ_DIR)\amd64\crypt.obj \
+    $(_OBJ_DIR)\amd64\cscsp.obj \
+    $(_OBJ_DIR)\amd64\cslistvw.obj \
+    $(_OBJ_DIR)\amd64\cspelog.obj \
+    $(_OBJ_DIR)\amd64\cstring.obj \
+    $(_OBJ_DIR)\amd64\csw97ppg.obj \
+    $(_OBJ_DIR)\amd64\csw97sht.obj \
+    $(_OBJ_DIR)\amd64\dcom.obj \
+    $(_OBJ_DIR)\amd64\dispatch.obj \
+    $(_OBJ_DIR)\amd64\exitdisp.obj \
+    $(_OBJ_DIR)\amd64\inf.obj \
+    $(_OBJ_DIR)\amd64\ldap.obj \
+    $(_OBJ_DIR)\amd64\log.obj \
+    $(_OBJ_DIR)\amd64\manage.obj \
+    $(_OBJ_DIR)\amd64\mapi.obj \
+    $(_OBJ_DIR)\amd64\multisz.obj \
+    $(_OBJ_DIR)\amd64\officer.obj \
+    $(_OBJ_DIR)\amd64\poldisp.obj \
+    $(_OBJ_DIR)\amd64\progress.obj \
+    $(_OBJ_DIR)\amd64\reg.obj \
+    $(_OBJ_DIR)\amd64\request.obj \
+    $(_OBJ_DIR)\amd64\rwlock.obj \
+    $(_OBJ_DIR)\amd64\string.obj \
+    $(_OBJ_DIR)\amd64\tmpllist.obj \
+    $(_OBJ_DIR)\amd64\tfc.obj \
+    $(_OBJ_DIR)\amd64\tfcprop.obj \
+    $(_OBJ_DIR)\amd64\view.obj \
+    $(_OBJ_DIR)\amd64\viewattr.obj \
+    $(_OBJ_DIR)\amd64\viewcol.obj \
+    $(_OBJ_DIR)\amd64\viewext.obj \
+    $(_OBJ_DIR)\amd64\viewrow.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\acl.obj \
+    $(_OBJ_DIR)\arm\admin.obj \
+    $(_OBJ_DIR)\arm\advapi32.obj \
+    $(_OBJ_DIR)\arm\backup.obj \
+    $(_OBJ_DIR)\arm\casd.obj \
+    $(_OBJ_DIR)\arm\certlib.obj \
+    $(_OBJ_DIR)\arm\certpick.obj \
+    $(_OBJ_DIR)\arm\certsd.obj \
+    $(_OBJ_DIR)\arm\check7f.obj \
+    $(_OBJ_DIR)\arm\ciexit.obj \
+    $(_OBJ_DIR)\arm\cipolicy.obj \
+    $(_OBJ_DIR)\arm\cnfgstg.obj \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\crfile.obj \
+    $(_OBJ_DIR)\arm\crypt.obj \
+    $(_OBJ_DIR)\arm\cscsp.obj \
+    $(_OBJ_DIR)\arm\cslistvw.obj \
+    $(_OBJ_DIR)\arm\cspelog.obj \
+    $(_OBJ_DIR)\arm\cstring.obj \
+    $(_OBJ_DIR)\arm\csw97ppg.obj \
+    $(_OBJ_DIR)\arm\csw97sht.obj \
+    $(_OBJ_DIR)\arm\dcom.obj \
+    $(_OBJ_DIR)\arm\dispatch.obj \
+    $(_OBJ_DIR)\arm\exitdisp.obj \
+    $(_OBJ_DIR)\arm\inf.obj \
+    $(_OBJ_DIR)\arm\ldap.obj \
+    $(_OBJ_DIR)\arm\log.obj \
+    $(_OBJ_DIR)\arm\manage.obj \
+    $(_OBJ_DIR)\arm\mapi.obj \
+    $(_OBJ_DIR)\arm\multisz.obj \
+    $(_OBJ_DIR)\arm\officer.obj \
+    $(_OBJ_DIR)\arm\poldisp.obj \
+    $(_OBJ_DIR)\arm\progress.obj \
+    $(_OBJ_DIR)\arm\reg.obj \
+    $(_OBJ_DIR)\arm\request.obj \
+    $(_OBJ_DIR)\arm\rwlock.obj \
+    $(_OBJ_DIR)\arm\string.obj \
+    $(_OBJ_DIR)\arm\tmpllist.obj \
+    $(_OBJ_DIR)\arm\tfc.obj \
+    $(_OBJ_DIR)\arm\tfcprop.obj \
+    $(_OBJ_DIR)\arm\view.obj \
+    $(_OBJ_DIR)\arm\viewattr.obj \
+    $(_OBJ_DIR)\arm\viewcol.obj \
+    $(_OBJ_DIR)\arm\viewext.obj \
+    $(_OBJ_DIR)\arm\viewrow.obj
+
+PASS0_ARM_OBJECTS=
+

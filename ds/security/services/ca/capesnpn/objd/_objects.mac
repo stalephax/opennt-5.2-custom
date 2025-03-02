@@ -1,0 +1,64 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\resource.res \
+    $(_OBJ_DIR)\i386\csnapin.obj \
+    $(_OBJ_DIR)\i386\compdata.obj \
+    $(_OBJ_DIR)\i386\dataobj.obj \
+    $(_OBJ_DIR)\i386\about.obj \
+    $(_OBJ_DIR)\i386\ctshlext.obj \
+    $(_OBJ_DIR)\i386\events.obj \
+    $(_OBJ_DIR)\i386\genpage.obj \
+    $(_OBJ_DIR)\i386\uuids.obj \
+    $(_OBJ_DIR)\i386\service.obj \
+    $(_OBJ_DIR)\i386\snapin.obj \
+    $(_OBJ_DIR)\i386\misc.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\resource.res \
+    $(_OBJ_DIR)\ia64\csnapin.obj \
+    $(_OBJ_DIR)\ia64\compdata.obj \
+    $(_OBJ_DIR)\ia64\dataobj.obj \
+    $(_OBJ_DIR)\ia64\about.obj \
+    $(_OBJ_DIR)\ia64\ctshlext.obj \
+    $(_OBJ_DIR)\ia64\events.obj \
+    $(_OBJ_DIR)\ia64\genpage.obj \
+    $(_OBJ_DIR)\ia64\uuids.obj \
+    $(_OBJ_DIR)\ia64\service.obj \
+    $(_OBJ_DIR)\ia64\snapin.obj \
+    $(_OBJ_DIR)\ia64\misc.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\resource.res \
+    $(_OBJ_DIR)\amd64\csnapin.obj \
+    $(_OBJ_DIR)\amd64\compdata.obj \
+    $(_OBJ_DIR)\amd64\dataobj.obj \
+    $(_OBJ_DIR)\amd64\about.obj \
+    $(_OBJ_DIR)\amd64\ctshlext.obj \
+    $(_OBJ_DIR)\amd64\events.obj \
+    $(_OBJ_DIR)\amd64\genpage.obj \
+    $(_OBJ_DIR)\amd64\uuids.obj \
+    $(_OBJ_DIR)\amd64\service.obj \
+    $(_OBJ_DIR)\amd64\snapin.obj \
+    $(_OBJ_DIR)\amd64\misc.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\resource.res \
+    $(_OBJ_DIR)\arm\csnapin.obj \
+    $(_OBJ_DIR)\arm\compdata.obj \
+    $(_OBJ_DIR)\arm\dataobj.obj \
+    $(_OBJ_DIR)\arm\about.obj \
+    $(_OBJ_DIR)\arm\ctshlext.obj \
+    $(_OBJ_DIR)\arm\events.obj \
+    $(_OBJ_DIR)\arm\genpage.obj \
+    $(_OBJ_DIR)\arm\uuids.obj \
+    $(_OBJ_DIR)\arm\service.obj \
+    $(_OBJ_DIR)\arm\snapin.obj \
+    $(_OBJ_DIR)\arm\misc.obj
+
+PASS0_ARM_OBJECTS=
+

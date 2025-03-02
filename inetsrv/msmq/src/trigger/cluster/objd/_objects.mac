@@ -1,0 +1,44 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\trigres.res \
+    $(_OBJ_DIR)\i386\trigres_i_.obj \
+    $(_OBJ_DIR)\i386\trigres.obj \
+    $(_OBJ_DIR)\i386\cluscfg.obj \
+    $(_OBJ_DIR)\i386\trigclus.obj \
+    $(_OBJ_DIR)\i386\trigclusp.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\trigres.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\trigres.res \
+    $(_OBJ_DIR)\ia64\trigres_i_.obj \
+    $(_OBJ_DIR)\ia64\trigres.obj \
+    $(_OBJ_DIR)\ia64\cluscfg.obj \
+    $(_OBJ_DIR)\ia64\trigclus.obj \
+    $(_OBJ_DIR)\ia64\trigclusp.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\trigres.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\trigres.res \
+    $(_OBJ_DIR)\amd64\trigres_i_.obj \
+    $(_OBJ_DIR)\amd64\trigres.obj \
+    $(_OBJ_DIR)\amd64\cluscfg.obj \
+    $(_OBJ_DIR)\amd64\trigclus.obj \
+    $(_OBJ_DIR)\amd64\trigclusp.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\trigres.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\trigres.res \
+    $(_OBJ_DIR)\arm\trigres_i_.obj \
+    $(_OBJ_DIR)\arm\trigres.obj \
+    $(_OBJ_DIR)\arm\cluscfg.obj \
+    $(_OBJ_DIR)\arm\trigclus.obj \
+    $(_OBJ_DIR)\arm\trigclusp.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\trigres.h
+

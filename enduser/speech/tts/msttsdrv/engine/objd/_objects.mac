@@ -1,0 +1,112 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\spttseng.res \
+    $(_OBJ_DIR)\i386\spttseng.obj \
+    $(_OBJ_DIR)\i386\alloops.obj \
+    $(_OBJ_DIR)\i386\backend.obj \
+    $(_OBJ_DIR)\i386\data.obj \
+    $(_OBJ_DIR)\i386\duration.obj \
+    $(_OBJ_DIR)\i386\frontend.obj \
+    $(_OBJ_DIR)\i386\alphanorm.obj \
+    $(_OBJ_DIR)\i386\datenorm.obj \
+    $(_OBJ_DIR)\i386\disambig.obj \
+    $(_OBJ_DIR)\i386\mainnorm.obj \
+    $(_OBJ_DIR)\i386\miscdata.obj \
+    $(_OBJ_DIR)\i386\miscnorm.obj \
+    $(_OBJ_DIR)\i386\morph.obj \
+    $(_OBJ_DIR)\i386\normdata.obj \
+    $(_OBJ_DIR)\i386\numnorm.obj \
+    $(_OBJ_DIR)\i386\pitchprosody.obj \
+    $(_OBJ_DIR)\i386\reverbfx.obj \
+    $(_OBJ_DIR)\i386\stdsentenum.obj \
+    $(_OBJ_DIR)\i386\syllabletagger.obj \
+    $(_OBJ_DIR)\i386\timenorm.obj \
+    $(_OBJ_DIR)\i386\ttsengine.obj \
+    $(_OBJ_DIR)\i386\voicedataobj.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\spttseng.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\spttseng.res \
+    $(_OBJ_DIR)\ia64\spttseng.obj \
+    $(_OBJ_DIR)\ia64\alloops.obj \
+    $(_OBJ_DIR)\ia64\backend.obj \
+    $(_OBJ_DIR)\ia64\data.obj \
+    $(_OBJ_DIR)\ia64\duration.obj \
+    $(_OBJ_DIR)\ia64\frontend.obj \
+    $(_OBJ_DIR)\ia64\alphanorm.obj \
+    $(_OBJ_DIR)\ia64\datenorm.obj \
+    $(_OBJ_DIR)\ia64\disambig.obj \
+    $(_OBJ_DIR)\ia64\mainnorm.obj \
+    $(_OBJ_DIR)\ia64\miscdata.obj \
+    $(_OBJ_DIR)\ia64\miscnorm.obj \
+    $(_OBJ_DIR)\ia64\morph.obj \
+    $(_OBJ_DIR)\ia64\normdata.obj \
+    $(_OBJ_DIR)\ia64\numnorm.obj \
+    $(_OBJ_DIR)\ia64\pitchprosody.obj \
+    $(_OBJ_DIR)\ia64\reverbfx.obj \
+    $(_OBJ_DIR)\ia64\stdsentenum.obj \
+    $(_OBJ_DIR)\ia64\syllabletagger.obj \
+    $(_OBJ_DIR)\ia64\timenorm.obj \
+    $(_OBJ_DIR)\ia64\ttsengine.obj \
+    $(_OBJ_DIR)\ia64\voicedataobj.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\spttseng.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\spttseng.res \
+    $(_OBJ_DIR)\amd64\spttseng.obj \
+    $(_OBJ_DIR)\amd64\alloops.obj \
+    $(_OBJ_DIR)\amd64\backend.obj \
+    $(_OBJ_DIR)\amd64\data.obj \
+    $(_OBJ_DIR)\amd64\duration.obj \
+    $(_OBJ_DIR)\amd64\frontend.obj \
+    $(_OBJ_DIR)\amd64\alphanorm.obj \
+    $(_OBJ_DIR)\amd64\datenorm.obj \
+    $(_OBJ_DIR)\amd64\disambig.obj \
+    $(_OBJ_DIR)\amd64\mainnorm.obj \
+    $(_OBJ_DIR)\amd64\miscdata.obj \
+    $(_OBJ_DIR)\amd64\miscnorm.obj \
+    $(_OBJ_DIR)\amd64\morph.obj \
+    $(_OBJ_DIR)\amd64\normdata.obj \
+    $(_OBJ_DIR)\amd64\numnorm.obj \
+    $(_OBJ_DIR)\amd64\pitchprosody.obj \
+    $(_OBJ_DIR)\amd64\reverbfx.obj \
+    $(_OBJ_DIR)\amd64\stdsentenum.obj \
+    $(_OBJ_DIR)\amd64\syllabletagger.obj \
+    $(_OBJ_DIR)\amd64\timenorm.obj \
+    $(_OBJ_DIR)\amd64\ttsengine.obj \
+    $(_OBJ_DIR)\amd64\voicedataobj.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\spttseng.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\spttseng.res \
+    $(_OBJ_DIR)\arm\spttseng.obj \
+    $(_OBJ_DIR)\arm\alloops.obj \
+    $(_OBJ_DIR)\arm\backend.obj \
+    $(_OBJ_DIR)\arm\data.obj \
+    $(_OBJ_DIR)\arm\duration.obj \
+    $(_OBJ_DIR)\arm\frontend.obj \
+    $(_OBJ_DIR)\arm\alphanorm.obj \
+    $(_OBJ_DIR)\arm\datenorm.obj \
+    $(_OBJ_DIR)\arm\disambig.obj \
+    $(_OBJ_DIR)\arm\mainnorm.obj \
+    $(_OBJ_DIR)\arm\miscdata.obj \
+    $(_OBJ_DIR)\arm\miscnorm.obj \
+    $(_OBJ_DIR)\arm\morph.obj \
+    $(_OBJ_DIR)\arm\normdata.obj \
+    $(_OBJ_DIR)\arm\numnorm.obj \
+    $(_OBJ_DIR)\arm\pitchprosody.obj \
+    $(_OBJ_DIR)\arm\reverbfx.obj \
+    $(_OBJ_DIR)\arm\stdsentenum.obj \
+    $(_OBJ_DIR)\arm\syllabletagger.obj \
+    $(_OBJ_DIR)\arm\timenorm.obj \
+    $(_OBJ_DIR)\arm\ttsengine.obj \
+    $(_OBJ_DIR)\arm\voicedataobj.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\spttseng.h
+

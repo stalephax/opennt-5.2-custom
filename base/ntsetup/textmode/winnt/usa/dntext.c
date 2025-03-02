@@ -53,16 +53,16 @@ CHAR DntPcDos[]       = "PC-DOS";
 CHAR DntOs2[]         = "OS/2";
 CHAR DntPreviousOs[]  = "Previous Operating System on C:";
 
-CHAR DntBootIniLine[] = "Windows Installation/Upgrade";
+CHAR DntBootIniLine[] = "OpenNT Installation/Upgrade";
 
 //
 // Plain text, status msgs.
 //
 
-CHAR DntStandardHeader[]      = "\n Windows Setup\nออออออออออออออออออออออออ";
-CHAR DntPersonalHeader[]      = "\n Windows Setup\nออออออออออออออออออออออออออออออออ";
-CHAR DntWorkstationHeader[]   = "\n Windows Setup\nอออออออออออออออออออออออออออออออออ";
-CHAR DntServerHeader[]        = "\n Windows Setup\nออออออออออออออออออออออออออออออ";
+CHAR DntStandardHeader[]      = "\n OpenNT Setup\nออออออออออออออออออออออออ";
+CHAR DntPersonalHeader[]      = "\n OpenNT Setup\nออออออออออออออออออออออออออออออออ";
+CHAR DntWorkstationHeader[]   = "\n OpenNT Setup\nอออออออออออออออออออออออออออออออออ";
+CHAR DntServerHeader[]        = "\n OpenNT Setup\nออออออออออออออออออออออออออออออ";
 CHAR DntParsingArgs[]         = "Parsing arguments...";
 CHAR DntEnterEqualsExit[]     = "ENTER=Exit";
 CHAR DntEnterEqualsRetry[]    = "ENTER=Retry";
@@ -106,7 +106,7 @@ CHAR DntEmptyString[] = "";
 
 PCHAR DntUsage[] = {
 
-    "Sets up Windows.",
+    "Sets up OpenNT.",
     "",
     "",
     "WINNT [/s[:sourcepath]] [/t[:tempdrive]]",
@@ -115,13 +115,13 @@ PCHAR DntUsage[] = {
     "",
     "",
     "/s[:sourcepath]",
-    "   Specifies the source location of the Windows files.",
+    "   Specifies the source location of the OpenNT files.",
     "   The location must be a full path of the form x:[path] or ",
     "   \\\\server\\share[path]. ",
     "",
     "/t[:tempdrive]",
     "   Directs Setup to place temporary files on the specified",
-    "   drive and to install Windows on that drive. If you do ",
+    "   drive and to install OpenNT on that drive. If you do ",
     "   do not specify a location, Setup attempts to locate a drive ",
     "   for you.",
     "",
@@ -158,7 +158,7 @@ PCHAR DntUsage[] = {
 //
 PCHAR DntUsageNoSlashD[] = {
 
-    "Installs Windows.",
+    "Installs OpenNT.",
     "",
     "WINNT [/S[:]sourcepath] [/T[:]tempdrive] [/I[:]inffile]",
     "      [[/U[:scriptfile]]",
@@ -205,8 +205,8 @@ DnsAccessibilityOptions = { 3, 5,
 
 SCREEN
 DnsNoShareGiven = { 3,5,
-{ "Setup needs to know where the Windows files are located.",
-  "Enter the path where Windows files are to be found.",
+{ "Setup needs to know where the OpenNT files are located.",
+  "Enter the path where OpenNT files are to be found.",
   NULL
 }
 };
@@ -219,7 +219,7 @@ DnsNoShareGiven = { 3,5,
 SCREEN
 DnsBadSource = { 3,5,
                  { "The source specified is not valid, not accessible, or does not contain a",
-                   "valid Windows Setup installation.  Enter a new path where Windows",
+                   "valid OpenNT Setup installation.  Enter a new path where OpenNT",
                    "files are to be found.  Use the BACKSPACE key to delete characters and then",
                    "type the path.",
                    NULL
@@ -261,10 +261,10 @@ DnsBadLocalSrcDrive = { 3,4,
 //
 SCREEN
 DnsNoLocalSrcDrives = { 3,4,
-{  "Windows requires a hard drive volume with at least %u megabytes",
+{  "OpenNT requires a hard drive volume with at least %u megabytes",
    "(%lu bytes) of free disk space. Setup will use part of this space",
    "for storing temporary files during installation. The drive must be",
-   "on a permanently attached local hard disk supported by Windows,",
+   "on a permanently attached local hard disk supported by OpenNT,",
    "and must not be a compressed drive.",
    DntEmptyString,
    "Setup was unable to locate such a drive with the required amount of free",
@@ -358,7 +358,7 @@ SCREEN DnsSureSkipFile = { 4,5,
    "  Press X to skip this file.",
    DntEmptyString,
    "Note: If you skip the file, Setup cannot guarantee",
-   "successful installation or upgrade of Windows.",
+   "successful installation or upgrade of OpenNT.",
   NULL
 }
 };
@@ -397,12 +397,12 @@ DnsWaitCopyFlop= { 13,6,
 SCREEN
 DnsNeedFloppyDisk3_0 = { 4,4,
 {  "Setup requires you to provide four formatted, blank high-density floppy",
-   "disks. Setup will refer to these disks as \"Windows Setup",
-   "Boot Disk,\" \"Windows Setup Disk #2,\" \"Windows",
-   " Setup Disk #3\" and \"Windows Setup Disk #4.\"",
+   "disks. Setup will refer to these disks as \"OpenNT Setup",
+   "Boot Disk,\" \"OpenNT Setup Disk #2,\" \"OpenNT",
+   " Setup Disk #3\" and \"OpenNT Setup Disk #4.\"",
    DntEmptyString,
    "Please insert one of these four disks into drive A:.",
-   "This disk will become \"Windows Setup Disk #4.\"",
+   "This disk will become \"OpenNT Setup Disk #4.\"",
   NULL
 }
 };
@@ -410,7 +410,7 @@ DnsNeedFloppyDisk3_0 = { 4,4,
 SCREEN
 DnsNeedFloppyDisk3_1 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #4.\"",
+   "This disk will become \"OpenNT Setup Disk #4.\"",
   NULL
 }
 };
@@ -418,7 +418,7 @@ DnsNeedFloppyDisk3_1 = { 4,4,
 SCREEN
 DnsNeedFloppyDisk2_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #3.\"",
+   "This disk will become \"OpenNT Setup Disk #3.\"",
   NULL
 }
 };
@@ -426,7 +426,7 @@ DnsNeedFloppyDisk2_0 = { 4,4,
 SCREEN
 DnsNeedFloppyDisk1_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #2.\"",
+   "This disk will become \"OpenNT Setup Disk #2.\"",
   NULL
 }
 };
@@ -434,7 +434,7 @@ DnsNeedFloppyDisk1_0 = { 4,4,
 SCREEN
 DnsNeedFloppyDisk0_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Boot Disk.\"",
+   "This disk will become \"OpenNT Setup Boot Disk.\"",
   NULL
 }
 };
@@ -442,12 +442,12 @@ DnsNeedFloppyDisk0_0 = { 4,4,
 SCREEN
 DnsNeedSFloppyDsk3_0 = { 4,4,
 {  "Setup requires you to provide four formatted, blank high-density floppy",
-   "disks. Setup will refer to these disks as \"Windows Setup",
-   "Boot Disk,\" \"Windows Setup Disk #2,\" \"Windows",
-   "Setup Disk #3,\" and \"Windows Setup Disk #4.\"",
+   "disks. Setup will refer to these disks as \"OpenNT Setup",
+   "Boot Disk,\" \"OpenNT Setup Disk #2,\" \"OpenNT",
+   "Setup Disk #3,\" and \"OpenNT Setup Disk #4.\"",
    DntEmptyString,
    "Please insert one of these four disks into drive A:.",
-   "This disk will become \"Windows Setup Disk #4.\"",
+   "This disk will become \"OpenNT Setup Disk #4.\"",
   NULL
 }
 };
@@ -455,7 +455,7 @@ DnsNeedSFloppyDsk3_0 = { 4,4,
 SCREEN
 DnsNeedSFloppyDsk3_1 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #4.\"",
+   "This disk will become \"OpenNT Setup Disk #4.\"",
   NULL
 }
 };
@@ -463,7 +463,7 @@ DnsNeedSFloppyDsk3_1 = { 4,4,
 SCREEN
 DnsNeedSFloppyDsk2_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #3.\"",
+   "This disk will become \"OpenNT Setup Disk #3.\"",
   NULL
 }
 };
@@ -471,7 +471,7 @@ DnsNeedSFloppyDsk2_0 = { 4,4,
 SCREEN
 DnsNeedSFloppyDsk1_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Disk #2.\"",
+   "This disk will become \"OpenNT Setup Disk #2.\"",
   NULL
 }
 };
@@ -479,7 +479,7 @@ DnsNeedSFloppyDsk1_0 = { 4,4,
 SCREEN
 DnsNeedSFloppyDsk0_0 = { 4,4,
 {  "Please insert a formatted, blank high-density floppy disk into drive A:.",
-   "This disk will become \"Windows Setup Boot Disk.\"",
+   "This disk will become \"OpenNT Setup Boot Disk.\"",
   NULL
 }
 };
@@ -579,9 +579,9 @@ DnsCantWriteFloppy = { 3,5,
 SCREEN
 DnsExitDialog = { 13,6,
                   { "ษออออออออออออออออออออออออออออออออออออออออออออออออออออป",
-                    "บ  Windows is not completely set up on your          บ",
+                    "บ  OpenNT is not completely set up on your          บ",
                     "บ  computer. If you quit Setup now, you will need    บ",
-                    "บ  to run Setup again to set up Windows.             บ",
+                    "บ  to run Setup again to set up OpenNT.             บ",
                     "บ                                                    บ",
                     "บ      Press ENTER to continue Setup.               บ",
                     "บ      Press F3 to quit Setup.                      บ",
@@ -602,12 +602,12 @@ DnsAboutToRebootW =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "Setup will now restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
-  "Ensure that the floppy you provided as \"Windows Setup",
+  "Ensure that the floppy you provided as \"OpenNT Setup",
   "Boot Disk\" is inserted into drive A: before continuing.",
   DntEmptyString,
-  "Press ENTER to restart your computer and continue Windows Setup.",
+  "Press ENTER to restart your computer and continue OpenNT Setup.",
   NULL
 }
 },
@@ -615,12 +615,12 @@ DnsAboutToRebootS =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "Setup will now restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
-  "Ensure that the floppy you provided as \"Windows Setup",
+  "Ensure that the floppy you provided as \"OpenNT Setup",
   "Boot Disk\" is inserted into drive A: before continuing.",
   DntEmptyString,
-  "Press ENTER to restart your computer and continue Windows Setup.",
+  "Press ENTER to restart your computer and continue OpenNT Setup.",
   NULL
 }
 },
@@ -628,17 +628,17 @@ DnsAboutToRebootX =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "Setup will now restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
   "If there is a floppy disk in drive A:, remove it now.",
   DntEmptyString,
-  "Press ENTER to restart your computer and continue Windows Setup.",
+  "Press ENTER to restart your computer and continue OpenNT Setup.",
   NULL
 }
 };
 
 //
-// Need another set for '/w' switch since we can't reboot from within Windows.
+// Need another set for '/w' switch since we can't reboot from within OpenNT.
 //
 
 SCREEN
@@ -646,13 +646,13 @@ DnsAboutToExitW =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "You will now need to restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
-  "Ensure that the floppy you provided as \"Windows Setup",
+  "Ensure that the floppy you provided as \"OpenNT Setup",
   "Boot Disk\" is inserted into drive A: before continuing.",
   DntEmptyString,
   "Press ENTER to return to MS-DOS, then restart your computer to continue",
-  "Windows Setup.",
+  "OpenNT Setup.",
   NULL
 }
 },
@@ -660,13 +660,13 @@ DnsAboutToExitS =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "You will now need to restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
-  "Ensure that the floppy you provided as \"Windows Setup",
+  "Ensure that the floppy you provided as \"OpenNT Setup",
   "Boot Disk\" is inserted into drive A: before continuing.",
   DntEmptyString,
   "Press ENTER to return to MS-DOS, then restart your computer to continue",
-  "Windows Setup.",
+  "OpenNT Setup.",
   NULL
 }
 },
@@ -674,12 +674,12 @@ DnsAboutToExitX =
 { 3,5,
 { "The MS-DOS based portion of Setup is complete.",
   "You will now need to restart your computer. After your computer restarts,",
-  "Windows Setup will continue.",
+  "OpenNT Setup will continue.",
   DntEmptyString,
   "If there is a floppy disk in drive A:, remove it now.",
   DntEmptyString,
   "Press ENTER to return to MS-DOS, then restart your computer to continue",
-  "Windows Setup.",
+  "OpenNT Setup.",
   NULL
 }
 };
@@ -723,7 +723,7 @@ DnsRequiresFloppy = { 3,5,
   "a high-density 3.5\" drive. An A: drive with a capacity of 1.44 Megabytes",
   "or higher is required for Setup operation with floppies.",
   DntEmptyString,
-  "To install Windows without using floppies, restart this program",
+  "To install OpenNT without using floppies, restart this program",
   "and specify /b on the command line.",
 #endif
   NULL
@@ -732,13 +732,13 @@ DnsRequiresFloppy = { 3,5,
 
 DnsRequires486 = { 3,5,
 { "Setup has determined that this computer does not contain an 80486 or",
-  "later CPU. Windows cannot run on this computer.",
+  "later CPU. OpenNT cannot run on this computer.",
   NULL
 }
 },
 
 DnsCantRunOnNt = { 3,5,
-{ "This program does not run on any 32-bit version of Windows.",
+{ "This program does not run on any 32-bit version of OpenNT.",
   DntEmptyString,
   "Use WINNT32.EXE instead.",
   NULL
@@ -747,7 +747,7 @@ DnsCantRunOnNt = { 3,5,
 
 DnsNotEnoughMemory = { 3,5,
 { "Setup has determined that there is not enough memory installed in",
-  "this computer for Windows.",
+  "this computer for OpenNT.",
   DntEmptyString,
   "Memory required: %lu%s MB",
   "Memory detected: %lu%s MB",
@@ -761,15 +761,15 @@ DnsNotEnoughMemory = { 3,5,
 //
 SCREEN
 DnsConfirmRemoveNt = { 5,5,
-{   "You have asked Setup to remove Windows files from the directory",
-    "named below. The Windows installation in this directory will be",
+{   "You have asked Setup to remove OpenNT files from the directory",
+    "named below. The OpenNT installation in this directory will be",
     "permanently destroyed.",
     DntEmptyString,
     "%s",
     DntEmptyString,
     DntEmptyString,
     "  Press F3 to exit Setup without removing any files.",
-    "  Press X to remove Windows files from the above directory.",
+    "  Press X to remove OpenNT files from the above directory.",
     NULL
 }
 },
@@ -779,7 +779,7 @@ DnsCantOpenLogFile = { 3,5,
   DntEmptyString,
   "%s",
   DntEmptyString,
-  "Setup is unable to remove Windows files from the specified directory.",
+  "Setup is unable to remove OpenNT files from the specified directory.",
   NULL
 }
 },
@@ -790,20 +790,20 @@ DnsLogFileCorrupt = { 3,5,
   DntEmptyString,
   "%s",
   DntEmptyString,
-  "Setup is unable to remove Windows files from the specified directory.",
+  "Setup is unable to remove OpenNT files from the specified directory.",
   NULL
 }
 },
 
 DnsRemovingNtFiles = { 3,5,
-{ "           Please wait while Setup removes Windows files.",
+{ "           Please wait while Setup removes OpenNT files.",
   NULL
 }
 };
 
 SCREEN
 DnsNtBootSect = { 3,5,
-{ "Setup was unable to install Windows Boot Loader.",
+{ "Setup was unable to install OpenNT Boot Loader.",
   DntEmptyString,
   "Ensure that your C: drive is formatted and that the drive is not",
   "damaged.",
@@ -854,7 +854,7 @@ DnsNoSwapDrive = { 3,5,
 SCREEN
 DnsNoSmartdrv = { 3,5,
 { "Setup did not detect SmartDrive on your computer. SmartDrive will",
-  "greatly improve the performance of this phase of Windows Setup.",
+  "greatly improve the performance of this phase of OpenNT Setup.",
   DntEmptyString,
   "You should exit now, start SmartDrive, and then restart Setup.",
   "See your DOS documentation for details about SmartDrive.",

@@ -1,2 +1,2 @@
-ProductName       =    Windows XP Home Edition
-DialogCaption     =    Windows XP Setup
+ProductName       =    OpenNT 5.2 Home Edition
+DialogCaption     =    OpenNT 5.2 Setup

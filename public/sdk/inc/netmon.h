@@ -1,9 +1,10 @@
 
+#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 /* this ALWAYS GENERATED file contains the definitions for the interfaces */
 
 
- /* File created by MIDL compiler version 6.00.0361 */
+ /* File created by MIDL compiler version 6.00.0357 */
 /* Compiler settings for netmon.idl:
     Oicf, W1, Zp8, env=Win32 (32b run)
     protocol : dce , ms_ext, c_ext, robust
@@ -13,8 +14,6 @@
          DECLSPEC_UUID(), MIDL_INTERFACE()
 */
 //@@MIDL_FILE_HEADING(  )
-
-#pragma warning( disable: 4049 )  /* more than 64k source lines */
 
 
 /* verify that the <rpcndr.h> version is high enough to compile this file*/
@@ -110,7 +109,7 @@ void __RPC_USER MIDL_user_free( void * );
 #include <winerror.h>
 #include <winerror.h>
 
-#pragma pack(1)
+#pragma pack()
 // For backward compatability with old SDK versions, all structures within this header
 // file will be byte packed on x86 platforms. All other platforms will only have those
 // structures that will be used to decode network data packed.

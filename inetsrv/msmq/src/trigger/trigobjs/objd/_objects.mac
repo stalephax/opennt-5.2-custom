@@ -1,0 +1,68 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\trigobjs.res \
+    $(_OBJ_DIR)\i386\mqtrig_i_.obj \
+    $(_OBJ_DIR)\i386\cpropbag.obj \
+    $(_OBJ_DIR)\i386\idspprxy.obj \
+    $(_OBJ_DIR)\i386\rulehdlr.obj \
+    $(_OBJ_DIR)\i386\ruleset.obj \
+    $(_OBJ_DIR)\i386\trigcnfg.obj \
+    $(_OBJ_DIR)\i386\trignotf.obj \
+    $(_OBJ_DIR)\i386\trigobjs.obj \
+    $(_OBJ_DIR)\i386\trigset.obj \
+    $(_OBJ_DIR)\i386\clusfunc.obj \
+    $(_OBJ_DIR)\i386\triggertest.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtrig.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\trigobjs.res \
+    $(_OBJ_DIR)\ia64\mqtrig_i_.obj \
+    $(_OBJ_DIR)\ia64\cpropbag.obj \
+    $(_OBJ_DIR)\ia64\idspprxy.obj \
+    $(_OBJ_DIR)\ia64\rulehdlr.obj \
+    $(_OBJ_DIR)\ia64\ruleset.obj \
+    $(_OBJ_DIR)\ia64\trigcnfg.obj \
+    $(_OBJ_DIR)\ia64\trignotf.obj \
+    $(_OBJ_DIR)\ia64\trigobjs.obj \
+    $(_OBJ_DIR)\ia64\trigset.obj \
+    $(_OBJ_DIR)\ia64\clusfunc.obj \
+    $(_OBJ_DIR)\ia64\triggertest.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtrig.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\trigobjs.res \
+    $(_OBJ_DIR)\amd64\mqtrig_i_.obj \
+    $(_OBJ_DIR)\amd64\cpropbag.obj \
+    $(_OBJ_DIR)\amd64\idspprxy.obj \
+    $(_OBJ_DIR)\amd64\rulehdlr.obj \
+    $(_OBJ_DIR)\amd64\ruleset.obj \
+    $(_OBJ_DIR)\amd64\trigcnfg.obj \
+    $(_OBJ_DIR)\amd64\trignotf.obj \
+    $(_OBJ_DIR)\amd64\trigobjs.obj \
+    $(_OBJ_DIR)\amd64\trigset.obj \
+    $(_OBJ_DIR)\amd64\clusfunc.obj \
+    $(_OBJ_DIR)\amd64\triggertest.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtrig.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\trigobjs.res \
+    $(_OBJ_DIR)\arm\mqtrig_i_.obj \
+    $(_OBJ_DIR)\arm\cpropbag.obj \
+    $(_OBJ_DIR)\arm\idspprxy.obj \
+    $(_OBJ_DIR)\arm\rulehdlr.obj \
+    $(_OBJ_DIR)\arm\ruleset.obj \
+    $(_OBJ_DIR)\arm\trigcnfg.obj \
+    $(_OBJ_DIR)\arm\trignotf.obj \
+    $(_OBJ_DIR)\arm\trigobjs.obj \
+    $(_OBJ_DIR)\arm\trigset.obj \
+    $(_OBJ_DIR)\arm\clusfunc.obj \
+    $(_OBJ_DIR)\arm\triggertest.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtrig.h
+

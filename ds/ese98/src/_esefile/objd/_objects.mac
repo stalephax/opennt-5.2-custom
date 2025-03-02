@@ -1,0 +1,24 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\checksum.obj \
+    $(_OBJ_DIR)\i386\status.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\checksum.obj \
+    $(_OBJ_DIR)\ia64\status.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\checksum.obj \
+    $(_OBJ_DIR)\amd64\status.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\checksum.obj \
+    $(_OBJ_DIR)\arm\status.obj
+
+PASS0_ARM_OBJECTS=
+

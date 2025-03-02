@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dbg.obj \
+    $(_OBJ_DIR)\i386\cdwtt.obj \
+    $(_OBJ_DIR)\i386\ptt.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\dbg.obj \
+    $(_OBJ_DIR)\ia64\cdwtt.obj \
+    $(_OBJ_DIR)\ia64\ptt.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\dbg.obj \
+    $(_OBJ_DIR)\amd64\cdwtt.obj \
+    $(_OBJ_DIR)\amd64\ptt.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\dbg.obj \
+    $(_OBJ_DIR)\arm\cdwtt.obj \
+    $(_OBJ_DIR)\arm\ptt.obj
+
+PASS0_ARM_OBJECTS=
+

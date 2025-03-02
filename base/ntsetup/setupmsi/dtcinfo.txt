@@ -1,2 +1,2 @@
-ProductName       =    Microsoft Windows Server 2003 Datacenter Edition
-DialogCaption     =    Microsoft Windows Server 2003 Setup
+ProductName       =    OpenNT 5.2 Server Datacenter Edition
+DialogCaption     =    OpenNT 5.2 Server Setup

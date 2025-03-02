@@ -1,0 +1,64 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certpsam_i.obj \
+    $(_OBJ_DIR)\i386\ceerror.obj \
+    $(_OBJ_DIR)\i386\cedebug.obj \
+    $(_OBJ_DIR)\i386\ceformat.obj \
+    $(_OBJ_DIR)\i386\celib.obj \
+    $(_OBJ_DIR)\i386\certpsam.res \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\certpsam.obj \
+    $(_OBJ_DIR)\i386\policy.obj \
+    $(_OBJ_DIR)\i386\module.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpsam.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certpsam_i.obj \
+    $(_OBJ_DIR)\ia64\ceerror.obj \
+    $(_OBJ_DIR)\ia64\cedebug.obj \
+    $(_OBJ_DIR)\ia64\ceformat.obj \
+    $(_OBJ_DIR)\ia64\celib.obj \
+    $(_OBJ_DIR)\ia64\certpsam.res \
+    $(_OBJ_DIR)\ia64\request.obj \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\certpsam.obj \
+    $(_OBJ_DIR)\ia64\policy.obj \
+    $(_OBJ_DIR)\ia64\module.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpsam.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certpsam_i.obj \
+    $(_OBJ_DIR)\amd64\ceerror.obj \
+    $(_OBJ_DIR)\amd64\cedebug.obj \
+    $(_OBJ_DIR)\amd64\ceformat.obj \
+    $(_OBJ_DIR)\amd64\celib.obj \
+    $(_OBJ_DIR)\amd64\certpsam.res \
+    $(_OBJ_DIR)\amd64\request.obj \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\certpsam.obj \
+    $(_OBJ_DIR)\amd64\policy.obj \
+    $(_OBJ_DIR)\amd64\module.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpsam.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certpsam_i.obj \
+    $(_OBJ_DIR)\arm\ceerror.obj \
+    $(_OBJ_DIR)\arm\cedebug.obj \
+    $(_OBJ_DIR)\arm\ceformat.obj \
+    $(_OBJ_DIR)\arm\celib.obj \
+    $(_OBJ_DIR)\arm\certpsam.res \
+    $(_OBJ_DIR)\arm\request.obj \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\certpsam.obj \
+    $(_OBJ_DIR)\arm\policy.obj \
+    $(_OBJ_DIR)\arm\module.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certpsam.h
+

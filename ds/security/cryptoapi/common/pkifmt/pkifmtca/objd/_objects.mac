@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\base64.obj \
+    $(_OBJ_DIR)\i386\hex.obj \
+    $(_OBJ_DIR)\i386\pkifmt.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\base64.obj \
+    $(_OBJ_DIR)\ia64\hex.obj \
+    $(_OBJ_DIR)\ia64\pkifmt.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\base64.obj \
+    $(_OBJ_DIR)\amd64\hex.obj \
+    $(_OBJ_DIR)\amd64\pkifmt.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\base64.obj \
+    $(_OBJ_DIR)\arm\hex.obj \
+    $(_OBJ_DIR)\arm\pkifmt.obj
+
+PASS0_ARM_OBJECTS=
+

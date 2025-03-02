@@ -1,0 +1,24 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mqoa10.res
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoa10.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\mqoa10.res
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoa10.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\mqoa10.res
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoa10.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\mqoa10.res
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoa10.h
+

@@ -1,0 +1,28 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\dlldata.obj \
+    $(_OBJ_DIR)\i386\certadmd_p.obj \
+    $(_OBJ_DIR)\i386\certreqd_p.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\dlldata.obj \
+    $(_OBJ_DIR)\ia64\certadmd_p.obj \
+    $(_OBJ_DIR)\ia64\certreqd_p.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\dlldata.obj \
+    $(_OBJ_DIR)\amd64\certadmd_p.obj \
+    $(_OBJ_DIR)\amd64\certreqd_p.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\dlldata.obj \
+    $(_OBJ_DIR)\arm\certadmd_p.obj \
+    $(_OBJ_DIR)\arm\certreqd_p.obj
+
+PASS0_ARM_OBJECTS=
+

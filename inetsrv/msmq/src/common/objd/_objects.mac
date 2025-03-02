@@ -1,0 +1,60 @@
+386_OBJECTS=
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtypes.h \
+    $(PASS0_HEADERDIR)\qmrt.h \
+    $(PASS0_HEADERDIR)\qmrepl.h \
+    $(PASS0_HEADERDIR)\qmmgmt.h \
+    $(PASS0_HEADERDIR)\qm2qm.h \
+    $(PASS0_HEADERDIR)\remoteread.h \
+    $(PASS0_HEADERDIR)\ise2qm.h \
+    $(PASS0_HEADERDIR)\adnotify.h \
+    $(PASS0_HEADERDIR)\dscomm.h \
+    $(PASS0_HEADERDIR)\mqsymbls.h \
+    $(MC_SOURCEDIR)\mqsymbls.rc
+
+IA64_OBJECTS=
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtypes.h \
+    $(PASS0_HEADERDIR)\qmrt.h \
+    $(PASS0_HEADERDIR)\qmrepl.h \
+    $(PASS0_HEADERDIR)\qmmgmt.h \
+    $(PASS0_HEADERDIR)\qm2qm.h \
+    $(PASS0_HEADERDIR)\remoteread.h \
+    $(PASS0_HEADERDIR)\ise2qm.h \
+    $(PASS0_HEADERDIR)\adnotify.h \
+    $(PASS0_HEADERDIR)\dscomm.h \
+    $(PASS0_HEADERDIR)\mqsymbls.h \
+    $(MC_SOURCEDIR)\mqsymbls.rc
+
+AMD64_OBJECTS=
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtypes.h \
+    $(PASS0_HEADERDIR)\qmrt.h \
+    $(PASS0_HEADERDIR)\qmrepl.h \
+    $(PASS0_HEADERDIR)\qmmgmt.h \
+    $(PASS0_HEADERDIR)\qm2qm.h \
+    $(PASS0_HEADERDIR)\remoteread.h \
+    $(PASS0_HEADERDIR)\ise2qm.h \
+    $(PASS0_HEADERDIR)\adnotify.h \
+    $(PASS0_HEADERDIR)\dscomm.h \
+    $(PASS0_HEADERDIR)\mqsymbls.h \
+    $(MC_SOURCEDIR)\mqsymbls.rc
+
+ARM_OBJECTS=
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqtypes.h \
+    $(PASS0_HEADERDIR)\qmrt.h \
+    $(PASS0_HEADERDIR)\qmrepl.h \
+    $(PASS0_HEADERDIR)\qmmgmt.h \
+    $(PASS0_HEADERDIR)\qm2qm.h \
+    $(PASS0_HEADERDIR)\remoteread.h \
+    $(PASS0_HEADERDIR)\ise2qm.h \
+    $(PASS0_HEADERDIR)\adnotify.h \
+    $(PASS0_HEADERDIR)\dscomm.h \
+    $(PASS0_HEADERDIR)\mqsymbls.h \
+    $(MC_SOURCEDIR)\mqsymbls.rc
+

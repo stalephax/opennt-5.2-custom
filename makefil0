@@ -32,6 +32,9 @@ set_buildnum:
     @echo BuildNumber:
     @type $(BASEDIR)\__bldnum__
     binplace $(BASEDIR)\__bldnum__
+    @echo QfeNumber:
+    @type $(BASEDIR)\__qfenum__
+    binplace $(BASEDIR)\__qfenum__
 
 set_buildname:
     @perl $(RAZZLETOOLPATH)\makebuildname.pl

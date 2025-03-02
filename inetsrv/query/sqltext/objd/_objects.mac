@@ -1,0 +1,60 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\headers.obj \
+    $(_OBJ_DIR)\i386\colname.obj \
+    $(_OBJ_DIR)\i386\mssqllex.obj \
+    $(_OBJ_DIR)\i386\mssqltab.obj \
+    $(_OBJ_DIR)\i386\treeutil.obj \
+    $(_OBJ_DIR)\i386\iparser.obj \
+    $(_OBJ_DIR)\i386\iparsess.obj \
+    $(_OBJ_DIR)\i386\ptprops.obj \
+    $(_OBJ_DIR)\i386\yybase.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\parserr.h \
+    $(MC_SOURCEDIR)\parserr.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\headers.obj \
+    $(_OBJ_DIR)\ia64\colname.obj \
+    $(_OBJ_DIR)\ia64\mssqllex.obj \
+    $(_OBJ_DIR)\ia64\mssqltab.obj \
+    $(_OBJ_DIR)\ia64\treeutil.obj \
+    $(_OBJ_DIR)\ia64\iparser.obj \
+    $(_OBJ_DIR)\ia64\iparsess.obj \
+    $(_OBJ_DIR)\ia64\ptprops.obj \
+    $(_OBJ_DIR)\ia64\yybase.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\parserr.h \
+    $(MC_SOURCEDIR)\parserr.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\headers.obj \
+    $(_OBJ_DIR)\amd64\colname.obj \
+    $(_OBJ_DIR)\amd64\mssqllex.obj \
+    $(_OBJ_DIR)\amd64\mssqltab.obj \
+    $(_OBJ_DIR)\amd64\treeutil.obj \
+    $(_OBJ_DIR)\amd64\iparser.obj \
+    $(_OBJ_DIR)\amd64\iparsess.obj \
+    $(_OBJ_DIR)\amd64\ptprops.obj \
+    $(_OBJ_DIR)\amd64\yybase.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\parserr.h \
+    $(MC_SOURCEDIR)\parserr.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\headers.obj \
+    $(_OBJ_DIR)\arm\colname.obj \
+    $(_OBJ_DIR)\arm\mssqllex.obj \
+    $(_OBJ_DIR)\arm\mssqltab.obj \
+    $(_OBJ_DIR)\arm\treeutil.obj \
+    $(_OBJ_DIR)\arm\iparser.obj \
+    $(_OBJ_DIR)\arm\iparsess.obj \
+    $(_OBJ_DIR)\arm\ptprops.obj \
+    $(_OBJ_DIR)\arm\yybase.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\parserr.h \
+    $(MC_SOURCEDIR)\parserr.rc
+

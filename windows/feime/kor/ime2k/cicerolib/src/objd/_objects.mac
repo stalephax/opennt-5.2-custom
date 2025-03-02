@@ -1,0 +1,112 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\globals.obj \
+    $(_OBJ_DIR)\i386\init.obj \
+    $(_OBJ_DIR)\i386\mem.obj \
+    $(_OBJ_DIR)\i386\dap.obj \
+    $(_OBJ_DIR)\i386\computil.obj \
+    $(_OBJ_DIR)\i386\catutil.obj \
+    $(_OBJ_DIR)\i386\insert.obj \
+    $(_OBJ_DIR)\i386\sdo.obj \
+    $(_OBJ_DIR)\i386\proputil.obj \
+    $(_OBJ_DIR)\i386\immxutil.obj \
+    $(_OBJ_DIR)\i386\mes.obj \
+    $(_OBJ_DIR)\i386\kes.obj \
+    $(_OBJ_DIR)\i386\ptrary.obj \
+    $(_OBJ_DIR)\i386\strary.obj \
+    $(_OBJ_DIR)\i386\dispattr.obj \
+    $(_OBJ_DIR)\i386\fnprbase.obj \
+    $(_OBJ_DIR)\i386\regsvr.obj \
+    $(_OBJ_DIR)\i386\regimx.obj \
+    $(_OBJ_DIR)\i386\timsink.obj \
+    $(_OBJ_DIR)\i386\cleanup.obj \
+    $(_OBJ_DIR)\i386\dllload.obj \
+    $(_OBJ_DIR)\i386\isos.obj \
+    $(_OBJ_DIR)\i386\iconlib.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\globals.obj \
+    $(_OBJ_DIR)\ia64\init.obj \
+    $(_OBJ_DIR)\ia64\mem.obj \
+    $(_OBJ_DIR)\ia64\dap.obj \
+    $(_OBJ_DIR)\ia64\computil.obj \
+    $(_OBJ_DIR)\ia64\catutil.obj \
+    $(_OBJ_DIR)\ia64\insert.obj \
+    $(_OBJ_DIR)\ia64\sdo.obj \
+    $(_OBJ_DIR)\ia64\proputil.obj \
+    $(_OBJ_DIR)\ia64\immxutil.obj \
+    $(_OBJ_DIR)\ia64\mes.obj \
+    $(_OBJ_DIR)\ia64\kes.obj \
+    $(_OBJ_DIR)\ia64\ptrary.obj \
+    $(_OBJ_DIR)\ia64\strary.obj \
+    $(_OBJ_DIR)\ia64\dispattr.obj \
+    $(_OBJ_DIR)\ia64\fnprbase.obj \
+    $(_OBJ_DIR)\ia64\regsvr.obj \
+    $(_OBJ_DIR)\ia64\regimx.obj \
+    $(_OBJ_DIR)\ia64\timsink.obj \
+    $(_OBJ_DIR)\ia64\cleanup.obj \
+    $(_OBJ_DIR)\ia64\dllload.obj \
+    $(_OBJ_DIR)\ia64\isos.obj \
+    $(_OBJ_DIR)\ia64\iconlib.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\globals.obj \
+    $(_OBJ_DIR)\amd64\init.obj \
+    $(_OBJ_DIR)\amd64\mem.obj \
+    $(_OBJ_DIR)\amd64\dap.obj \
+    $(_OBJ_DIR)\amd64\computil.obj \
+    $(_OBJ_DIR)\amd64\catutil.obj \
+    $(_OBJ_DIR)\amd64\insert.obj \
+    $(_OBJ_DIR)\amd64\sdo.obj \
+    $(_OBJ_DIR)\amd64\proputil.obj \
+    $(_OBJ_DIR)\amd64\immxutil.obj \
+    $(_OBJ_DIR)\amd64\mes.obj \
+    $(_OBJ_DIR)\amd64\kes.obj \
+    $(_OBJ_DIR)\amd64\ptrary.obj \
+    $(_OBJ_DIR)\amd64\strary.obj \
+    $(_OBJ_DIR)\amd64\dispattr.obj \
+    $(_OBJ_DIR)\amd64\fnprbase.obj \
+    $(_OBJ_DIR)\amd64\regsvr.obj \
+    $(_OBJ_DIR)\amd64\regimx.obj \
+    $(_OBJ_DIR)\amd64\timsink.obj \
+    $(_OBJ_DIR)\amd64\cleanup.obj \
+    $(_OBJ_DIR)\amd64\dllload.obj \
+    $(_OBJ_DIR)\amd64\isos.obj \
+    $(_OBJ_DIR)\amd64\iconlib.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\globals.obj \
+    $(_OBJ_DIR)\arm\init.obj \
+    $(_OBJ_DIR)\arm\mem.obj \
+    $(_OBJ_DIR)\arm\dap.obj \
+    $(_OBJ_DIR)\arm\computil.obj \
+    $(_OBJ_DIR)\arm\catutil.obj \
+    $(_OBJ_DIR)\arm\insert.obj \
+    $(_OBJ_DIR)\arm\sdo.obj \
+    $(_OBJ_DIR)\arm\proputil.obj \
+    $(_OBJ_DIR)\arm\immxutil.obj \
+    $(_OBJ_DIR)\arm\mes.obj \
+    $(_OBJ_DIR)\arm\kes.obj \
+    $(_OBJ_DIR)\arm\ptrary.obj \
+    $(_OBJ_DIR)\arm\strary.obj \
+    $(_OBJ_DIR)\arm\dispattr.obj \
+    $(_OBJ_DIR)\arm\fnprbase.obj \
+    $(_OBJ_DIR)\arm\regsvr.obj \
+    $(_OBJ_DIR)\arm\regimx.obj \
+    $(_OBJ_DIR)\arm\timsink.obj \
+    $(_OBJ_DIR)\arm\cleanup.obj \
+    $(_OBJ_DIR)\arm\dllload.obj \
+    $(_OBJ_DIR)\arm\isos.obj \
+    $(_OBJ_DIR)\arm\iconlib.obj
+
+PASS0_ARM_OBJECTS=
+

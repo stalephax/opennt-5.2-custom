@@ -1,0 +1,88 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certutil.res \
+    $(_OBJ_DIR)\i386\admin.obj \
+    $(_OBJ_DIR)\i386\backup.obj \
+    $(_OBJ_DIR)\i386\cache.obj \
+    $(_OBJ_DIR)\i386\certutil.obj \
+    $(_OBJ_DIR)\i386\crcutil.obj \
+    $(_OBJ_DIR)\i386\ds.obj \
+    $(_OBJ_DIR)\i386\dump.obj \
+    $(_OBJ_DIR)\i386\epf.obj \
+    $(_OBJ_DIR)\i386\info.obj \
+    $(_OBJ_DIR)\i386\misc.obj \
+    $(_OBJ_DIR)\i386\reg.obj \
+    $(_OBJ_DIR)\i386\scinfo.obj \
+    $(_OBJ_DIR)\i386\store.obj \
+    $(_OBJ_DIR)\i386\tcainfo.obj \
+    $(_OBJ_DIR)\i386\url.obj \
+    $(_OBJ_DIR)\i386\verify.obj \
+    $(_OBJ_DIR)\i386\view.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certutil.res \
+    $(_OBJ_DIR)\ia64\admin.obj \
+    $(_OBJ_DIR)\ia64\backup.obj \
+    $(_OBJ_DIR)\ia64\cache.obj \
+    $(_OBJ_DIR)\ia64\certutil.obj \
+    $(_OBJ_DIR)\ia64\crcutil.obj \
+    $(_OBJ_DIR)\ia64\ds.obj \
+    $(_OBJ_DIR)\ia64\dump.obj \
+    $(_OBJ_DIR)\ia64\epf.obj \
+    $(_OBJ_DIR)\ia64\info.obj \
+    $(_OBJ_DIR)\ia64\misc.obj \
+    $(_OBJ_DIR)\ia64\reg.obj \
+    $(_OBJ_DIR)\ia64\scinfo.obj \
+    $(_OBJ_DIR)\ia64\store.obj \
+    $(_OBJ_DIR)\ia64\tcainfo.obj \
+    $(_OBJ_DIR)\ia64\url.obj \
+    $(_OBJ_DIR)\ia64\verify.obj \
+    $(_OBJ_DIR)\ia64\view.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certutil.res \
+    $(_OBJ_DIR)\amd64\admin.obj \
+    $(_OBJ_DIR)\amd64\backup.obj \
+    $(_OBJ_DIR)\amd64\cache.obj \
+    $(_OBJ_DIR)\amd64\certutil.obj \
+    $(_OBJ_DIR)\amd64\crcutil.obj \
+    $(_OBJ_DIR)\amd64\ds.obj \
+    $(_OBJ_DIR)\amd64\dump.obj \
+    $(_OBJ_DIR)\amd64\epf.obj \
+    $(_OBJ_DIR)\amd64\info.obj \
+    $(_OBJ_DIR)\amd64\misc.obj \
+    $(_OBJ_DIR)\amd64\reg.obj \
+    $(_OBJ_DIR)\amd64\scinfo.obj \
+    $(_OBJ_DIR)\amd64\store.obj \
+    $(_OBJ_DIR)\amd64\tcainfo.obj \
+    $(_OBJ_DIR)\amd64\url.obj \
+    $(_OBJ_DIR)\amd64\verify.obj \
+    $(_OBJ_DIR)\amd64\view.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certutil.res \
+    $(_OBJ_DIR)\arm\admin.obj \
+    $(_OBJ_DIR)\arm\backup.obj \
+    $(_OBJ_DIR)\arm\cache.obj \
+    $(_OBJ_DIR)\arm\certutil.obj \
+    $(_OBJ_DIR)\arm\crcutil.obj \
+    $(_OBJ_DIR)\arm\ds.obj \
+    $(_OBJ_DIR)\arm\dump.obj \
+    $(_OBJ_DIR)\arm\epf.obj \
+    $(_OBJ_DIR)\arm\info.obj \
+    $(_OBJ_DIR)\arm\misc.obj \
+    $(_OBJ_DIR)\arm\reg.obj \
+    $(_OBJ_DIR)\arm\scinfo.obj \
+    $(_OBJ_DIR)\arm\store.obj \
+    $(_OBJ_DIR)\arm\tcainfo.obj \
+    $(_OBJ_DIR)\arm\url.obj \
+    $(_OBJ_DIR)\arm\verify.obj \
+    $(_OBJ_DIR)\arm\view.obj
+
+PASS0_ARM_OBJECTS=
+

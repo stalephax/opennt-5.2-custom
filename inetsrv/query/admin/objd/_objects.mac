@@ -1,0 +1,68 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\ciadmin.res \
+    $(_OBJ_DIR)\i386\catalog.obj \
+    $(_OBJ_DIR)\i386\classfac.obj \
+    $(_OBJ_DIR)\i386\cmddlg.obj \
+    $(_OBJ_DIR)\i386\dataobj.obj \
+    $(_OBJ_DIR)\i386\header.obj \
+    $(_OBJ_DIR)\i386\prop.obj \
+    $(_OBJ_DIR)\i386\propsht.obj \
+    $(_OBJ_DIR)\i386\register.obj \
+    $(_OBJ_DIR)\i386\scope.obj \
+    $(_OBJ_DIR)\i386\snapin.obj \
+    $(_OBJ_DIR)\i386\strings.obj \
+    $(_OBJ_DIR)\i386\rootnode.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\ciadmin.res \
+    $(_OBJ_DIR)\ia64\catalog.obj \
+    $(_OBJ_DIR)\ia64\classfac.obj \
+    $(_OBJ_DIR)\ia64\cmddlg.obj \
+    $(_OBJ_DIR)\ia64\dataobj.obj \
+    $(_OBJ_DIR)\ia64\header.obj \
+    $(_OBJ_DIR)\ia64\prop.obj \
+    $(_OBJ_DIR)\ia64\propsht.obj \
+    $(_OBJ_DIR)\ia64\register.obj \
+    $(_OBJ_DIR)\ia64\scope.obj \
+    $(_OBJ_DIR)\ia64\snapin.obj \
+    $(_OBJ_DIR)\ia64\strings.obj \
+    $(_OBJ_DIR)\ia64\rootnode.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\ciadmin.res \
+    $(_OBJ_DIR)\amd64\catalog.obj \
+    $(_OBJ_DIR)\amd64\classfac.obj \
+    $(_OBJ_DIR)\amd64\cmddlg.obj \
+    $(_OBJ_DIR)\amd64\dataobj.obj \
+    $(_OBJ_DIR)\amd64\header.obj \
+    $(_OBJ_DIR)\amd64\prop.obj \
+    $(_OBJ_DIR)\amd64\propsht.obj \
+    $(_OBJ_DIR)\amd64\register.obj \
+    $(_OBJ_DIR)\amd64\scope.obj \
+    $(_OBJ_DIR)\amd64\snapin.obj \
+    $(_OBJ_DIR)\amd64\strings.obj \
+    $(_OBJ_DIR)\amd64\rootnode.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\ciadmin.res \
+    $(_OBJ_DIR)\arm\catalog.obj \
+    $(_OBJ_DIR)\arm\classfac.obj \
+    $(_OBJ_DIR)\arm\cmddlg.obj \
+    $(_OBJ_DIR)\arm\dataobj.obj \
+    $(_OBJ_DIR)\arm\header.obj \
+    $(_OBJ_DIR)\arm\prop.obj \
+    $(_OBJ_DIR)\arm\propsht.obj \
+    $(_OBJ_DIR)\arm\register.obj \
+    $(_OBJ_DIR)\arm\scope.obj \
+    $(_OBJ_DIR)\arm\snapin.obj \
+    $(_OBJ_DIR)\arm\strings.obj \
+    $(_OBJ_DIR)\arm\rootnode.obj
+
+PASS0_ARM_OBJECTS=
+

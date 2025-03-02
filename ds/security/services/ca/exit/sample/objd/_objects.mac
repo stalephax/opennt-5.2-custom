@@ -1,0 +1,56 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certxsam_i.obj \
+    $(_OBJ_DIR)\i386\ceerror.obj \
+    $(_OBJ_DIR)\i386\cedebug.obj \
+    $(_OBJ_DIR)\i386\celib.obj \
+    $(_OBJ_DIR)\i386\certxsam.res \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\certxsam.obj \
+    $(_OBJ_DIR)\i386\exit.obj \
+    $(_OBJ_DIR)\i386\module.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxsam.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certxsam_i.obj \
+    $(_OBJ_DIR)\ia64\ceerror.obj \
+    $(_OBJ_DIR)\ia64\cedebug.obj \
+    $(_OBJ_DIR)\ia64\celib.obj \
+    $(_OBJ_DIR)\ia64\certxsam.res \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\certxsam.obj \
+    $(_OBJ_DIR)\ia64\exit.obj \
+    $(_OBJ_DIR)\ia64\module.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxsam.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certxsam_i.obj \
+    $(_OBJ_DIR)\amd64\ceerror.obj \
+    $(_OBJ_DIR)\amd64\cedebug.obj \
+    $(_OBJ_DIR)\amd64\celib.obj \
+    $(_OBJ_DIR)\amd64\certxsam.res \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\certxsam.obj \
+    $(_OBJ_DIR)\amd64\exit.obj \
+    $(_OBJ_DIR)\amd64\module.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxsam.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certxsam_i.obj \
+    $(_OBJ_DIR)\arm\ceerror.obj \
+    $(_OBJ_DIR)\arm\cedebug.obj \
+    $(_OBJ_DIR)\arm\celib.obj \
+    $(_OBJ_DIR)\arm\certxsam.res \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\certxsam.obj \
+    $(_OBJ_DIR)\arm\exit.obj \
+    $(_OBJ_DIR)\arm\module.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certxsam.h
+

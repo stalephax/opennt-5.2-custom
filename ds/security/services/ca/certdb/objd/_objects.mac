@@ -1,0 +1,64 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certdb.res \
+    $(_OBJ_DIR)\i386\atl.obj \
+    $(_OBJ_DIR)\i386\backup.obj \
+    $(_OBJ_DIR)\i386\certdb.obj \
+    $(_OBJ_DIR)\i386\column.obj \
+    $(_OBJ_DIR)\i386\db.obj \
+    $(_OBJ_DIR)\i386\dbw.obj \
+    $(_OBJ_DIR)\i386\dbtable.obj \
+    $(_OBJ_DIR)\i386\enum.obj \
+    $(_OBJ_DIR)\i386\restore.obj \
+    $(_OBJ_DIR)\i386\row.obj \
+    $(_OBJ_DIR)\i386\view.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certdb.res \
+    $(_OBJ_DIR)\ia64\atl.obj \
+    $(_OBJ_DIR)\ia64\backup.obj \
+    $(_OBJ_DIR)\ia64\certdb.obj \
+    $(_OBJ_DIR)\ia64\column.obj \
+    $(_OBJ_DIR)\ia64\db.obj \
+    $(_OBJ_DIR)\ia64\dbw.obj \
+    $(_OBJ_DIR)\ia64\dbtable.obj \
+    $(_OBJ_DIR)\ia64\enum.obj \
+    $(_OBJ_DIR)\ia64\restore.obj \
+    $(_OBJ_DIR)\ia64\row.obj \
+    $(_OBJ_DIR)\ia64\view.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certdb.res \
+    $(_OBJ_DIR)\amd64\atl.obj \
+    $(_OBJ_DIR)\amd64\backup.obj \
+    $(_OBJ_DIR)\amd64\certdb.obj \
+    $(_OBJ_DIR)\amd64\column.obj \
+    $(_OBJ_DIR)\amd64\db.obj \
+    $(_OBJ_DIR)\amd64\dbw.obj \
+    $(_OBJ_DIR)\amd64\dbtable.obj \
+    $(_OBJ_DIR)\amd64\enum.obj \
+    $(_OBJ_DIR)\amd64\restore.obj \
+    $(_OBJ_DIR)\amd64\row.obj \
+    $(_OBJ_DIR)\amd64\view.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certdb.res \
+    $(_OBJ_DIR)\arm\atl.obj \
+    $(_OBJ_DIR)\arm\backup.obj \
+    $(_OBJ_DIR)\arm\certdb.obj \
+    $(_OBJ_DIR)\arm\column.obj \
+    $(_OBJ_DIR)\arm\db.obj \
+    $(_OBJ_DIR)\arm\dbw.obj \
+    $(_OBJ_DIR)\arm\dbtable.obj \
+    $(_OBJ_DIR)\arm\enum.obj \
+    $(_OBJ_DIR)\arm\restore.obj \
+    $(_OBJ_DIR)\arm\row.obj \
+    $(_OBJ_DIR)\arm\view.obj
+
+PASS0_ARM_OBJECTS=
+

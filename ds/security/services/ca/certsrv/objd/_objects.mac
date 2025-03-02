@@ -1,0 +1,100 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\certrpc_s.obj \
+    $(_OBJ_DIR)\i386\certsrv.res \
+    $(_OBJ_DIR)\i386\admin.obj \
+    $(_OBJ_DIR)\i386\callback.obj \
+    $(_OBJ_DIR)\i386\certsrv.obj \
+    $(_OBJ_DIR)\i386\certsrvd.obj \
+    $(_OBJ_DIR)\i386\cienum.obj \
+    $(_OBJ_DIR)\i386\com.obj \
+    $(_OBJ_DIR)\i386\comtest.obj \
+    $(_OBJ_DIR)\i386\core.obj \
+    $(_OBJ_DIR)\i386\crl.obj \
+    $(_OBJ_DIR)\i386\db3.obj \
+    $(_OBJ_DIR)\i386\elog.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\pkcs.obj \
+    $(_OBJ_DIR)\i386\prop.obj \
+    $(_OBJ_DIR)\i386\request.obj \
+    $(_OBJ_DIR)\i386\rpc.obj \
+    $(_OBJ_DIR)\i386\service.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\certlog.h \
+    $(MC_SOURCEDIR)\certlog.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\certrpc_s.obj \
+    $(_OBJ_DIR)\ia64\certsrv.res \
+    $(_OBJ_DIR)\ia64\admin.obj \
+    $(_OBJ_DIR)\ia64\callback.obj \
+    $(_OBJ_DIR)\ia64\certsrv.obj \
+    $(_OBJ_DIR)\ia64\certsrvd.obj \
+    $(_OBJ_DIR)\ia64\cienum.obj \
+    $(_OBJ_DIR)\ia64\com.obj \
+    $(_OBJ_DIR)\ia64\comtest.obj \
+    $(_OBJ_DIR)\ia64\core.obj \
+    $(_OBJ_DIR)\ia64\crl.obj \
+    $(_OBJ_DIR)\ia64\db3.obj \
+    $(_OBJ_DIR)\ia64\elog.obj \
+    $(_OBJ_DIR)\ia64\event.obj \
+    $(_OBJ_DIR)\ia64\pkcs.obj \
+    $(_OBJ_DIR)\ia64\prop.obj \
+    $(_OBJ_DIR)\ia64\request.obj \
+    $(_OBJ_DIR)\ia64\rpc.obj \
+    $(_OBJ_DIR)\ia64\service.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certlog.h \
+    $(MC_SOURCEDIR)\certlog.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\certrpc_s.obj \
+    $(_OBJ_DIR)\amd64\certsrv.res \
+    $(_OBJ_DIR)\amd64\admin.obj \
+    $(_OBJ_DIR)\amd64\callback.obj \
+    $(_OBJ_DIR)\amd64\certsrv.obj \
+    $(_OBJ_DIR)\amd64\certsrvd.obj \
+    $(_OBJ_DIR)\amd64\cienum.obj \
+    $(_OBJ_DIR)\amd64\com.obj \
+    $(_OBJ_DIR)\amd64\comtest.obj \
+    $(_OBJ_DIR)\amd64\core.obj \
+    $(_OBJ_DIR)\amd64\crl.obj \
+    $(_OBJ_DIR)\amd64\db3.obj \
+    $(_OBJ_DIR)\amd64\elog.obj \
+    $(_OBJ_DIR)\amd64\event.obj \
+    $(_OBJ_DIR)\amd64\pkcs.obj \
+    $(_OBJ_DIR)\amd64\prop.obj \
+    $(_OBJ_DIR)\amd64\request.obj \
+    $(_OBJ_DIR)\amd64\rpc.obj \
+    $(_OBJ_DIR)\amd64\service.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\certlog.h \
+    $(MC_SOURCEDIR)\certlog.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\certrpc_s.obj \
+    $(_OBJ_DIR)\arm\certsrv.res \
+    $(_OBJ_DIR)\arm\admin.obj \
+    $(_OBJ_DIR)\arm\callback.obj \
+    $(_OBJ_DIR)\arm\certsrv.obj \
+    $(_OBJ_DIR)\arm\certsrvd.obj \
+    $(_OBJ_DIR)\arm\cienum.obj \
+    $(_OBJ_DIR)\arm\com.obj \
+    $(_OBJ_DIR)\arm\comtest.obj \
+    $(_OBJ_DIR)\arm\core.obj \
+    $(_OBJ_DIR)\arm\crl.obj \
+    $(_OBJ_DIR)\arm\db3.obj \
+    $(_OBJ_DIR)\arm\elog.obj \
+    $(_OBJ_DIR)\arm\event.obj \
+    $(_OBJ_DIR)\arm\pkcs.obj \
+    $(_OBJ_DIR)\arm\prop.obj \
+    $(_OBJ_DIR)\arm\request.obj \
+    $(_OBJ_DIR)\arm\rpc.obj \
+    $(_OBJ_DIR)\arm\service.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\certlog.h \
+    $(MC_SOURCEDIR)\certlog.rc
+

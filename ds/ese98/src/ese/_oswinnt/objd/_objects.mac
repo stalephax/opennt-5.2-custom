@@ -1,0 +1,104 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\cprintf.obj \
+    $(_OBJ_DIR)\i386\config.obj \
+    $(_OBJ_DIR)\i386\dllentry.obj \
+    $(_OBJ_DIR)\i386\edbg.obj \
+    $(_OBJ_DIR)\i386\error.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\library.obj \
+    $(_OBJ_DIR)\i386\memory.obj \
+    $(_OBJ_DIR)\i386\mpheap.obj \
+    $(_OBJ_DIR)\i386\norm.obj \
+    $(_OBJ_DIR)\i386\os.obj \
+    $(_OBJ_DIR)\i386\osfile.obj \
+    $(_OBJ_DIR)\i386\osfs.obj \
+    $(_OBJ_DIR)\i386\osslv.obj \
+    $(_OBJ_DIR)\i386\perfmon.obj \
+    $(_OBJ_DIR)\i386\string.obj \
+    $(_OBJ_DIR)\i386\sysinfo.obj \
+    $(_OBJ_DIR)\i386\task.obj \
+    $(_OBJ_DIR)\i386\thread.obj \
+    $(_OBJ_DIR)\i386\time.obj \
+    $(_OBJ_DIR)\i386\trace.obj \
+    $(_OBJ_DIR)\i386\uuid.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\cprintf.obj \
+    $(_OBJ_DIR)\ia64\config.obj \
+    $(_OBJ_DIR)\ia64\dllentry.obj \
+    $(_OBJ_DIR)\ia64\edbg.obj \
+    $(_OBJ_DIR)\ia64\error.obj \
+    $(_OBJ_DIR)\ia64\event.obj \
+    $(_OBJ_DIR)\ia64\library.obj \
+    $(_OBJ_DIR)\ia64\memory.obj \
+    $(_OBJ_DIR)\ia64\mpheap.obj \
+    $(_OBJ_DIR)\ia64\norm.obj \
+    $(_OBJ_DIR)\ia64\os.obj \
+    $(_OBJ_DIR)\ia64\osfile.obj \
+    $(_OBJ_DIR)\ia64\osfs.obj \
+    $(_OBJ_DIR)\ia64\osslv.obj \
+    $(_OBJ_DIR)\ia64\perfmon.obj \
+    $(_OBJ_DIR)\ia64\string.obj \
+    $(_OBJ_DIR)\ia64\sysinfo.obj \
+    $(_OBJ_DIR)\ia64\task.obj \
+    $(_OBJ_DIR)\ia64\thread.obj \
+    $(_OBJ_DIR)\ia64\time.obj \
+    $(_OBJ_DIR)\ia64\trace.obj \
+    $(_OBJ_DIR)\ia64\uuid.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\cprintf.obj \
+    $(_OBJ_DIR)\amd64\config.obj \
+    $(_OBJ_DIR)\amd64\dllentry.obj \
+    $(_OBJ_DIR)\amd64\edbg.obj \
+    $(_OBJ_DIR)\amd64\error.obj \
+    $(_OBJ_DIR)\amd64\event.obj \
+    $(_OBJ_DIR)\amd64\library.obj \
+    $(_OBJ_DIR)\amd64\memory.obj \
+    $(_OBJ_DIR)\amd64\mpheap.obj \
+    $(_OBJ_DIR)\amd64\norm.obj \
+    $(_OBJ_DIR)\amd64\os.obj \
+    $(_OBJ_DIR)\amd64\osfile.obj \
+    $(_OBJ_DIR)\amd64\osfs.obj \
+    $(_OBJ_DIR)\amd64\osslv.obj \
+    $(_OBJ_DIR)\amd64\perfmon.obj \
+    $(_OBJ_DIR)\amd64\string.obj \
+    $(_OBJ_DIR)\amd64\sysinfo.obj \
+    $(_OBJ_DIR)\amd64\task.obj \
+    $(_OBJ_DIR)\amd64\thread.obj \
+    $(_OBJ_DIR)\amd64\time.obj \
+    $(_OBJ_DIR)\amd64\trace.obj \
+    $(_OBJ_DIR)\amd64\uuid.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\cprintf.obj \
+    $(_OBJ_DIR)\arm\config.obj \
+    $(_OBJ_DIR)\arm\dllentry.obj \
+    $(_OBJ_DIR)\arm\edbg.obj \
+    $(_OBJ_DIR)\arm\error.obj \
+    $(_OBJ_DIR)\arm\event.obj \
+    $(_OBJ_DIR)\arm\library.obj \
+    $(_OBJ_DIR)\arm\memory.obj \
+    $(_OBJ_DIR)\arm\mpheap.obj \
+    $(_OBJ_DIR)\arm\norm.obj \
+    $(_OBJ_DIR)\arm\os.obj \
+    $(_OBJ_DIR)\arm\osfile.obj \
+    $(_OBJ_DIR)\arm\osfs.obj \
+    $(_OBJ_DIR)\arm\osslv.obj \
+    $(_OBJ_DIR)\arm\perfmon.obj \
+    $(_OBJ_DIR)\arm\string.obj \
+    $(_OBJ_DIR)\arm\sysinfo.obj \
+    $(_OBJ_DIR)\arm\task.obj \
+    $(_OBJ_DIR)\arm\thread.obj \
+    $(_OBJ_DIR)\arm\time.obj \
+    $(_OBJ_DIR)\arm\trace.obj \
+    $(_OBJ_DIR)\arm\uuid.obj
+
+PASS0_ARM_OBJECTS=
+

@@ -42,8 +42,7 @@ MessageID=9001 SymbolicName=SP_SCRN_WELCOME
 Language=English
 %%IWelcome to Setup.
 
-This portion of the Setup program prepares Microsoft(R)
-Windows(R) to run on your computer.
+This portion of the Setup program prepares OpenNT to run on your computer.
 
 
      To set up Windows now, press ENTER.
@@ -2581,8 +2580,7 @@ MessageID=9202 SymbolicName=SP_SCRN_WELCOME_1
 Language=English
 %%IWelcome to Setup.
 
-This portion of the Setup program prepares Microsoft(R)
-Windows(R) to run on your computer.
+This portion of the Setup program prepares OpenNT to run on your computer.
 
 
      To set up Windows now, press ENTER.
@@ -2975,12 +2973,12 @@ To go back to the partitioning screen, press ENTER
 MessageId=9515 SymbolicName=SP_NO_DYNAMIC_DISK_INSTALL
 Language=English
 
-Windows XP Home Edition cannot be installed on a dynamic disk since
-dynamic disks are not supported by Windows XP Home Edition.
+OpenNT 5.2 Home Edition cannot be installed on a dynamic disk since
+dynamic disks are not supported by OpenNT 5.2 Home Edition.
 
 Select another partition on a hard disk which is not a dynamic disk.
 
-To install  Windows XP Home Edition on a dynamic disk delete
+To install  OpenNT 5.2 Home Edition on a dynamic disk delete
 all the partitions on the disk, create a new partition and then
 install to the new partition.
 
@@ -3443,8 +3441,7 @@ MessageID=10094 SymbolicName=SP_SCRN_EVALUATION_NOTIFY
 Language=English
 %%ISetup Notification:
 
-You are about to install an evaluation version of Microsoft(R)
-Windows(R) operating system which contains a time limited expiration
+You are about to install an evaluation version of OpenNT operating system which contains a time limited expiration
 for evaluation purposes only.
 
      To continue, press ENTER.
@@ -3494,7 +3491,7 @@ Language=English
 
 MessageID=11000 SymbolicName=SP_HEAD_PRO_SETUP
 Language=English
-Windows XP Professional Setup%0
+OpenNT 5.2 Professional Setup%0
 .
 
 MessageID=11001 SymbolicName=SP_HEAD_SRV_SETUP
@@ -3514,27 +3511,27 @@ Windows Licensing Agreement%0
 
 MessageID=11004 SymbolicName=SP_HEAD_PER_SETUP
 Language=English
-Windows XP Home Edition Setup%0
+OpenNT 5.2 Home Edition Setup%0
 .
 
 MessageID=11005 SymbolicName=SP_HEAD_ADS_SETUP
 Language=English
-Windows Server 2003, Enterprise Edition Setup%0
+OpenNT 5.2 Server, Enterprise Edition Setup%0
 .
 
 MessageID=11006 SymbolicName=SP_HEAD_DTC_SETUP
 Language=English
-Windows Server 2003, Datacenter Edition Setup%0
+OpenNT 5.2 Server, Datacenter Edition Setup%0
 .
 
 MessageID=11007 SymbolicName=SP_HEAD_BLA_SETUP
 Language=English
-Windows Server 2003, Web Edition Setup%0
+OpenNT 5.2 Server, Web Edition Setup%0
 .
 
 MessageID=11008 SymbolicName=SP_HEAD_SBS_SETUP
 Language=English
-Windows Server 2003 for Small Business Server Setup%0
+OpenNT 5.2 for Small Business Server Setup%0
 .
 
 
@@ -3763,7 +3760,7 @@ Unix%0
 
 MessageId=12104 SymbolicName=SP_TEXT_PARTITION_NAME_NTFT
 Language=English
-Windows Fault Tolerance%0
+OpenNTFault Tolerance%0
 .
 
 MessageId=12105 SymbolicName=SP_TEXT_PARTITION_NAME_XENIXTABLE
@@ -4008,7 +4005,7 @@ Unidentified operating system on drive %1.%0
 
 MessageId=12228 SymbolicName=SP_TEXT_REPAIR_DISK_NAME
 Language=English
-Windows Emergency Repair Disk%0
+OpenNTEmergency Repair Disk%0
 .
 
 MessageId=12229 SymbolicName=SP_TEXT_REPAIR_INF_ERROR_0
@@ -4030,7 +4027,7 @@ MessageId=12232 SymbolicName=SP_TEXT_REPAIR_INF_ERROR_3
 Language=English
 Setup cannot load the source file %1 or the source
 file is not the original one Setup copied to the
-Windows installation.
+OpenNTinstallation.
 .
 
 MessageId=12233 SymbolicName=SP_TEXT_REPAIR_INF_ERROR_4
@@ -4040,12 +4037,12 @@ Setup has determined that the file:
     %1
 
 is not the original file that Setup copied to the
-Windows installation.
+OpenNTinstallation.
 .
 
 MessageId=12234 SymbolicName=SP_TEXT_REPAIR_INF_ERROR_5
 Language=English
-The file is not the Windows version.
+The file is not the OpenNTversion.
 .
 
 MessageId=12235 SymbolicName=SP_TEXT_SETUP_IS_EXAMINING
@@ -4055,13 +4052,13 @@ Setup is examining files...%0
 
 MessageId=12236 SymbolicName=SP_TEXT_REPAIR_CDROM_OPTION
 Language=English
-Repair Windows from CD%0
+Repair OpenNTfrom CD%0
 .
 
 
 MessageId=12237 SymbolicName=SP_TEXT_REPAIR_OR_DR_DISK_NAME
 Language=English
-Windows Emergency Repair Disk or Automated System Recovery Disk%0
+OpenNTEmergency Repair Disk or Automated System Recovery Disk%0
 .
 
 
@@ -4072,7 +4069,7 @@ Language=English
 
 MessageId=12240 SymbolicName=SP_REPAIR_MENU_ITEM_2
 Language=English
-[X] Verify Windows system files%0
+[X] Verify OpenNTsystem files%0
 .
 
 MessageId=12241 SymbolicName=SP_REPAIR_MENU_ITEM_3
@@ -4132,7 +4129,7 @@ Section [%1] does not contain the description
 ;//
 MessageId=12252 SymbolicName=SP_TEXT_DR_DISK_NAME
 Language=English
-Windows Automated System Recovery Disk%0
+OpenNTAutomated System Recovery Disk%0
 .
 
 MessageId=12258 SymbolicName=SP_TEXT_DR_UNKNOWN_NT_FILESYSTEM
@@ -4240,9 +4237,9 @@ Do you want to continue recreating the partitions?
 
 MessageID=12270 SymbolicName=SP_SCRN_DR_OR_REPAIR
 Language=English
-Windows Repair Options:
+OpenNT Repair Options:
 
-     To repair a Windows installation by using the recovery
+     To repair a OpenNT installation by using the recovery
       console, press C.
 
      To repair a Windows installation by using the

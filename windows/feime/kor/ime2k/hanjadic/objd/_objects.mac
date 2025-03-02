@@ -1,0 +1,48 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\hjdict.res \
+    $(_OBJ_DIR)\i386\ihjdict.obj \
+    $(_OBJ_DIR)\i386\hjdict.obj \
+    $(_OBJ_DIR)\i386\lex.obj \
+    $(_OBJ_DIR)\i386\lookup.obj \
+    $(_OBJ_DIR)\i386\memmgr.obj \
+    $(_OBJ_DIR)\i386\trie.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\hjdict.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\hjdict.res \
+    $(_OBJ_DIR)\ia64\ihjdict.obj \
+    $(_OBJ_DIR)\ia64\hjdict.obj \
+    $(_OBJ_DIR)\ia64\lex.obj \
+    $(_OBJ_DIR)\ia64\lookup.obj \
+    $(_OBJ_DIR)\ia64\memmgr.obj \
+    $(_OBJ_DIR)\ia64\trie.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\hjdict.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\hjdict.res \
+    $(_OBJ_DIR)\amd64\ihjdict.obj \
+    $(_OBJ_DIR)\amd64\hjdict.obj \
+    $(_OBJ_DIR)\amd64\lex.obj \
+    $(_OBJ_DIR)\amd64\lookup.obj \
+    $(_OBJ_DIR)\amd64\memmgr.obj \
+    $(_OBJ_DIR)\amd64\trie.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\hjdict.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\hjdict.res \
+    $(_OBJ_DIR)\arm\ihjdict.obj \
+    $(_OBJ_DIR)\arm\hjdict.obj \
+    $(_OBJ_DIR)\arm\lex.obj \
+    $(_OBJ_DIR)\arm\lookup.obj \
+    $(_OBJ_DIR)\arm\memmgr.obj \
+    $(_OBJ_DIR)\arm\trie.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\hjdict.h
+

@@ -1,0 +1,104 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mqoa.res \
+    $(_OBJ_DIR)\i386\mqoai_i_.obj \
+    $(_OBJ_DIR)\i386\app.obj \
+    $(_OBJ_DIR)\i386\debug.obj \
+    $(_OBJ_DIR)\i386\event.obj \
+    $(_OBJ_DIR)\i386\guids.obj \
+    $(_OBJ_DIR)\i386\mqoa.obj \
+    $(_OBJ_DIR)\i386\msg.obj \
+    $(_OBJ_DIR)\i386\q.obj \
+    $(_OBJ_DIR)\i386\qinfo.obj \
+    $(_OBJ_DIR)\i386\qinfos.obj \
+    $(_OBJ_DIR)\i386\query.obj \
+    $(_OBJ_DIR)\i386\xact.obj \
+    $(_OBJ_DIR)\i386\xdispdtc.obj \
+    $(_OBJ_DIR)\i386\xdisper.obj \
+    $(_OBJ_DIR)\i386\ilock.obj \
+    $(_OBJ_DIR)\i386\istm.obj \
+    $(_OBJ_DIR)\i386\dest.obj \
+    $(_OBJ_DIR)\i386\management.obj \
+    $(_OBJ_DIR)\i386\collection.obj \
+    $(_OBJ_DIR)\i386\eod_info.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoai.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\mqoa.res \
+    $(_OBJ_DIR)\ia64\mqoai_i_.obj \
+    $(_OBJ_DIR)\ia64\app.obj \
+    $(_OBJ_DIR)\ia64\debug.obj \
+    $(_OBJ_DIR)\ia64\event.obj \
+    $(_OBJ_DIR)\ia64\guids.obj \
+    $(_OBJ_DIR)\ia64\mqoa.obj \
+    $(_OBJ_DIR)\ia64\msg.obj \
+    $(_OBJ_DIR)\ia64\q.obj \
+    $(_OBJ_DIR)\ia64\qinfo.obj \
+    $(_OBJ_DIR)\ia64\qinfos.obj \
+    $(_OBJ_DIR)\ia64\query.obj \
+    $(_OBJ_DIR)\ia64\xact.obj \
+    $(_OBJ_DIR)\ia64\xdispdtc.obj \
+    $(_OBJ_DIR)\ia64\xdisper.obj \
+    $(_OBJ_DIR)\ia64\ilock.obj \
+    $(_OBJ_DIR)\ia64\istm.obj \
+    $(_OBJ_DIR)\ia64\dest.obj \
+    $(_OBJ_DIR)\ia64\management.obj \
+    $(_OBJ_DIR)\ia64\collection.obj \
+    $(_OBJ_DIR)\ia64\eod_info.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoai.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\mqoa.res \
+    $(_OBJ_DIR)\amd64\mqoai_i_.obj \
+    $(_OBJ_DIR)\amd64\app.obj \
+    $(_OBJ_DIR)\amd64\debug.obj \
+    $(_OBJ_DIR)\amd64\event.obj \
+    $(_OBJ_DIR)\amd64\guids.obj \
+    $(_OBJ_DIR)\amd64\mqoa.obj \
+    $(_OBJ_DIR)\amd64\msg.obj \
+    $(_OBJ_DIR)\amd64\q.obj \
+    $(_OBJ_DIR)\amd64\qinfo.obj \
+    $(_OBJ_DIR)\amd64\qinfos.obj \
+    $(_OBJ_DIR)\amd64\query.obj \
+    $(_OBJ_DIR)\amd64\xact.obj \
+    $(_OBJ_DIR)\amd64\xdispdtc.obj \
+    $(_OBJ_DIR)\amd64\xdisper.obj \
+    $(_OBJ_DIR)\amd64\ilock.obj \
+    $(_OBJ_DIR)\amd64\istm.obj \
+    $(_OBJ_DIR)\amd64\dest.obj \
+    $(_OBJ_DIR)\amd64\management.obj \
+    $(_OBJ_DIR)\amd64\collection.obj \
+    $(_OBJ_DIR)\amd64\eod_info.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoai.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\mqoa.res \
+    $(_OBJ_DIR)\arm\mqoai_i_.obj \
+    $(_OBJ_DIR)\arm\app.obj \
+    $(_OBJ_DIR)\arm\debug.obj \
+    $(_OBJ_DIR)\arm\event.obj \
+    $(_OBJ_DIR)\arm\guids.obj \
+    $(_OBJ_DIR)\arm\mqoa.obj \
+    $(_OBJ_DIR)\arm\msg.obj \
+    $(_OBJ_DIR)\arm\q.obj \
+    $(_OBJ_DIR)\arm\qinfo.obj \
+    $(_OBJ_DIR)\arm\qinfos.obj \
+    $(_OBJ_DIR)\arm\query.obj \
+    $(_OBJ_DIR)\arm\xact.obj \
+    $(_OBJ_DIR)\arm\xdispdtc.obj \
+    $(_OBJ_DIR)\arm\xdisper.obj \
+    $(_OBJ_DIR)\arm\ilock.obj \
+    $(_OBJ_DIR)\arm\istm.obj \
+    $(_OBJ_DIR)\arm\dest.obj \
+    $(_OBJ_DIR)\arm\management.obj \
+    $(_OBJ_DIR)\arm\collection.obj \
+    $(_OBJ_DIR)\arm\eod_info.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqoai.h
+

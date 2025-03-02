@@ -1,0 +1,36 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\mqgentr.res \
+    $(_OBJ_DIR)\i386\mqgentr_i_.obj \
+    $(_OBJ_DIR)\i386\mqgentr.obj \
+    $(_OBJ_DIR)\i386\mqgenobj.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqgentr.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\mqgentr.res \
+    $(_OBJ_DIR)\ia64\mqgentr_i_.obj \
+    $(_OBJ_DIR)\ia64\mqgentr.obj \
+    $(_OBJ_DIR)\ia64\mqgenobj.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqgentr.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\mqgentr.res \
+    $(_OBJ_DIR)\amd64\mqgentr_i_.obj \
+    $(_OBJ_DIR)\amd64\mqgentr.obj \
+    $(_OBJ_DIR)\amd64\mqgenobj.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqgentr.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\mqgentr.res \
+    $(_OBJ_DIR)\arm\mqgentr_i_.obj \
+    $(_OBJ_DIR)\arm\mqgentr.obj \
+    $(_OBJ_DIR)\arm\mqgenobj.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\mqgentr.h
+

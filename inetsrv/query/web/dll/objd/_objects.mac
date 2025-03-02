@@ -1,0 +1,100 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\idq.res \
+    $(_OBJ_DIR)\i386\errormsg.obj \
+    $(_OBJ_DIR)\i386\express.obj \
+    $(_OBJ_DIR)\i386\htx.obj \
+    $(_OBJ_DIR)\i386\idq.obj \
+    $(_OBJ_DIR)\i386\idqreg.obj \
+    $(_OBJ_DIR)\i386\ida.obj \
+    $(_OBJ_DIR)\i386\main.obj \
+    $(_OBJ_DIR)\i386\outfmt.obj \
+    $(_OBJ_DIR)\i386\param.obj \
+    $(_OBJ_DIR)\i386\tokstr.obj \
+    $(_OBJ_DIR)\i386\variable.obj \
+    $(_OBJ_DIR)\i386\varutil.obj \
+    $(_OBJ_DIR)\i386\weblang.obj \
+    $(_OBJ_DIR)\i386\wqcache.obj \
+    $(_OBJ_DIR)\i386\wqitem.obj \
+    $(_OBJ_DIR)\i386\wqiter.obj \
+    $(_OBJ_DIR)\i386\wqlocale.obj \
+    $(_OBJ_DIR)\i386\xtow.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\idqmsg.h \
+    $(MC_SOURCEDIR)\idqmsg.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\idq.res \
+    $(_OBJ_DIR)\ia64\errormsg.obj \
+    $(_OBJ_DIR)\ia64\express.obj \
+    $(_OBJ_DIR)\ia64\htx.obj \
+    $(_OBJ_DIR)\ia64\idq.obj \
+    $(_OBJ_DIR)\ia64\idqreg.obj \
+    $(_OBJ_DIR)\ia64\ida.obj \
+    $(_OBJ_DIR)\ia64\main.obj \
+    $(_OBJ_DIR)\ia64\outfmt.obj \
+    $(_OBJ_DIR)\ia64\param.obj \
+    $(_OBJ_DIR)\ia64\tokstr.obj \
+    $(_OBJ_DIR)\ia64\variable.obj \
+    $(_OBJ_DIR)\ia64\varutil.obj \
+    $(_OBJ_DIR)\ia64\weblang.obj \
+    $(_OBJ_DIR)\ia64\wqcache.obj \
+    $(_OBJ_DIR)\ia64\wqitem.obj \
+    $(_OBJ_DIR)\ia64\wqiter.obj \
+    $(_OBJ_DIR)\ia64\wqlocale.obj \
+    $(_OBJ_DIR)\ia64\xtow.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\idqmsg.h \
+    $(MC_SOURCEDIR)\idqmsg.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\idq.res \
+    $(_OBJ_DIR)\amd64\errormsg.obj \
+    $(_OBJ_DIR)\amd64\express.obj \
+    $(_OBJ_DIR)\amd64\htx.obj \
+    $(_OBJ_DIR)\amd64\idq.obj \
+    $(_OBJ_DIR)\amd64\idqreg.obj \
+    $(_OBJ_DIR)\amd64\ida.obj \
+    $(_OBJ_DIR)\amd64\main.obj \
+    $(_OBJ_DIR)\amd64\outfmt.obj \
+    $(_OBJ_DIR)\amd64\param.obj \
+    $(_OBJ_DIR)\amd64\tokstr.obj \
+    $(_OBJ_DIR)\amd64\variable.obj \
+    $(_OBJ_DIR)\amd64\varutil.obj \
+    $(_OBJ_DIR)\amd64\weblang.obj \
+    $(_OBJ_DIR)\amd64\wqcache.obj \
+    $(_OBJ_DIR)\amd64\wqitem.obj \
+    $(_OBJ_DIR)\amd64\wqiter.obj \
+    $(_OBJ_DIR)\amd64\wqlocale.obj \
+    $(_OBJ_DIR)\amd64\xtow.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\idqmsg.h \
+    $(MC_SOURCEDIR)\idqmsg.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\idq.res \
+    $(_OBJ_DIR)\arm\errormsg.obj \
+    $(_OBJ_DIR)\arm\express.obj \
+    $(_OBJ_DIR)\arm\htx.obj \
+    $(_OBJ_DIR)\arm\idq.obj \
+    $(_OBJ_DIR)\arm\idqreg.obj \
+    $(_OBJ_DIR)\arm\ida.obj \
+    $(_OBJ_DIR)\arm\main.obj \
+    $(_OBJ_DIR)\arm\outfmt.obj \
+    $(_OBJ_DIR)\arm\param.obj \
+    $(_OBJ_DIR)\arm\tokstr.obj \
+    $(_OBJ_DIR)\arm\variable.obj \
+    $(_OBJ_DIR)\arm\varutil.obj \
+    $(_OBJ_DIR)\arm\weblang.obj \
+    $(_OBJ_DIR)\arm\wqcache.obj \
+    $(_OBJ_DIR)\arm\wqitem.obj \
+    $(_OBJ_DIR)\arm\wqiter.obj \
+    $(_OBJ_DIR)\arm\wqlocale.obj \
+    $(_OBJ_DIR)\arm\xtow.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\idqmsg.h \
+    $(MC_SOURCEDIR)\idqmsg.rc
+

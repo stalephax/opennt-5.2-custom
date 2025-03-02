@@ -1,0 +1,32 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\log.obj \
+    $(_OBJ_DIR)\i386\logutil.obj \
+    $(_OBJ_DIR)\i386\logread.obj \
+    $(_OBJ_DIR)\i386\logredo.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\log.obj \
+    $(_OBJ_DIR)\ia64\logutil.obj \
+    $(_OBJ_DIR)\ia64\logread.obj \
+    $(_OBJ_DIR)\ia64\logredo.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\log.obj \
+    $(_OBJ_DIR)\amd64\logutil.obj \
+    $(_OBJ_DIR)\amd64\logread.obj \
+    $(_OBJ_DIR)\amd64\logredo.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\log.obj \
+    $(_OBJ_DIR)\arm\logutil.obj \
+    $(_OBJ_DIR)\arm\logread.obj \
+    $(_OBJ_DIR)\arm\logredo.obj
+
+PASS0_ARM_OBJECTS=
+

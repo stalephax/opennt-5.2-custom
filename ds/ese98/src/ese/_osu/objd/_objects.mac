@@ -1,0 +1,44 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\configu.obj \
+    $(_OBJ_DIR)\i386\eventu.obj \
+    $(_OBJ_DIR)\i386\fileu.obj \
+    $(_OBJ_DIR)\i386\normu.obj \
+    $(_OBJ_DIR)\i386\osu.obj \
+    $(_OBJ_DIR)\i386\syncu.obj \
+    $(_OBJ_DIR)\i386\timeu.obj
+
+PASS0_386_OBJECTS=
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\configu.obj \
+    $(_OBJ_DIR)\ia64\eventu.obj \
+    $(_OBJ_DIR)\ia64\fileu.obj \
+    $(_OBJ_DIR)\ia64\normu.obj \
+    $(_OBJ_DIR)\ia64\osu.obj \
+    $(_OBJ_DIR)\ia64\syncu.obj \
+    $(_OBJ_DIR)\ia64\timeu.obj
+
+PASS0_IA64_OBJECTS=
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\configu.obj \
+    $(_OBJ_DIR)\amd64\eventu.obj \
+    $(_OBJ_DIR)\amd64\fileu.obj \
+    $(_OBJ_DIR)\amd64\normu.obj \
+    $(_OBJ_DIR)\amd64\osu.obj \
+    $(_OBJ_DIR)\amd64\syncu.obj \
+    $(_OBJ_DIR)\amd64\timeu.obj
+
+PASS0_AMD64_OBJECTS=
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\configu.obj \
+    $(_OBJ_DIR)\arm\eventu.obj \
+    $(_OBJ_DIR)\arm\fileu.obj \
+    $(_OBJ_DIR)\arm\normu.obj \
+    $(_OBJ_DIR)\arm\osu.obj \
+    $(_OBJ_DIR)\arm\syncu.obj \
+    $(_OBJ_DIR)\arm\timeu.obj
+
+PASS0_ARM_OBJECTS=
+

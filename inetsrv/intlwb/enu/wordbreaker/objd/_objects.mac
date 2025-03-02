@@ -1,0 +1,68 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\wordbreaker.res \
+    $(_OBJ_DIR)\i386\wordbreaker.obj \
+    $(_OBJ_DIR)\i386\wrdbrk.obj \
+    $(_OBJ_DIR)\i386\tokenizer.obj \
+    $(_OBJ_DIR)\i386\global.obj \
+    $(_OBJ_DIR)\i386\formats.obj \
+    $(_OBJ_DIR)\i386\frenchtokenizer.obj \
+    $(_OBJ_DIR)\i386\abbrev.obj \
+    $(_OBJ_DIR)\i386\spanishutils.obj \
+    $(_OBJ_DIR)\i386\spanishdict.obj \
+    $(_OBJ_DIR)\i386\spanishtokenizer.obj \
+    $(_OBJ_DIR)\i386\langsupport.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\wordbreaker.h
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\wordbreaker.res \
+    $(_OBJ_DIR)\ia64\wordbreaker.obj \
+    $(_OBJ_DIR)\ia64\wrdbrk.obj \
+    $(_OBJ_DIR)\ia64\tokenizer.obj \
+    $(_OBJ_DIR)\ia64\global.obj \
+    $(_OBJ_DIR)\ia64\formats.obj \
+    $(_OBJ_DIR)\ia64\frenchtokenizer.obj \
+    $(_OBJ_DIR)\ia64\abbrev.obj \
+    $(_OBJ_DIR)\ia64\spanishutils.obj \
+    $(_OBJ_DIR)\ia64\spanishdict.obj \
+    $(_OBJ_DIR)\ia64\spanishtokenizer.obj \
+    $(_OBJ_DIR)\ia64\langsupport.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\wordbreaker.h
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\wordbreaker.res \
+    $(_OBJ_DIR)\amd64\wordbreaker.obj \
+    $(_OBJ_DIR)\amd64\wrdbrk.obj \
+    $(_OBJ_DIR)\amd64\tokenizer.obj \
+    $(_OBJ_DIR)\amd64\global.obj \
+    $(_OBJ_DIR)\amd64\formats.obj \
+    $(_OBJ_DIR)\amd64\frenchtokenizer.obj \
+    $(_OBJ_DIR)\amd64\abbrev.obj \
+    $(_OBJ_DIR)\amd64\spanishutils.obj \
+    $(_OBJ_DIR)\amd64\spanishdict.obj \
+    $(_OBJ_DIR)\amd64\spanishtokenizer.obj \
+    $(_OBJ_DIR)\amd64\langsupport.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\wordbreaker.h
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\wordbreaker.res \
+    $(_OBJ_DIR)\arm\wordbreaker.obj \
+    $(_OBJ_DIR)\arm\wrdbrk.obj \
+    $(_OBJ_DIR)\arm\tokenizer.obj \
+    $(_OBJ_DIR)\arm\global.obj \
+    $(_OBJ_DIR)\arm\formats.obj \
+    $(_OBJ_DIR)\arm\frenchtokenizer.obj \
+    $(_OBJ_DIR)\arm\abbrev.obj \
+    $(_OBJ_DIR)\arm\spanishutils.obj \
+    $(_OBJ_DIR)\arm\spanishdict.obj \
+    $(_OBJ_DIR)\arm\spanishtokenizer.obj \
+    $(_OBJ_DIR)\arm\langsupport.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\wordbreaker.h
+

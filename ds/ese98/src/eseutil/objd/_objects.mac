@@ -1,0 +1,32 @@
+386_OBJECTS= \
+    $(_OBJ_DIR)\i386\res.res \
+    $(_OBJ_DIR)\i386\eseutil.obj
+
+PASS0_386_OBJECTS= \
+    $(PASS0_HEADERDIR)\utilmsg.h \
+    $(MC_SOURCEDIR)\utilmsg.rc
+
+IA64_OBJECTS= \
+    $(_OBJ_DIR)\ia64\res.res \
+    $(_OBJ_DIR)\ia64\eseutil.obj
+
+PASS0_IA64_OBJECTS= \
+    $(PASS0_HEADERDIR)\utilmsg.h \
+    $(MC_SOURCEDIR)\utilmsg.rc
+
+AMD64_OBJECTS= \
+    $(_OBJ_DIR)\amd64\res.res \
+    $(_OBJ_DIR)\amd64\eseutil.obj
+
+PASS0_AMD64_OBJECTS= \
+    $(PASS0_HEADERDIR)\utilmsg.h \
+    $(MC_SOURCEDIR)\utilmsg.rc
+
+ARM_OBJECTS= \
+    $(_OBJ_DIR)\arm\res.res \
+    $(_OBJ_DIR)\arm\eseutil.obj
+
+PASS0_ARM_OBJECTS= \
+    $(PASS0_HEADERDIR)\utilmsg.h \
+    $(MC_SOURCEDIR)\utilmsg.rc
+

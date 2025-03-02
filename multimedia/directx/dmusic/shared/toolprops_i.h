@@ -6,11 +6,11 @@
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0328 */
-/* at Wed Jun 07 15:59:39 2000
+ /* File created by MIDL compiler version 6.00.0357 */
+/* at Tue Feb 25 10:37:19 2025
  */
 /* Compiler settings for ..\toolprops.idl:
-    Os (OptLev=s), W1, Zp8, env=Win32 (32b run)
+    Os, W1, Zp8, env=Win32 (32b run)
     protocol : dce , ms_ext, c_ext
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
@@ -19,7 +19,7 @@
 */
 //@@MIDL_FILE_HEADING(  )
 
-#if !defined(_M_IA64) && !defined(_M_AXP64)
+#if !defined(_M_IA64) && !defined(_M_AMD64)
 
 #ifdef __cplusplus
 extern "C"{
@@ -98,7 +98,7 @@ MIDL_DEFINE_GUID(CLSID, CLSID_VelocityPage,0x30EC7213,0x64BE,0x4EF6,0xBB,0x1B,0x
 
 
 
-#endif /* !defined(_M_IA64) && !defined(_M_AXP64)*/
+#endif /* !defined(_M_IA64) && !defined(_M_AMD64)*/
 
 
 #pragma warning( disable: 4049 )  /* more than 64k source lines */
@@ -108,11 +108,11 @@ MIDL_DEFINE_GUID(CLSID, CLSID_VelocityPage,0x30EC7213,0x64BE,0x4EF6,0xBB,0x1B,0x
 /* link this file in with the server and any clients */
 
 
- /* File created by MIDL compiler version 6.00.0328 */
-/* at Wed Jun 07 15:59:39 2000
+ /* File created by MIDL compiler version 6.00.0357 */
+/* at Tue Feb 25 10:37:19 2025
  */
 /* Compiler settings for ..\toolprops.idl:
-    Oicf (OptLev=i2), W1, Zp8, env=Win64 (32b run,appending)
+    Oicf, W1, Zp8, env=Win64 (32b run,appending)
     protocol : dce , ms_ext, c_ext, robust
     error checks: allocation ref bounds_check enum stub_data 
     VC __declspec() decoration level: 
@@ -121,7 +121,7 @@ MIDL_DEFINE_GUID(CLSID, CLSID_VelocityPage,0x30EC7213,0x64BE,0x4EF6,0xBB,0x1B,0x
 */
 //@@MIDL_FILE_HEADING(  )
 
-#if defined(_M_IA64) || defined(_M_AXP64)
+#if defined(_M_IA64) || defined(_M_AMD64)
 
 #ifdef __cplusplus
 extern "C"{
@@ -200,5 +200,5 @@ MIDL_DEFINE_GUID(CLSID, CLSID_VelocityPage,0x30EC7213,0x64BE,0x4EF6,0xBB,0x1B,0x
 
 
 
-#endif /* defined(_M_IA64) || defined(_M_AXP64)*/
+#endif /* defined(_M_IA64) || defined(_M_AMD64)*/
 

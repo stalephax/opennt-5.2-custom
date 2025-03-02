@@ -34,7 +34,7 @@ Language=English
 
 MessageID=9001 SymbolicName=SL_SCRN_WELCOME
 Language=English
-Welcome to Windows Setup
+Welcome to OpenNT Setup
 
   Press ENTER to continue
 
@@ -44,7 +44,7 @@ Welcome to Windows Setup
 MessageID=9002 SymbolicName=SL_WELCOME_HEADER
 Language=English
 
-Windows Setup
+OpenNT Setup
 อออออออออออออออ
 .
 
@@ -92,9 +92,9 @@ Please insert the disk labeled
 MessageID=9010 SymbolicName=SL_MSG_EXIT_DIALOG
 Language=English
 ษออออออออออออออออออออออออออออออออออออออออออออออออออออป
-บ  Windows is not completely set up on your          บ
+บ  OpenNT is not completely set up on your          บ
 บ  system. If you quit Setup now, you will need      บ
-บ  to run Setup again to set up Windows.             บ
+บ  to run Setup again to set up OpenNT.             บ
 บ                                                    บ
 บ     * Press ENTER to continue Setup.               บ
 บ     * Press F3 to quit Setup.                      บ
@@ -117,7 +117,7 @@ Setup is inspecting your computer's hardware configuration...
 
 MessageID=9013 SymbolicName=SL_KERNEL_NAME
 Language=English
-Windows Executive
+OpenNT Executive
 .
 
 MessageID=9014 SymbolicName=SL_HAL_NAME
@@ -127,12 +127,12 @@ Hardware Abstraction Layer
 
 MessageID=9015 SymbolicName=SL_PAL_NAME
 Language=English
-Windows Processor Extensions
+OpenNT Processor Extensions
 .
 
 MessageID=9016 SymbolicName=SL_HIVE_NAME
 Language=English
-Windows Configuration Data
+OpenNT Configuration Data
 .
 
 MessageID=9017 SymbolicName=SL_NLS_NAME
@@ -147,7 +147,7 @@ Setup Font
 
 MessageID=9019 SymbolicName=SL_SETUP_NAME
 Language=English
-Windows Setup
+OpenNT Setup
 .
 
 MessageID=9020 SymbolicName=SL_FLOPPY_NAME
@@ -252,7 +252,7 @@ if you have a device support disk provided by an adapter manufacturer.
 
 MessageID=9037 SymbolicName=SL_PROMPT_OEM_SCSI
 Language=English
-You have chosen to configure a SCSI Adapter for use with Windows,
+You have chosen to configure a SCSI Adapter for use with OpenNT,
 using a device support disk provided by an adapter manufacturer.
 
 Select the SCSI Adapter you want from the following list, or press ESC
@@ -273,7 +273,7 @@ To scroll through the menu items press up arrow or down arrow.
 
 MessageID=9039 SymbolicName=SL_PROMPT_OEM_HAL
 Language=English
-You have chosen to configure a computer for use with Windows,
+You have chosen to configure a computer for use with OpenNT,
 using a device support disk provided by the computer's manufacturer.
 
 Select the computer type from the following list, or press ESC
@@ -294,7 +294,7 @@ if you have a device support disk provided by an adapter manufacturer.
 
 MessageID=9041 SymbolicName=SL_PROMPT_OEM_VIDEO
 Language=English
-You have chosen to configure a video Adapter for use with Windows,
+You have chosen to configure a video Adapter for use with OpenNT,
 using a device support disk provided by an adapter manufacturer.
 
 Select the video Adapter you want from the following list, or press ESC
@@ -357,7 +357,7 @@ NTDETECT failed
 
 MessageId=9050 SymbolicName=SL_SCRN_TEXTSETUP_EXITED
 Language=English
-Windows has not been installed.
+OpenNT has not been installed.
 
 If there is a floppy disk inserted in drive A:, remove it.
 
@@ -366,7 +366,7 @@ Press ENTER to restart your computer.
 
 MessageId=9051 SymbolicName=SL_SCRN_TEXTSETUP_EXITED_ARC
 Language=English
-Windows has not been installed.
+OpenNT has not been installed.
 
 Press ENTER to restart your computer.
 .
@@ -433,13 +433,13 @@ S=Specify Additional Device   ENTER=Continue   F3=Exit
 MessageID=9062 SymbolicName=SL_SCSI_SELECT_MESSAGE_2
 Language=English
   * To specify additional SCSI adapters, CD-ROM drives, or special
-    disk controllers for use with Windows, including those for
+    disk controllers for use with OpenNT, including those for
     which you have a device support disk from a mass storage device
     manufacturer, press S.
 
   * If you do not have any device support disks from a mass storage
     device manufacturer, or do not want to specify additional
-    mass storage devices for use with Windows, press ENTER.
+    mass storage devices for use with OpenNT, press ENTER.
 .
 
 MessageID=9063 SymbolicName=SL_SCSI_SELECT_MESSAGE_1
@@ -477,7 +477,7 @@ Other
 
 MessageID=9069 SymbolicName=SL_TEXT_REQUIRES_486
 Language=English
-Windows requires an 80486 or later processor.
+OpenNT requires an 80486 or later processor.
 .
 
 MessageID=9070 SymbolicName=SL_NTPNP_NAME
@@ -492,7 +492,7 @@ PCI IDE Extensions Driver
 
 MessageID=9072 SymbolicName=SL_HW_FW_CFG_CLASS
 Language=English
-Windows could not start because of the following ARC
+OpenNT could not start because of the following ARC
 firmware boot configuration problem :
 .
 
@@ -503,7 +503,7 @@ The 'osloadpartition' parameter setting is invalid.
 
 MessageID=9074 SymbolicName=LOAD_HW_FW_CFG_ACT
 Language=English
-Please check the Windows documentation about ARC configuration
+Please check the OpenNT documentation about ARC configuration
 options and your hardware reference manuals for additional
 information.
 .
@@ -538,7 +538,7 @@ SMB Redirector Filesystem
 MessageID=9082 SymbolicName=SL_NETBOOT_CARD_ERROR
 Language=English
 The network boot card in your computer has an older version
-of ROM and cannot be used to remotely install Windows.
+of ROM and cannot be used to remotely install OpenNT.
 Contact your system administrator or computer manufacturer
 for information about upgrading the ROM.
 .
@@ -555,11 +555,11 @@ IP Security Service
 .
 MessageID=9085 SymbolicName=SL_CMDCONS_MSG
 Language=English
-Windows Recovery Console
+OpenNT Recovery Console
 .
 MessageID=9086 SymbolicName=SL_KERNEL_TRANSITION
 Language=English
-Setup is starting Windows
+Setup is starting OpenNT
 .
 ;#ifdef _WANT_MACHINE_IDENTIFICATION
 MessageID=9087 SymbolicName=SL_BIOSINFO_NAME
@@ -577,9 +577,9 @@ Your system's PROM (firmware) is below the required revision level.
 Please contact SGI customer support or visit the SGI web site to obtain
 the PROM update and upgrade instructions.
 
-Note: you can boot previous installations of Microsoft(R) Windows(R) 
+Note: you can boot previous installations of OpenNT 
 by selecting the appropriate boot entry in the startup menu rather 
-than the current default "Windows Setup" boot entry.
+than the current default "OpenNT Setup" boot entry.
 .
 MessageID=9090 SymbolicName=SIGNATURE_CHANGED
 Language=English
@@ -596,33 +596,33 @@ MessageID=9092 SymbolicName=SL_OEM_DRIVERINFO
 Language=English
 %s
 
-Windows already has a driver that you can use for
+OpenNT already has a driver that you can use for
 "%s".
 
 Unless the device manufacturer prefers that you use the driver on the
-floppy disk, you should use the driver in Windows.
+floppy disk, you should use the driver in OpenNT.
 .
 
 MessageID=9093 SymbolicName=SL_CONFIRM_OEMDRIVER
 Language=English
-S=Use the driver on floppy ENTER=Use the default Windows driver
+S=Use the driver on floppy ENTER=Use the default OpenNT driver
 .
 
 MessageID=9094 SymbolicName=SL_OEMDRIVER_NEW
 Language=English
-The driver you provided seems to be newer than the Windows
+The driver you provided seems to be newer than the OpenNT
 default driver.
 .
 
 MessageID=9095 SymbolicName=SL_INBOXDRIVER_NEW
 Language=English
-The driver you provided seems to be older than the Windows
+The driver you provided seems to be older than the OpenNT
 default driver.
 .
 
 MessageID=9096 SymbolicName=SL_CMDCONS_STARTING
 Language=English
-Starting Windows Recovery Console...
+Starting OpenNT Recovery Console...
 .
 
 MessageID=9097 SymbolicName=SL_NTDETECT_CMDCONS
@@ -640,7 +640,7 @@ Language=English
         Please insert the disk labeled:
 
 
-    Windows Automated System Recovery Disk
+    OpenNT Automated System Recovery Disk
 
 
             into the floppy drive.
@@ -653,8 +653,8 @@ Language=English
 
 MessageID=9100 SymbolicName=SL_TEXT_REQUIRED_FEATURES_MISSING
 Language=English
-Windows requires certain processor features that are not available
-on the processor in this computer.   Specifically, Windows requires
+OpenNT requires certain processor features that are not available
+on the processor in this computer.   Specifically, OpenNT requires
 the following instructions.
 
     CPUID
@@ -668,7 +668,7 @@ Preparing for Automated System Recovery, press ESC to cancel...
 
 MessageID=9102 SymbolicName=SL_MSG_ENTERING_ASR
 Language=English
-Starting Windows Automated System Recovery...
+Starting OpenNT Automated System Recovery...
 .
 
 MessageID=9103 SymbolicName=SL_MOUSE_NAME
@@ -678,7 +678,7 @@ Mouse Driver
 
 MessageID=9104 SymbolicName=SL_SETUP_STARTING
 Language=English
-Starting Windows Setup...
+Starting OpenNT Setup...
 .
 
 MessageID=9105 SymbolicName=SL_MSG_INVALID_ASRPNP_FILE
@@ -688,7 +688,7 @@ The file ASRPNP.SIF on the Automated System Recovery disk is invalid
 
 MessageID=9106 SymbolicName=SL_SETUP_STARTING_WINPE
 Language=English
-Starting Windows Preinstall Environment...
+Starting OpenNT Preinstall Environment...
 .
 
 MessageID=9107 SymbolicName=SL_NTDETECT_ROLLBACK
@@ -700,7 +700,7 @@ Uninstall is checking hardware...
 
 MessageID=9108 SymbolicName=SL_ROLLBACK_STARTING
 Language=English
-Starting Windows Uninstallation...
+Starting OpenNT Uninstallation...
 .
 
 
@@ -716,15 +716,15 @@ OEM drivers from floppy disk.
 
 MessageID=9110 SymbolicName=SL_UPGRADE_IN_PROGRESS
 Language=English
-This computer is already in the process of being upgraded to Microsoft 
-Windows. What do you want to do ?
+This computer is already in the process of being upgraded to  
+OpenNT. What do you want to do ?
 
     * To continue the current upgrade, press ENTER.
 
     * To cancel the current upgrade and install new version of
-      Microsoft Windows, press F10.
+      OpenNT, press F10.
 
-    * To exit Setup without installing Microsoft Windows, 
+    * To exit Setup without installing OpenNT, 
       press F3.
 .
 
@@ -779,7 +779,7 @@ Language=English
 
 MessageID=15000 SymbolicName=BL_RAMDISK_GENERAL_FAILURE
 Language=English
-Windows could not start due to an error while booting from a RAMDISK.
+OpenNT could not start due to an error while booting from a RAMDISK.
 .
 
 MessageID=15001 SymbolicName=BL_RAMDISK_INVALID_OPTIONS
@@ -789,12 +789,12 @@ The RAMDISK options specified in boot.ini are invalid.
 
 MessageID=15002 SymbolicName=BL_RAMDISK_BUILD_FAILURE
 Language=English
-Windows failed to build a bootable RAMDISK image.
+OpenNT failed to build a bootable RAMDISK image.
 .
 
 MessageID=15003 SymbolicName=BL_RAMDISK_BOOT_FAILURE
 Language=English
-Windows failed to open the RAMDISK image.
+OpenNT failed to open the RAMDISK image.
 .
 
 MessageID=15004 SymbolicName=BL_RAMDISK_BUILD_DISCOVER

@@ -31,19 +31,16 @@ The **OpenNT 5.2** project is an open-source initiative aimed at creating a mode
   # Important! Disable Real-Time Protection from Windows Security
 
 
-- *6.* Extract source code to D:\opennt-5.2
+- *6.* Rename source code to D:\opennt52
 
 
-- *7.* Uncheck read-only from opennt-5.2 folder
+- *7.* Uncheck read-only from opennt52 folder
 
 
-- *8.* If your host is Windows 10 1809 and later, install driver.pfx from “tools” folder for Local Machine & Current User, else if your host is up to Windows Vista delete driver.pfx, and rename driver_3des.pfx to that.
+- *8.* Run Command Prompt as Administrator, and switch to D:\opennt-5.2.
 
 
-- *9.* Run Command Prompt as Administrator, and switch to D:\opennt-5.2.
-
-
-- *10*. If you’re on x64 host, run:
+- *9*. If you’re on x64 host, run:
 ```bash
 tools\razzle64 free offline
 ```
@@ -53,25 +50,25 @@ tools\razzle free offline
 ```
 
 
-- *11.* Run this for prepare to building
+- *10.* Run this for prepare to building
 ```bash
   tools\prebuild
 ```
 
 
-- *12*. Type this:            (-M 4 for using all 4 cores of processor)
+- *11*. Type this:            (-M 4 for using all 4 cores of processor)
 ```bash
  build /cZP -M 4
 ```
 
 
-- *13.* Type on CMD
+- *12.* Type on CMD
 ```bash
   tools\postbuild -full
 ```
 
 
-- *14.* Then, write this for generating ISO file for XP Professional/Home Edition/Server 2003 Standard Edition
+- *13.* Then, write this for generating ISO file for XP Professional/Home Edition/Server 2003 Standard Edition
 ```bash
   tools\oscdimg pro|per|srv
 ```
@@ -81,7 +78,7 @@ tools\razzle free offline
 ```bash
 HB9CF-JTKJF-722HV-VPBRF-9VKVM
 ```
-else:
+or:
 ```bash
 99999-99999-99999-99999-99999
 ```

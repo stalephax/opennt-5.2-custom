@@ -37,7 +37,7 @@ The **OpenNT 5.2** project is an open-source initiative aimed at creating a mode
 - *7.* Uncheck read-only from opennt52 folder
 
 
-- *8.* Run Command Prompt as Administrator, and switch to D:\opennt-5.2.
+- *8.* Run Command Prompt as Administrator, and switch to D:\opennt52
 
 
 - *9*. If you’re on x64 host, run:

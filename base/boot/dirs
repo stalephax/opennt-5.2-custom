@@ -18,9 +18,9 @@ DIRS=bootcode           \
      bd{ia64,x86}       \
      efi{ia64}          \
      bootssp{ia64,x86}  \
-     bldr{ia64,x86}     \
-     setup{ia64,x86}    \
      detect{x86}   \
      startup{x86}  \
+     bldr{ia64,x86}     \
+     setup{ia64,x86}    \
      startrom{x86} \
      oschoice{ia64,x86}
